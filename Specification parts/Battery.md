@@ -1,12 +1,13 @@
 ## Battery
-#### Luminous Red Charge RC 25000 200 Ah battery
+### Luminous Red Charge RC 25000 200 Ah battery
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  Fast battery charging with adaptive battery charging control technology to prevent overcharging
 
-<p align="center"><img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" width="250" height="250"/></p>
+We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 ah rating connected in series. 
 
----
+<img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" height="300"/>
+
 
 | Specifications                  | Value                                                       |
 | ------------------------------- | ----------------------------------------------------------- |
@@ -22,4 +23,4 @@
 | Water Level Indicators          | 6                                                           |
 | Cost                            | Rs. 14,780 $\times$ 4 = Rs. 59120                           |
 
-<!---This comment includes link for reference:  https://www.amazon.in/dp/B07BCDDXZJ/ref=cm_sw_r_apan_glt_i_J1N15MKV18TN69RT1Q67?_encoding=UTF8&psc=1 --- >
+[Product Link](https://www.amazon.in/dp/B07BCDDXZJ/ref=cm_sw_r_apan_glt_i_J1N15MKV18TN69RT1Q67?_encoding=UTF8&psc=1)
