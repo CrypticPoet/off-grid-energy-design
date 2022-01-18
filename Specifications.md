@@ -79,6 +79,7 @@ Total Instantaneous Power Consumed = 0.036*4(light)+1.5(house heater)+0.15(fridg
 
 **Note**: Here the misc. includes TV,PC, and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 12hr. Spare fuel should always be kept in case of emergencies. 
 
+<img src="https://5.imimg.com/data5/ANDROID/Default/2021/4/ZD/PA/YQ/2794323/55555-min-3-jpg-500x500.jpg" height=400>
 
 | Specification      | Value                         |
 | ------------------ | ----------------------------- |
@@ -182,13 +183,13 @@ It also paves the way for more power output per panel, which means less number o
 [panel mounts](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhB7u8DxJiUJTM2uH5U-6Ml3h3SoByqJd8g&usqp=CAU).
 
 <img src = 
-"https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077">
+"https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
 
 We'll be using 8 such panels in our system.
 
 | Specification (Single panel) | Value                |
 | ---------------------------- | -------------------- |
-| Cost                         | Rs. 20,000        |
+| Cost                         | Rs. 20,000           |
 | Operating Voltage            | 24V                  |
 | Dimensions                   | 6.9ft $\times$ 3.4ft |
 | Manufacturer                 | Loom Solar           |
@@ -265,7 +266,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Weight         | 660 g                              |
 | Material       | Polycarbonate                      |
 | Color          | White                              |
-| Cost           | Rs.    1500                     |
+| Cost           | Rs.    1500                        |
  
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
@@ -283,7 +284,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 | No. of Poles         | 2                                    |
 | Voltage              | 800 V (DC)                           |
 | Dimensions           | 7.1 cm $\times$ 3.6 cm $\times$ 8 cm |
-| Cost                 | Rs. 999                           |
+| Cost                 | Rs. 999                              |
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -300,7 +301,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | No. of Poles       | 2                                  |
 | Dimension          | 9 cm $\times$ 6 cm $\times$ 3.5 cm |
 | Weight             | 245 g                              |
-| Cost               | Rs. 799                         |
+| Cost               | Rs. 799                            |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
@@ -314,7 +315,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Voltage            | 415 V                             |
 | Material           | Ceramic                           |
 | Dimensions         | 10 cm $\times$ 5 cm $\times$ 5 cm |
-| Cost               | Rs. 185                        |
+| Cost               | Rs. 185                           |
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -362,19 +363,19 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 Panel mounts are used to fix solar panels on surfaces like roofs, building facades, or ground. The panel array is mounted with each panel aligned at an angle. This angle is variable and mounts should be bought according to the type of rooftop. We'll be using ones with 25° inclination.
 
 <img src = 
-"https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202">
+"https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202" height=500>
 
 We'll be using 2 such mounts for our system, which consists of 8 panels.
 
-| Specification  (Single unit)  |  Value                |
-| ---                           |        ---            |
-| Cost                          | Rs. 12,000         |
-| Inclination                   | 25°                   |
-| Dimensions(Leg)               | 150cm $\times$ 60cm   |
-| Manufacturer                  | Loom Solar            |
-| Weight                        | 50kg                  |
-| Material                      | Galvanised Iron       |
-| Holding Capacity              | 4 Panels              |
+| Specification  (Single unit) | Value               |
+| ---------------------------- | ------------------- |
+| Cost                         | Rs. 12,000          |
+| Inclination                  | 25°                 |
+| Dimensions(Leg)              | 150cm $\times$ 60cm |
+| Manufacturer                 | Loom Solar          |
+| Weight                       | 50kg                |
+| Material                     | Galvanised Iron     |
+| Holding Capacity             | 4 Panels            |
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
 ---
