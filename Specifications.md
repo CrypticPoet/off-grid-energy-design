@@ -26,7 +26,7 @@ In the following document, we give a brief on various specifications of the comp
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  Fast battery charging with adaptive battery charging control technology to prevent overcharging
 
-We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 ah rating connected in series. 
+We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 Ah rating connected in series. 
 
 <img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" height="300"/>
 
@@ -49,8 +49,29 @@ We select a battery bank such that we can ensure ample power for upto 24 hours. 
 
 ---
 
-### 2.1.2 Safety Measures
-#### Will be updated
+### 2.1.2 Backup Generator
+
+The generator size should be of 3kW. In our system, generator will mostly be needed during winter when there is a lack of solar energy production. So the power calculation will be done under winter conditions. And since this is a backup system the below power consumed is assumed to be calculated under maximum load when running backup generator.
+
+Total Instantaneous Power Consumed = 0.036*4(light)+1.5(house heater)+0.15(fridge)+1(misc.) = 2.8kW
+
+**Note**: Here the misc. includes TV,PC, and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 12hr. Spare fuel should always be kept in case of emergencies. 
+
+
+| Specification      | Value                         |
+| ------------------ | ----------------------------- |
+| Manufacturer       | Techno Machineries            |
+| Fuel               | Kerosene(Run), Petrol (Start) |
+| Consumption        | 1L/hr under full load         |
+| Capacity           | 12L                           |
+| Rated voltage      | 220V+-15                      |
+| Rated output power | 2.8kW                         |
+| Peak output power  | 3kW                           |
+| Weight             | 40kg                          |
+| Dimensions         | 630x500x600mm                 |
+| Cost               | Rs. 32,900                    |
+
+[Product Link](https://www.indiamart.com/proddetail/portable-generators-3kw-22423030173.html)
 
 ---
 
@@ -113,6 +134,7 @@ The required maximum input Voc of controller = maximum open circuit voltage of s
 Hence, Our Controller must have atleast 98V input Voc rating and 73.33A current rating. We select the controller such that these two figures slightly exceed the requirements to build a safety margin.
 
 Specifications of the in-built charge controller
+
 | Specification                  | Value       |
 | ------------------------------ | ----------- |
 | Brand                          | Flin Energy |
@@ -152,7 +174,7 @@ We'll be using 8 such panels in our system.
 | Output Current at max. power | 10.5A                |
 
 
-*Above electrical data is for, Irradiance: 1000W/$m^{2}$ and Cell Temperature:25&#8451   
+*Above electrical data is for, Irradiance: 1000W/$m^{2}$ and Cell Temperature:25&#8451*
 [Product Link](https://www.loomsolar.com/products/loom-solar-panel-shark-super-high-efficiency-module)
 
 ---
@@ -202,8 +224,80 @@ Connecting wires would be used to connect different appliances in the energy gri
 
 
 ---
+### 2.1.6 Safety Measures
 
-### 2.1.6 MC4 Connectors
+ ####  AC Circuit Breaker
+ 
+ A separate AC Breaker between the AC Input and Inverter is required to ensure tha the inverter can be securely disconnected during maintenance and secured from AC Input over current
+
+ <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
+
+
+| Specification  | Value                              |
+| -------------- | ---------------------------------- |
+| Brand          | Siemens                            |
+| Current Rating | 63 A                               |
+| No. of Poles   | 4                                  |
+| Dimensions     | 7.1 cm $\times$ 7 cm $\times$ 9 cm |
+| Weight         | 660 g                              |
+| Material       | Polycarbonate                      |
+| Color          | White                              |
+| Cost           | &#8377    1500                     |
+ 
+ [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
+
+#### DC Circuit Breaker
+
+A DC Circuit breaker between the Solar Panels and Inverter is required for disconnecting the solar panels safely for maintenance or replacement. The Circuit breaker also protects the inverter from over current damage
+
+<img src = "https://m.media-amazon.com/images/I/71JEQ-sPGaL._SL1500_.jpg" width = 200>
+
+| Specification        | Value                                |
+| -------------------- | ------------------------------------ |
+| Brand                | FEEO                                 |
+| Circuit Breaker Type | Standard                             |
+| Current Rating       | 63 A                                 |
+| No. of Poles         | 2                                    |
+| Voltage              | 800 V (DC)                           |
+| Dimensions           | 7.1 cm $\times$ 3.6 cm $\times$ 8 cm |
+| Cost                 | &#8377 999                           |
+
+[Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
+
+#### DC Surge Protection Device
+
+The DC Surge Protector protects the inverter and panels from any unforeseen voltage surges in instances such as Lightning strikes
+
+<img src = "https://m.media-amazon.com/images/I/61l8Y7CfuAL._SL1500_.jpg" width = 200>
+
+| Specification      | Value                              |
+| ------------------ | ---------------------------------- |
+| Brand              | Kenbrook Solar                     |
+| Overvoltage Rating | 600V                               |
+| No. of Poles       | 2                                  |
+| Dimension          | 9 cm $\times$ 6 cm $\times$ 3.5 cm |
+| Weight             | 245 g                              |
+| Cost               | &#8377 799                         |
+
+[Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
+
+####   Porcelain Fuse
+<img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
+
+| Specification      | Value                             |
+| ------------------ | --------------------------------- |
+| Brand              | Anchor                            |
+| AC Adapter Current | 32 A                              |
+| Voltage            | 415 V                             |
+| Material           | Ceramic                           |
+| Dimensions         | 10 cm $\times$ 5 cm $\times$ 5 cm |
+| Cost               | &#8377 185                        |
+
+[Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
+
+---
+
+### 2.1.7 MC4 Connectors
 #### MC4 Solar Panel Connectors
 
 MC4 Connectors are required for a safe and convenient connection between the solar panel arrays.   
@@ -258,9 +352,7 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 | Weight                        | 50kg                  |
 | Material                      | Galvanised Iron       |
 | Holding Capacity              | 4 Panels              |
-Data [Source](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
-<!--  
-https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt-->
+[Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
 ---
 

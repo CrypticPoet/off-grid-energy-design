@@ -4,7 +4,7 @@
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  Fast battery charging with adaptive battery charging control technology to prevent overcharging
 
-We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 ah rating connected in series. 
+We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 Ah rating connected in series. 
 
 <img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" height="300"/>
 

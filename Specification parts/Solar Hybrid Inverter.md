@@ -57,6 +57,7 @@ The required maximum input Voc of controller = maximum open circuit voltage of s
 Hence, Our Controller must have atleast 98V input Voc rating and 73.33A current rating. We select the controller such that these two figures slightly exceed the requirements to build a safety margin.
 
 Specifications of the in-built charge controller
+
 | Specification                  | Value       |
 | ------------------------------ | ----------- |
 | Brand                          | Flin Energy |
