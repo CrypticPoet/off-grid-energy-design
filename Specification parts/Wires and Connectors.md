@@ -1,5 +1,5 @@
 ## Wires
-### Microtek Solar DC Cable XLPO TUV Protected
+### Solar DC Cable
 DC Solar Panel cables are required to connect the array of solar panels in series with each other and then carry the output DC Current to the Solar Charge Controller.
 
 When choosing DC Solar Panel wires, some things should be kept in mind
@@ -45,7 +45,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 ---
 
 ## MC4 Connectors
-### Kenbrook Solar MC4 Connector
+### MC4 Solar Panel Connectors
 
 MC4 Connectors are required for a safe and convenient connection between the solar panel arrays.   
 The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame boasting an estimated life of upto 25 years and thus require minimum maintenance.
@@ -62,7 +62,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
-### Kenbrook Solar 4 in 1 T4 Connector
+### 4 in 1 T4 Connector
 
 T4 Connector is required to connect the 2x4 parallel solar panel array to the solar charge controller. The T4 connector also comes with UV Resistance, anti flame and water resistance
 
