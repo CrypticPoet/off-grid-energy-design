@@ -4,7 +4,6 @@ With a biogas plant, organic waste and side streams are converted into income by
 
 <img src = "https://5.imimg.com/data5/JI/DI/YS/SELLER-28929530/biogas-plant-500x500.jpeg">
 
-
 | Specification      | Value                     |
 | ------------------ | ------------------------- |
 | Cost               | Rs. 23,599                |
