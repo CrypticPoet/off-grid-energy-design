@@ -7,7 +7,7 @@ With a biogas plant, organic waste and side streams are converted into income by
 
 | Specification      |  Value             |
 | ---                |        ---         |
-| Cost               |  &#8377 23,599        |
+| Cost               |  Rs. 23,599        |
 | Plant Capacity     |    2 $m^{3}$       |
 | Area to be covered | 3m $\times$ 3m          |
 | Company            | Gujarat Renewable Energia|

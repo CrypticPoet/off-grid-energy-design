@@ -12,17 +12,17 @@ It also paves the way for more power output per panel, which means less number o
 
 We'll be using 8 such panels in our system.
 
-| Specification (Single panel)  |  Value                |
-| ---                           |        ---            |
-| Cost                          |  &#8377 20,000        |
-| Operating Voltage             |    24V                |
-| Dimensions                    | 6.9ft $\times$ 3.4ft  |
-| Manufacturer                  | Loom Solar            |
-| Rated Output Power (Peak)     | 440W                  |
-| Output Voltage at max. power  | 42V                   |
-| Output Current at max. power  | 10.5A                 |
-*Above electrical data is for, Irradiance: 1000W/$m^{2}$ and Cell Temperature:25&#8451
-[Source](https://cdn.shopify.com/s/files/1/2980/5140/files/SHARK_440_6395d720-82b0-4587-ba21-1c947d9143c8.pdf?v=1636543515)
-<!--  
-https://www.loomsolar.com/products/loom-solar-panel-shark-super-high-efficiency-module>
+| Specification (Single panel) | Value                |
+| ---------------------------- | -------------------- |
+| Cost                         | &#8377 20,000        |
+| Operating Voltage            | 24V                  |
+| Dimensions                   | 6.9ft $\times$ 3.4ft |
+| Manufacturer                 | Loom Solar           |
+| Rated Output Power (Peak)    | 440W                 |
+| Output Voltage at max. power | 42V                  |
+| Output Current at max. power | 10.5A                |
+
+
+*Above electrical data is for, Irradiance: 1000W/$m^{2}$ and Cell Temperature:25&#8451   
+[Product Link](https://www.loomsolar.com/products/loom-solar-panel-shark-super-high-efficiency-module)
 
