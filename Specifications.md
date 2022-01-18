@@ -53,19 +53,19 @@ We select a battery bank such that we can ensure ample power for upto 24 hours. 
 <img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" height="300"/>
 
 
-| Specifications                  | Value                                                       |
-| ------------------------------- | ----------------------------------------------------------- |
-| Brand                           | Luminous                                                    |
-| Nominal Voltage                 | 12V                                                         |
-| Rated Capacity(at room temp.)   | 200 ah                                                      |
-| Protections                     | Dust & water proof with heavy plastic body                  |
-| Charging Current(Boost mode)    | 20.2A(starting), 10.1A(finishing)                           |
-| Charging Current (Trickle mode) | 672 mA(max), 168 mA(min)                                    |
-| Weight                          | 60 Kg (34.4 Kg dry weight)                                  |
-| Dimensions                      | 50.2 X 44 X 19.1 cm (L X W X H) |
-| Electrolyte Volume              | 19.9L                                                       |
-| Water Level Indicators          | 6                                                           |
-| Cost                            | &#8377;14,780 X 4 = &#8377;59120                   |
+| Specifications                  | Value                                      |
+| ------------------------------- | ------------------------------------------ |
+| Brand                           | Luminous                                   |
+| Nominal Voltage                 | 12V                                        |
+| Rated Capacity(at room temp.)   | 200 ah                                     |
+| Protections                     | Dust & water proof with heavy plastic body |
+| Charging Current(Boost mode)    | 20.2A(starting), 10.1A(finishing)          |
+| Charging Current (Trickle mode) | 672 mA(max), 168 mA(min)                   |
+| Weight                          | 60 Kg (34.4 Kg dry weight)                 |
+| Dimensions                      | 50.2 X 44 X 19.1 cm (L X W X H)            |
+| Electrolyte Volume              | 19.9L                                      |
+| Water Level Indicators          | 6                                          |
+| Cost                            | &#8377;14,780 X 4 = &#8377;59120           |
 
 [Product Link](https://www.amazon.in/dp/B07BCDDXZJ/ref=cm_sw_r_apan_glt_i_J1N15MKV18TN69RT1Q67?_encoding=UTF8&psc=1)
 
@@ -87,12 +87,12 @@ Total Instantaneous Power Consumed = 0.036*4(light)+1.5(house heater)+0.15(fridg
 | Fuel               | Kerosene(Run), Petrol (Start) |
 | Consumption        | 1L/hr under full load         |
 | Capacity           | 12L                           |
-| Rated voltage      | 220V+-15                      |
+| Rated voltage      | 220V±15                       |
 | Rated output power | 2.8kW                         |
 | Peak output power  | 3kW                           |
 | Weight             | 40kg                          |
 | Dimensions         | 630x500x600mm                 |
-| Cost               | &#8377;32,900                |
+| Cost               | &#8377;32,900                 |
 
 [Product Link](https://www.indiamart.com/proddetail/portable-generators-3kw-22423030173.html)
 
@@ -118,7 +118,7 @@ FlinFuzion Solar Hybrid Inverter 5kVA/48V is an off grid hybrid solar inverter�
 | Brand                         | Flin Energy                       |
 | Rated Power                   | 5kVA                              |
 | Waveform                      | Pure sine wave                    |
-| Output Voltage Regulation     | 230VAC ± 5%                   |
+| Output Voltage Regulation     | 230VAC ± 5%                       |
 | Output Frequency              | 50 Hz                             |
 | Battery Voltage               | 48 VDC                            |
 | Battery Overcharge protection | 63 VDC                            |
@@ -130,7 +130,7 @@ FlinFuzion Solar Hybrid Inverter 5kVA/48V is an off grid hybrid solar inverter�
 | No Load Power Consumption     | <35W                              |
 | Dimensions                    | D x W x H (mm) 100 x 300 x 440    |
 | Net Weight                    | 10 kg                             |
-| Cost                          | &#8377;78,800                    |
+| Cost                          | &#8377;78,800                     |
 
 
 #### Solar Charge Controller
@@ -187,15 +187,15 @@ It also paves the way for more power output per panel, which means less number o
 
 We'll be using 8 such panels in our system.
 
-| Specification (Single panel) | Value                |
-| ---------------------------- | -------------------- |
-| Cost                         | &#8377;20,000       |
-| Operating Voltage            | 24V                  |
+| Specification (Single panel) | Value         |
+| ---------------------------- | ------------- |
+| Cost                         | &#8377;20,000 |
+| Operating Voltage            | 24V           |
 | Dimensions                   | 6.9ft X 3.4ft |
-| Manufacturer                 | Loom Solar           |
-| Rated Output Power (Peak)    | 440W                 |
-| Output Voltage at max. power | 42V                  |
-| Output Current at max. power | 10.5A                |
+| Manufacturer                 | Loom Solar    |
+| Rated Output Power (Peak)    | 440W          |
+| Output Voltage at max. power | 42V           |
+| Output Current at max. power | 10.5A         |
 
 
 *Above electrical data is for, Irradiance: 1000W/m² and Cell Temperature:25°C*
@@ -217,13 +217,13 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 
 
 
-| Specification             | Value                     |
-| ------------------------- | ------------------------- |
-| Brand                     | Microtek                  |
-| Current carrying capacity | 80 A                      |
-| Cross Sectional Area      | 10 mm²             |
+| Specification             | Value                 |
+| ------------------------- | --------------------- |
+| Brand                     | Microtek              |
+| Current carrying capacity | 80 A                  |
+| Cross Sectional Area      | 10 mm²                |
 | Length                    | 15m Red and 15m Black |
-| Cost                      | &#8377;1990              |
+| Cost                      | &#8377;1990           |
 
 [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)
 
@@ -243,7 +243,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Voltage Grade             | 1100 V                    |
 | Insulation material       | HRFR PV                   |
 | Conductor material        | ETP Grade Annealed Copper |
-| Cost                      | &#8377;2,871             |
+| Cost                      | &#8377;2,871              |
 
 [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)
 
@@ -258,16 +258,16 @@ Connecting wires would be used to connect different appliances in the energy gri
  <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
 
 
-| Specification  | Value                              |
-| -------------- | ---------------------------------- |
-| Brand          | Siemens                            |
-| Current Rating | 63 A                               |
-| No. of Poles   | 4                                  |
+| Specification  | Value                |
+| -------------- | -------------------- |
+| Brand          | Siemens              |
+| Current Rating | 63 A                 |
+| No. of Poles   | 4                    |
 | Dimensions     | 7.1 cm X 7 cm X 9 cm |
-| Weight         | 660 g                              |
-| Material       | Polycarbonate                      |
-| Color          | White                              |
-| Cost           | &#8377;   1500                    |
+| Weight         | 660 g                |
+| Material       | Polycarbonate        |
+| Color          | White                |
+| Cost           | &#8377;   1500       |
  
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
@@ -277,15 +277,15 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 
 <img src = "https://m.media-amazon.com/images/I/71JEQ-sPGaL._SL1500_.jpg" width = 200>
 
-| Specification        | Value                                |
-| -------------------- | ------------------------------------ |
-| Brand                | FEEO                                 |
-| Circuit Breaker Type | Standard                             |
-| Current Rating       | 63 A                                 |
-| No. of Poles         | 2                                    |
-| Voltage              | 800 V (DC)                           |
+| Specification        | Value                  |
+| -------------------- | ---------------------- |
+| Brand                | FEEO                   |
+| Circuit Breaker Type | Standard               |
+| Current Rating       | 63 A                   |
+| No. of Poles         | 2                      |
+| Voltage              | 800 V (DC)             |
 | Dimensions           | 7.1 cm X 3.6 cm X 8 cm |
-| Cost                 | &#8377;999                          |
+| Cost                 | &#8377;999             |
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -295,28 +295,28 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 
 <img src = "https://m.media-amazon.com/images/I/61l8Y7CfuAL._SL1500_.jpg" width = 200>
 
-| Specification      | Value                              |
-| ------------------ | ---------------------------------- |
-| Brand              | Kenbrook Solar                     |
-| Overvoltage Rating | 600V                               |
-| No. of Poles       | 2                                  |
+| Specification      | Value                |
+| ------------------ | -------------------- |
+| Brand              | Kenbrook Solar       |
+| Overvoltage Rating | 600V                 |
+| No. of Poles       | 2                    |
 | Dimension          | 9 cm X 6 cm X 3.5 cm |
-| Weight             | 245 g                              |
-| Cost               | &#8377;799                        |
+| Weight             | 245 g                |
+| Cost               | &#8377;799           |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
 ####   Porcelain Fuse
 <img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
 
-| Specification      | Value                             |
-| ------------------ | --------------------------------- |
-| Brand              | Anchor                            |
-| AC Adapter Current | 32 A                              |
-| Voltage            | 415 V                             |
-| Material           | Ceramic                           |
+| Specification      | Value               |
+| ------------------ | ------------------- |
+| Brand              | Anchor              |
+| AC Adapter Current | 32 A                |
+| Voltage            | 415 V               |
+| Material           | Ceramic             |
 | Dimensions         | 10 cm X 5 cm X 5 cm |
-| Cost               | &#8377;185                       |
+| Cost               | &#8377;185          |
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -334,9 +334,9 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 | ------------- | ------------------------------------------------ |
 | Brand         | Kenbrook                                         |
 | Material      | Copper (Tin Plated) \| PPO + PA (Outer Covering) |
-| Dimensions    | 6 x 4 x 2 cm                                   |
+| Dimensions    | 6 x 4 x 2 cm                                     |
 | Quantity      | 10 Male + Female MC4 Connectors                  |
-| Cost          | &#8377;449                                      |
+| Cost          | &#8377;449                                       |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
@@ -350,9 +350,9 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 | ------------- | ------------------------------------------------ |
 | Brand         | Kenbrook                                         |
 | Material      | Copper (Tin Plated) \| PPO + PA (Outer Covering) |
-| Dimension     | 17 x 17 x 2 cm                                 |
+| Dimension     | 17 x 17 x 2 cm                                   |
 | Quantity      | 2 sets                                           |
-| Cost          | &#8377;799                                      |
+| Cost          | &#8377;799                                       |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/)
 
@@ -368,15 +368,15 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 We'll be using 2 such mounts for our system, which consists of 8 panels.
 
-| Specification  (Single unit) | Value               |
-| ---------------------------- | ------------------- |
-| Cost                         | &#8377;12,000      |
-| Inclination                  | 25°                 |
-| Dimensions(Leg)              | 150cm X 60cm |
-| Manufacturer                 | Loom Solar          |
-| Weight                       | 50kg                |
-| Material                     | Galvanised Iron     |
-| Holding Capacity             | 4 Panels            |
+| Specification  (Single unit) | Value           |
+| ---------------------------- | --------------- |
+| Cost                         | &#8377;12,000   |
+| Inclination                  | 25°             |
+| Dimensions(Leg)              | 150cm X 60cm    |
+| Manufacturer                 | Loom Solar      |
+| Weight                       | 50kg            |
+| Material                     | Galvanised Iron |
+| Holding Capacity             | 4 Panels        |
 
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
@@ -391,9 +391,9 @@ With a biogas plant, organic waste and side streams are converted into income by
 
 | Specification      | Value                     |
 | ------------------ | ------------------------- |
-| Cost               | &#8377;23,599            |
-| Plant Capacity     | 2 m³                 |
-| Area to be covered | 3m X 3m        |
+| Cost               | &#8377;23,599             |
+| Plant Capacity     | 2 m³                      |
+| Area to be covered | 3m X 3m                   |
 | Company            | Gujarat Renewable Energia |
 | Body Material      | PVC Coated Fabric         |
 | Shape              | Round                     |
