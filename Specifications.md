@@ -65,7 +65,7 @@ We select a battery bank such that we can ensure ample power for upto 24 hours. 
 | Dimensions                      | 50.2 $\times$ 44 $\times$ 19.1 cm (L $\times$ W $\times$ H) |
 | Electrolyte Volume              | 19.9L                                                       |
 | Water Level Indicators          | 6                                                           |
-| Cost                            | Rs. 14,780 $\times$ 4 = Rs. 59120                           |
+| Cost                            | &#8377; 14,780 $\times$ 4 = &#8377; 59120                   |
 
 [Product Link](https://www.amazon.in/dp/B07BCDDXZJ/ref=cm_sw_r_apan_glt_i_J1N15MKV18TN69RT1Q67?_encoding=UTF8&psc=1)
 
@@ -92,7 +92,7 @@ Total Instantaneous Power Consumed = 0.036*4(light)+1.5(house heater)+0.15(fridg
 | Peak output power  | 3kW                           |
 | Weight             | 40kg                          |
 | Dimensions         | 630x500x600mm                 |
-| Cost               | Rs. 32,900                    |
+| Cost               | &#8377; 32,900                |
 
 [Product Link](https://www.indiamart.com/proddetail/portable-generators-3kw-22423030173.html)
 
@@ -130,7 +130,7 @@ FlinFuzion Solar Hybrid Inverter 5kVA/48V is an off grid hybrid solar inverter�
 | No Load Power Consumption     | <35W                              |
 | Dimensions                    | D x W x H (mm) 100 x 300 x 440    |
 | Net Weight                    | 10 kg                             |
-| Cost                          | Rs. 78,800                        |
+| Cost                          | &#8377; 78,800                    |
 
 
 #### Solar Charge Controller
@@ -189,7 +189,7 @@ We'll be using 8 such panels in our system.
 
 | Specification (Single panel) | Value                |
 | ---------------------------- | -------------------- |
-| Cost                         | Rs. 20,000           |
+| Cost                         | &#8377; 20,000       |
 | Operating Voltage            | 24V                  |
 | Dimensions                   | 6.9ft $\times$ 3.4ft |
 | Manufacturer                 | Loom Solar           |
@@ -222,7 +222,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 | Current carrying capacity | 80 A                      |
 | Cross Sectional Area      | 10 $mm^2$                 |
 | Length                    | 15$m$ Red and 15$m$ Black |
-| Cost                      | Rs. 1990                  |
+| Cost                      | &#8377; 1990              |
 
 [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)
 
@@ -242,7 +242,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Voltage Grade             | 1100 V                    |
 | Insulation material       | HRFR PV                   |
 | Conductor material        | ETP Grade Annealed Copper |
-| Cost                      | Rs. 2,871                 |
+| Cost                      | &#8377; 2,871             |
 
 [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)
 
@@ -266,7 +266,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Weight         | 660 g                              |
 | Material       | Polycarbonate                      |
 | Color          | White                              |
-| Cost           | Rs.    1500                        |
+| Cost           | &#8377;    1500                    |
  
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
@@ -284,7 +284,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 | No. of Poles         | 2                                    |
 | Voltage              | 800 V (DC)                           |
 | Dimensions           | 7.1 cm $\times$ 3.6 cm $\times$ 8 cm |
-| Cost                 | Rs. 999                              |
+| Cost                 | &#8377; 999                          |
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -301,7 +301,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | No. of Poles       | 2                                  |
 | Dimension          | 9 cm $\times$ 6 cm $\times$ 3.5 cm |
 | Weight             | 245 g                              |
-| Cost               | Rs. 799                            |
+| Cost               | &#8377; 799                        |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
@@ -315,7 +315,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Voltage            | 415 V                             |
 | Material           | Ceramic                           |
 | Dimensions         | 10 cm $\times$ 5 cm $\times$ 5 cm |
-| Cost               | Rs. 185                           |
+| Cost               | &#8377; 185                       |
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -335,7 +335,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 | Material      | Copper (Tin Plated) \| PPO + PA (Outer Covering) |
 | Dimensions    | 6 x 4 x 2 $cm$                                   |
 | Quantity      | 10 Male + Female MC4 Connectors                  |
-| Cost          | Rs. 449                                          |
+| Cost          | &#8377; 449                                      |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
@@ -351,7 +351,7 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 | Material      | Copper (Tin Plated) \| PPO + PA (Outer Covering) |
 | Dimension     | 17 x 17 x 2 $cm$                                 |
 | Quantity      | 2 sets                                           |
-| Cost          | Rs. 799                                          |
+| Cost          | &#8377; 799                                      |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/)
 
@@ -369,13 +369,14 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 
 | Specification  (Single unit) | Value               |
 | ---------------------------- | ------------------- |
-| Cost                         | Rs. 12,000          |
+| Cost                         | &#8377; 12,000      |
 | Inclination                  | 25°                 |
 | Dimensions(Leg)              | 150cm $\times$ 60cm |
 | Manufacturer                 | Loom Solar          |
 | Weight                       | 50kg                |
 | Material                     | Galvanised Iron     |
 | Holding Capacity             | 4 Panels            |
+
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
 ---
@@ -389,9 +390,9 @@ With a biogas plant, organic waste and side streams are converted into income by
 
 | Specification      | Value                     |
 | ------------------ | ------------------------- |
-| Cost               | Rs. 23,599                |
+| Cost               | &#8377; 23,599            |
 | Plant Capacity     | 2 $m^{3}$                 |
-| Area to be covered | 3$m$ $\times$ $3m$        |
+| Area to be covered | 3$m$ $\times$ 3$m$        |
 | Company            | Gujarat Renewable Energia |
 | Body Material      | PVC Coated Fabric         |
 | Shape              | Round                     |
