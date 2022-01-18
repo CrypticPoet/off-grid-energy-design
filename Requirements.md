@@ -8,13 +8,13 @@ In the following document, we give a brief on various traits that our off-grid l
 
 <font size="4">**Table of Contents:**</font>
 
--   [1. **SUNERGY Requirements**](#1-sunergy-requirements)
-    -   [1.1 **Base Setup**](#11-base-setup)
-    -   [1.2 **Basic Requirements**](#12-basic-requirements)
-    -   [1.3 **Technical Requirements**](#13-technical-requirements)
-    -   [1.4 **References**](#References)
-    -   [1.5 **Documentation Statistics**](#14-documentation-statistics)
-    -   [1.6 **Document Readability indices**](#15-document-readability-indices)
+- [1. **SUNERGY Requirements**](#1-sunergy-requirements)
+  - [1.1 **Base Setup**](#11-base-setup)
+  - [1.2 **Basic Requirements**](#12-basic-requirements)
+  - [1.3 **Technical Requirements**](#13-technical-requirements)
+  - [1.4 **References**](#14-references)
+  - [1.5 **Documentation Statistics**](#15-documentation-statistics)
+  - [1.6 **Document Readability indices**](#16-document-readability-indices)
 
 ## 1.1 **Base Setup**
 

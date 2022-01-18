@@ -1,18 +1,4 @@
-###  Anchor by Panasonic 99004 UNO (6kA) 20 Ampere C Curve Single Pole MCB
 
-<img src = "https://m.media-amazon.com/images/I/71EoKgWcZ4L._SL1500_.jpg" width = 200>
-
-
-| Specification  | Value          |
-| ---            | ---            |
-| Cost            |&#8377 167     |
-| Dimensions              | 415mm $\times$ 375mm $\times$ 225mm|
-| Current Rating              | 20 A               |
-| Material           |  Polycarbonate |
-| Color| White|
-
-<!--- https://www.amazon.in/Anchor-Panasonic-99004-Ampere-Single/dp/B086HBKRJG/ref=asc_df_B086HBKRJG/?tag=googleshopdes-21&linkCode=df0&hvadid=396986439354&hvpos=&hvnetw=g&hvrand=9458287813178755252&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1030067017597&ext_vrnc=hi&th=1 --->
- 
  ###  Siemens Plastic 63A 4 Pole MCB
  <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
  
@@ -28,13 +14,11 @@
 | Color| White|
  
  <!--- https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC--->
- 
- 
+
 
 ###   Anchor 9311 Porcelain Fuse Unit Pilot
 
 <img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
-
 
 |Specification| Value|
 |---|---|
@@ -71,3 +55,4 @@
 |Weight| 245 g|
 
 <!--- https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1--->
+
