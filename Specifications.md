@@ -3,21 +3,43 @@
 <font size="3"> <center> Tribe E </center></font>
 
 # 2. **SUNERGY Specifications**
+_The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)_ [1].
 
 In the following document, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
+
 **NOTE:** These specifications may change as the design work progresses further.
 
+- [2. **SUNERGY Specifications**](#2-sunergy-specifications)
+  - [2.1 **Electrical Specifications**](#21-electrical-specifications)
+    - [2.1.1 Battery](#211-battery)
+      - [Luminous Red Charge RC 25000 200 Ah battery](#luminous-red-charge-rc-25000-200-ah-battery)
+    - [2.1.2 Backup Generator](#212-backup-generator)
+    - [2.1.3 Hybrid Solar Inverter (Built in Solar Charge Controller)](#213-hybrid-solar-inverter-built-in-solar-charge-controller)
+      - [5KVA/ 48 V off Grid Solar Inverter](#5kva-48-v-off-grid-solar-inverter)
+      - [Solar Charge Controller](#solar-charge-controller)
+        - [Sizing](#sizing)
+        - [Required Ratings](#required-ratings)
+    - [2.1.4 High Efficiency Solar Panels](#214-high-efficiency-solar-panels)
+    - [2.1.5 Wires](#215-wires)
+      - [Solar DC Cable](#solar-dc-cable)
+      - [Household connection wires](#household-connection-wires)
+    - [2.1.6 Safety Measures](#216-safety-measures)
+      - [AC Circuit Breaker](#ac-circuit-breaker)
+      - [DC Circuit Breaker](#dc-circuit-breaker)
+      - [DC Surge Protection Device](#dc-surge-protection-device)
+      - [Porcelain Fuse](#porcelain-fuse)
+    - [2.1.7 MC4 Connectors](#217-mc4-connectors)
+      - [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
+      - [4 in 1 T4 Connector](#4-in-1-t4-connector)
+  - [2.2 **Mechanical Specifications**](#22-mechanical-specifications)
+    - [2.2.1 Solar Panel Mounts](#221-solar-panel-mounts)
+    - [2.2.2 Prefabricated portable Biogas Plant](#222-prefabricated-portable-biogas-plant)
+  - [2.3 **Documentation Statistics** [2]](#23-documentation-statistics-2)
+  - [2.4 **Document Readability indices** [3]](#24-document-readability-indices-3)
+  - [2.5 **References**](#25-references)
+
 ---
 
-<font size="4">**Table of Contents:**</font>
-- [2. **SUNERGY Specifications**](#2-sunergy-specs)
-  - [2.1 **Electrical Specifications**](#21-elec-specs)
-  - [2.2 **Mechanical Specifications**](#22-mech-specs)
-  - [2.4 **References**](#24-references)
-  - [2.5 **Documentation Statistics**](#25-documentation-statistics)
-  - [2.6 **Document Readability indices**](#26-document-readability-indices)
-
----
 
 ## 2.1 **Electrical Specifications**
 ### 2.1.1 Battery
@@ -121,6 +143,7 @@ Sizing of a controller depends on three factors
 - Battery Bank Voltage
 
 ##### Required Ratings
+
 - **Solar panel array’s maximum open-circuit voltage (Voc)**: The 8 solar panels are arranged in a 2x4 array, such that 4 pairs of solar panels are in parallel, with each pair in series. Each Solar panel has a open circuit voltage of 49V. So, the maximum open circuit voltage of solar panel is 49x2= 98V.
 
 - **Total Power rating of Solar panel array**: Since, we are using 8 solar panels with 440 W power rating.Hence, the total power rating of Solar panel array is 3520W.
@@ -165,7 +188,7 @@ We'll be using 8 such panels in our system.
 
 | Specification (Single panel) | Value                |
 | ---------------------------- | -------------------- |
-| Cost                         | &#8377 20,000        |
+| Cost                         | Rs. 20,000        |
 | Operating Voltage            | 24V                  |
 | Dimensions                   | 6.9ft $\times$ 3.4ft |
 | Manufacturer                 | Loom Solar           |
@@ -242,7 +265,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Weight         | 660 g                              |
 | Material       | Polycarbonate                      |
 | Color          | White                              |
-| Cost           | &#8377    1500                     |
+| Cost           | Rs.    1500                     |
  
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
@@ -260,7 +283,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 | No. of Poles         | 2                                    |
 | Voltage              | 800 V (DC)                           |
 | Dimensions           | 7.1 cm $\times$ 3.6 cm $\times$ 8 cm |
-| Cost                 | &#8377 999                           |
+| Cost                 | Rs. 999                           |
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -277,7 +300,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | No. of Poles       | 2                                  |
 | Dimension          | 9 cm $\times$ 6 cm $\times$ 3.5 cm |
 | Weight             | 245 g                              |
-| Cost               | &#8377 799                         |
+| Cost               | Rs. 799                         |
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
@@ -291,7 +314,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Voltage            | 415 V                             |
 | Material           | Ceramic                           |
 | Dimensions         | 10 cm $\times$ 5 cm $\times$ 5 cm |
-| Cost               | &#8377 185                        |
+| Cost               | Rs. 185                        |
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -345,7 +368,7 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 
 | Specification  (Single unit)  |  Value                |
 | ---                           |        ---            |
-| Cost                          | &#8377 12,000         |
+| Cost                          | Rs. 12,000         |
 | Inclination                   | 25°                   |
 | Dimensions(Leg)               | 150cm $\times$ 60cm   |
 | Manufacturer                  | Loom Solar            |
@@ -367,7 +390,7 @@ With a biogas plant, organic waste and side streams are converted into income by
 | ------------------ | ------------------------- |
 | Cost               | Rs. 23,599                |
 | Plant Capacity     | 2 $m^{3}$                 |
-| Area to be covered | 3m $\times$ 3m            |
+| Area to be covered | 3$m$ $\times$ $3m$        |
 | Company            | Gujarat Renewable Energia |
 | Body Material      | PVC Coated Fabric         |
 | Shape              | Round                     |
@@ -377,11 +400,41 @@ With a biogas plant, organic waste and side streams are converted into income by
 
 ---
 
+## 2.3 **Documentation Statistics** [2]
+
+-   **Word count**: 2637
+-   **Total number of unique words**: 922
+-   **Total number of repeated words**: 1715
+-   **Total number of sentences**: 49
+-   **Total number of characters**: 22879
+-   **Total number of characters without spaces**: 16198
+-   **Total number of syllables**: 4471
+-   **Average number of words per sentence**: 54
+-   **Average number of characters per sentence**: 467
+-   **Average number of characters per word**: 6.1
+-   **Average number of syllables per word**: 1.69
+
+The above results were obtained using https://wordcounter.net/.
+
+## 2.4 **Document Readability indices** [3]
+
+-   **Flesch Reading Ease score**: 58
+-   **Dale-Chall Readability score**: 8.3
+-   **Flesch-Kincaid Grade level**: 8
+-   **The Coleman-Liau Index**: 16
+-   **Automated Readability Index**: 12
+-   **SMOG Formula score**: 12
+-   **Spache Readability score**: 4
+
+The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 
 
 
 
+## 2.5 **References**
 
+[1] [GitHub - Off Grid Energy Design - Tribe E](https://github.com/CrypticPoet/off-grid-energy-design)
 
+[2] [WordCounter - Count Words & Correct Writing](https://wordcounter.net/)
 
-
+[3] [Readability Check - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck)
