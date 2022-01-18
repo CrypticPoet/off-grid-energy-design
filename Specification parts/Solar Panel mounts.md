@@ -18,5 +18,5 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 | Holding Capacity              | 4 Panels              |
 Data [Source](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 <!--  
-https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt>
+https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt-->
 
