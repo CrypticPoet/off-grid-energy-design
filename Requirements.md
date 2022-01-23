@@ -42,10 +42,10 @@ Some of the basic user requirements are:
 | 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
 | 2                       | LED Bulbs                | 4                   | 0.04kW                | 6 Hours                | 0.04\*3\*6=0.72kWh    | Assuming, on average, 3 lights out of 4 are ON for 6 hours.      |
 | 3                       | Ordinary ceiling fan      | 6                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |  Assuming, on average, 4 fans out of 6 are ON for 8 hours.  Only in Summers    |
-| 8                       | Induction Stove              | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh         |                                                            |
-| 8                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         | Only in Winters                                                                  |
-| 9                       | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
-| 10                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
+| 4                       | Induction Stove              | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh         |                                                            |
+| 5                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         | Only in Winters                                                                  |
+| 6                      | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
+| 7                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
 | Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
 
 3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
