@@ -39,19 +39,16 @@ Some of the basic user requirements are:
 
 | S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
 | ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
-| 1                       | Tube Light                | 10                   | 0.036kW                | 8 Hours                | 0.036\*5\*8=1.44kWh    | Assuming, on average, 5 lights out of 10 are ON for 8 hours.      |
-| 2                       | Television (50 inches)    | 1                    | 0.1kW                  | 6 Hours                | 0.1\*1\*6=0.6kWh       | Assuming the television to be ON for 6 hours a day                |
-| 3                       | Air Conditioner (1 tonne) | 1                    | 1kW                    | 8 Hours                | 1\*1\*8=8kWh           | The ACs need to be used only during the summers                   |
-| 4                       | Heater                    | 1                    | 1.5kW                  | 6 Hours                | 1.5\*1\*6=9kWh         | The heater needs to be used only during the winters.              |
-| 5                       | Ordinary ceiling fan      | 4                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |                                                                   |
-| 6                       | Refrigerator (400L)       | 1                    | 0.15kW                 | 24 Hours               | 0.15\*1\*24=3.6kWh     |                                                                   |
-| 7                       | Washing machine (7kg)     | 1                    | 2kW                    | 0.5 Hour               | 2\*1\*0.5=1kWh         |                                                                   |
-| 8                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         |                                                                   |
-| 9                       | Personal Computer         | 1                    | 0.2kW                  | 6 Hours                | 0.2\*1\*6=1.2kWh       |                                                                   |
-| 10                      | Miscellaneous             |                      |                        |                        | 3kWh                   | Assuming laptops, cooking appliances etc to consume 3kWh per day. |
-| Daily power requirement | Summers//Winters          |                      |                        |                        | 21.84//22.84 kWh ± 10% |
+| 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
+| 2                       | LED Bulbs                | 4                   | 0.04kW                | 6 Hours                | 0.04\*3\*6=0.72kWh    | Assuming, on average, 3 lights out of 4 are ON for 6 hours.      |
+| 3                       | Ordinary ceiling fan      | 6                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |  Assuming, on average, 4 fans out of 6 are ON for 8 hours.  Only in Summers    |
+| 8                       | Induction Stove              | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh         |                                                            |
+| 8                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         | Only in Winters                                                                  |
+| 9                       | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
+| 10                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
+| Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
 
-3. **Budget**: The cost of manufacturing should not be more than Rs. 4,00,000.
+3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
 
 4. **Backup**: In case of any system failure, there must be a fuel generator strong enough to provide backup for the basic energy requirements.
 
@@ -79,25 +76,21 @@ Various technical apparatus and tools required to acheive our goal are:
 
 3. **Inverter**: Solar panels generate DC electricity which needs to be converted to AC electricity needed by many common household appliances which are achieved by using an inverter. We wish to have an inverter that is cheap and provides high efficiency in converting DC to AC with minimal power losses.
 
-4. **Timed rotators for panels** (optional): In order to obtain more solar energy, the panels should be able to rotate on a shaft in accordance with the motion of the sun. The cost of such a tracking-based system, however, can be significant.
+4. **Mounting apparatus**: Solar panels are usually connected to each other and then subsequently mounted either on the roof or on the ground. The panels must be mounted so as to ensure cooling airflow and in a manner where maximum sunlight is available to the panels throughout the day.
 
-5. **Mounting apparatus**: Solar panels are usually connected to each other and then subsequently mounted either on the roof or on the ground. The panels must be mounted so as to ensure cooling airflow and in a manner where maximum sunlight is available to the panels throughout the day.
+5. **Charge Controllers**: Charge controllers are used to control the amount of current fed into the battery by the solar panels.This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. There are two types of charge controller devices available - PWM and MPPT of which MPPT though more expensive is upto 30% more efficient than PWM charge controllers.
 
-6. **Charge Controllers**: Charge controllers are used to control the amount of current fed into the battery by the solar panels.This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. There are two types of charge controller devices available - PWM and MPPT of which MPPT though more expensive is upto 30% more efficient than PWM charge controllers.
+6. **Battery Monitor**: This meter would allow us to get an idea of how much power is being generated, how much amount we are saving by using solar panels and helps monitor which appliances use more power to manage energy utility.
 
-7. **Battery Monitor**: This meter would allow us to get an idea of how much power is being generated, how much amount we are saving by using solar panels and helps monitor which appliances use more power to manage energy utility.
+7. **Backup Generator**: In case of off-grid systems backup power supply like a generator can serve as an alternate power supply in case of cloudy days, high demand or other unforeseen circumstances. The environmental impact of the generator could be reduced by using alternative fuels like biodiesel.
 
-8. **Backup Generator**: In case of off-grid systems backup power supply like a generator can serve as an alternate power supply in case of cloudy days, high demand or other unforeseen circumstances. The environmental impact of the generator could be reduced by using alternative fuels like biodiesel.
+8. **Disconnects**: These are manual switches that enable us to cut off the power supply to and from the inverter in case of maintenance. This prevents current from flowing beyond the switch to some damaged component.
 
-9. **Disconnects**: These are manual switches that enable us to cut off the power supply to and from the inverter in case of maintenance. This prevents current from flowing beyond the switch to some damaged component.
+9. **Smart Lights**: Smart lights can be used to track Daytime and thus switching on/off lights at necessary places accordingly. This would allow us to smartly switch off electrical appliances not being used in order to save energy.
 
-10. **PIR sensors**: Passive infrared sensors can be used in order to detect human motion in and out of rooms. This would allow us to smartly switch off electrical appliances not being used in order to save energy.
+10. **Wires**: Insulated copper or aluminum wires needed to connect various electrical components
 
-11. **Dynamo**: A small electrical generator that can be installed in gym equipment to harness energy to power some low power electrical devices
-
-12. **Wires**: Insulated copper or aluminum wires needed to connect various electrical components
-
-13. **Bio Gas plant**: A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
+11. **Bio Gas plant**(optional): A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
 
 ## 1.4 **References**
 
