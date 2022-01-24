@@ -45,7 +45,7 @@ In the following document, we give a brief on various specifications of the comp
 ### 2.1.1 Battery
 #### Luminous Red Charge RC 18000 150 Ah battery
 
-<img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="connecting wires" width="250" height="250"/>
+<img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  fast battery charging with adaptive battery charging control technology
@@ -94,7 +94,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 ### 2.1.3 Hybrid Solar Inverter (Built in Solar Charge Controller)
 ### 3KVA/ 36 V off Grid Solar Inverter
 
-<img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg?v=1635314512" width = "400",height="500"/>
+<img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 
 Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
 -   3 kva system with 3500 watt solar panel support
