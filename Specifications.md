@@ -18,7 +18,6 @@ In the following document, we give a brief on various specifications of the comp
       - [3KVA/ 36 V off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
       - [Solar Charge Controller](#solar-charge-controller)
         - [Sizing](#sizing)
-        - [Required Ratings](#required-ratings)
     - [2.1.4 High Efficiency Solar Panels](#214-high-efficiency-solar-panels)
     - [2.1.5 Wires](#215-wires)
       - [Solar DC Cable](#solar-dc-cable)
@@ -33,7 +32,6 @@ In the following document, we give a brief on various specifications of the comp
       - [4 in 1 T4 Connector](#4-in-1-t4-connector)
   - [2.2 **Mechanical Specifications**](#22-mechanical-specifications)
     - [2.2.1 Solar Panel Mounts](#221-solar-panel-mounts)
-    - [2.2.2 Prefabricated portable Biogas Plant](#222-prefabricated-portable-biogas-plant)
   - [2.3 **Documentation Statistics** [2]](#23-documentation-statistics-2)
   - [2.4 **Document Readability indices** [3]](#24-document-readability-indices-3)
   - [2.5 **References**](#25-references)
@@ -62,7 +60,7 @@ In the following document, we give a brief on various specifications of the comp
 | Dimensions                      | 50.2 $\times$ 44 $\times$ 19.1 cm (L $\times$ W $\times$ H) |
 | Electrolyte Volume              | 20L (+/-5%)                                                      |
 | Water Level Indicators          | 6                                                           |
-| Cost                            | Rs. 12150 $\times$ 3 = Rs. 36450                           |
+| Cost                            |  &#8377;12150 X 3 = &#8377;36450                           |
 
 ---
 
@@ -166,7 +164,7 @@ It also paves the way for more power output per panel, which means less number o
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
 
-We'll be using 8 such panels in our system.
+We'll be using 4 such panels in our system.
 
 | Specification (Single panel) | Value         |
 | ---------------------------- | ------------- |
@@ -360,27 +358,6 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 | Holding Capacity             | 4 Panels        |
 
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
-
----
-
-### 2.2.2 Prefabricated portable Biogas Plant
-
-With a biogas plant, organic waste and side streams are converted into income by producing renewable energy and organic fertilizer cost-effectively. Produced biogas can be utilized for electricity and heat production. Biogas can be also upgraded to biomethane that can be used as vehicle fuel or fed into the natural gas grid as a substitute for fossil gas.
-
-<img src = "https://5.imimg.com/data5/JI/DI/YS/SELLER-28929530/biogas-plant-500x500.jpeg">
-
-
-| Specification      | Value                     |
-| ------------------ | ------------------------- |
-| Cost               | &#8377;23,599             |
-| Plant Capacity     | 2 m³                      |
-| Area to be covered | 3m X 3m                   |
-| Company            | Gujarat Renewable Energia |
-| Body Material      | PVC Coated Fabric         |
-| Shape              | Round                     |
-| Color              | Gray                      |
-
-[Product Link](https://www.indiamart.com/proddetail/flexible-biogas-plant-21839483148.html)
 
 ---
 
