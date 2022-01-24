@@ -12,10 +12,10 @@ In the following document, we give a brief on various specifications of the comp
 - [2. **SUNERGY Specifications**](#2-sunergy-specifications)
   - [2.1 **Electrical Specifications**](#21-electrical-specifications)
     - [2.1.1 Battery](#211-battery)
-      - [Luminous Red Charge RC 25000 200 Ah battery](#luminous-red-charge-rc-25000-200-ah-battery)
+      - [Luminous Red Charge RC 18000 150 Ah battery](#luminous-red-charge-rc-18000-150-ah-battery)
     - [2.1.2 Backup Generator](#212-backup-generator)
     - [2.1.3 Hybrid Solar Inverter (Built in Solar Charge Controller)](#213-hybrid-solar-inverter-built-in-solar-charge-controller)
-      - [5KVA/ 48 V off Grid Solar Inverter](#5kva-48-v-off-grid-solar-inverter)
+      - [3KVA/ 36 V off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
       - [Solar Charge Controller](#solar-charge-controller)
         - [Sizing](#sizing)
         - [Required Ratings](#required-ratings)
@@ -43,133 +43,114 @@ In the following document, we give a brief on various specifications of the comp
 
 ## 2.1 **Electrical Specifications**
 ### 2.1.1 Battery
-#### Luminous Red Charge RC 25000 200 Ah battery
+#### Luminous Red Charge RC 18000 150 Ah battery
+
+<img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="connecting wires" width="250" height="250"/>
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
--  Fast battery charging with adaptive battery charging control technology to prevent overcharging
+-  fast battery charging with adaptive battery charging control technology
 
-We select a battery bank such that we can ensure ample power for upto 24 hours. For this, a suitable choice is 4 batteries of 12V, 200 Ah rating connected in series. 
-
-<img src="https://m.media-amazon.com/images/I/61q4Rl4ZmOS._SL1500_.jpg" alt="connecting wires" height="300"/>
-
-
-| Specifications                  | Value                                      |
-| ------------------------------- | ------------------------------------------ |
-| Brand                           | Luminous                                   |
-| Nominal Voltage                 | 12V                                        |
-| Rated Capacity(at room temp.)   | 200 ah                                     |
-| Protections                     | Dust & water proof with heavy plastic body |
-| Charging Current(Boost mode)    | 20.2A(starting), 10.1A(finishing)          |
-| Charging Current (Trickle mode) | 672 mA(max), 168 mA(min)                   |
-| Weight                          | 60 Kg (34.4 Kg dry weight)                 |
-| Dimensions                      | 50.2 X 44 X 19.1 cm (L X W X H)            |
-| Electrolyte Volume              | 19.9L                                      |
-| Water Level Indicators          | 6                                          |
-| Cost                            | &#8377;14,780 X 4 = &#8377;59120           |
-
-[Product Link](https://www.amazon.in/dp/B07BCDDXZJ/ref=cm_sw_r_apan_glt_i_J1N15MKV18TN69RT1Q67?_encoding=UTF8&psc=1)
+| Specifications                  | Value                                                       |
+|---------------------------------|-------------------------------------------------------------|
+| Brand                           | Luminous                                                    |
+| Nominal Voltage                 | 12V                                                         |
+| Rated Capacity(at room temp.)   | 150 ah (at room temp.)                                                     |
+| Protections                     | Dust & water proof with heavy plastic body                  |
+| Charging Current(Boost mode)    | 15.10A(starting), 7.60A(finishing)                           |
+| Charging Current (Trickle mode) | 504 mA(max), 126 mA(min)                                    |
+| Weight                          | 53.30 Kg (28.5 Kg dry weight) (+/- 5%)                                 |
+| Dimensions                      | 50.2 $\times$ 44 $\times$ 19.1 cm (L $\times$ W $\times$ H) |
+| Electrolyte Volume              | 20L (+/-5%)                                                      |
+| Water Level Indicators          | 6                                                           |
+| Cost                            | Rs. 12150 $\times$ 3 = Rs. 36450                           |
 
 ---
 
 ### 2.1.2 Backup Generator
 
-The generator size should be of 3kW. In our system, generator will mostly be needed during winter when there is a lack of solar energy production. So the power calculation will be done under winter conditions. And since this is a backup system the below power consumed is assumed to be calculated under maximum load when running backup generator.
+The generator size should be of 1kW. In our system, generator will mostly be needed during winter when there is a lack of solar energy production. Since this is a backup system the below power consumed is assumed to be calculated under minimal load when running backup generator.
 
-Total Instantaneous Power Consumed = 0.036*4(light)+1.5(house heater)+0.15(fridge)+1(misc.) = 2.8kW
+Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
-**Note**: Here the misc. includes TV,PC, and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 12hr. Spare fuel should always be kept in case of emergencies. 
+**Note**: Here the misc includes PC,stove and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 9hr(which is minimum requirement for overnight functionality). Spare fuel should always be kept in case of emergencies. 
 
-<img src="https://5.imimg.com/data5/ANDROID/Default/2021/4/ZD/PA/YQ/2794323/55555-min-3-jpg-500x500.jpg" height=400>
 
 | Specification      | Value                         |
 | ------------------ | ----------------------------- |
-| Manufacturer       | Techno Machineries            |
-| Fuel               | Kerosene(Run), Petrol (Start) |
+| Manufacturer       | Generic                       |
+| Fuel               | Petrol                        |
 | Consumption        | 1L/hr under full load         |
-| Capacity           | 12L                           |
-| Rated voltage      | 220V±15                       |
-| Rated output power | 2.8kW                         |
-| Peak output power  | 3kW                           |
-| Weight             | 40kg                          |
-| Dimensions         | 630x500x600mm                 |
-| Cost               | &#8377;32,900                 |
+| Capacity           | 10L                           |
+| Rated voltage      | 220V+-15                      |
+| Peak output power  | 1kVA                          |
+| Weight             | 30kg                          |
+| Cost               | Rs. 22,900                    |
+| Size               | 1kW                           |
 
-[Product Link](https://www.indiamart.com/proddetail/portable-generators-3kw-22423030173.html)
+[Product Link](https://www.indiamart.com/proddetail/1-kva-portable-petrol-generator-23901047630.html)
 
 ---
 
 ### 2.1.3 Hybrid Solar Inverter (Built in Solar Charge Controller)
-#### 5KVA/ 48 V off Grid Solar Inverter
+### 3KVA/ 36 V off Grid Solar Inverter
 
+<img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg?v=1635314512" width = "400",height="500"/>
 
-<img src="https://m.media-amazon.com/images/I/81H1wHEtr3L._SL1500_.jpg" height="300"/>
-
-FlinFuzion Solar Hybrid Inverter 5kVA/48V is an off grid hybrid solar inverter which supports lead acid and lithium batteries both. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power.   
-
--   Off grid hybrid solar inverter with lithium battery / Lead acid battery support functionality.
--   5 kva system with 5000 watt solar panel support
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+-   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
--   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage
+-   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
 -   Surge warnings, safety alarms and troubleshooting Fault Codes 
--   Included battery monitoring software with USB and RS232 Data Ports
+-   BIS certified solar inverter and IP-21 protection level.
+-  MCB protection in the case of any short circuit
+-  Comprehensive protection against short-circuit, reverse polarity, battery overload etc.
 
 | Specification                 | Value                             |
 | ----------------------------- | --------------------------------- |
-| Brand                         | Flin Energy                       |
-| Rated Power                   | 5kVA                              |
+| Brand                         | Luminous                          |
+| Rated Power                   | 3kVA                              |
 | Waveform                      | Pure sine wave                    |
-| Output Voltage Regulation     | 230VAC ± 5%                       |
+| Output Voltage Regulation     | 230VAC $\pm$ 2%                       |
 | Output Frequency              | 50 Hz                             |
-| Battery Voltage               | 48 VDC                            |
-| Battery Overcharge protection | 63 VDC                            |
-| Battery Equalization          | Yes                               |
-| Maximum AC Charge Current     | 60 A                              |
-| Peak Efficiency               | 93%                               |
-| Overload Protection           | 5s@≥150% load; 10s@110%~150% load |
-| Surge Capacity                | 10kVA for 5 seconds               |
-| No Load Power Consumption     | <35W                              |
-| Dimensions                    | D x W x H (mm) 100 x 300 x 440    |
-| Net Weight                    | 10 kg                             |
-| Cost                          | &#8377;78,800                     |
+| Battery Bank Voltage          | 36 V(3x12V batteries)             |
+| Input Voltage Mains Mode      | 180-260 VAC                       |
+| Output Voltage Distortion(THD)| <=3%                              |
+|Nominal Output Current from UPS| 11 A                              |
+| Operating Temperature         | 0 - 45<sup>.</sup>C                          |
+| Input Protection              | 32A MCB                           |
+| Battery Charging Current      | 14A, 17A, 21A                     |
+| Max. Relative Humidity @25<sup>.</sup>C  | upto 95%                          |
+| Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
+| Net Weight                    | 32.5 kg                           |
+| Cost                          | Rs. 39,950                        |
 
 
-#### Solar Charge Controller
+
+### Solar Charge Controller
 
 Charge controllers are used to control the amount of current fed into the battery by the solar panels. This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. So, Solar Charge Controller must be compatible with solar panel and the battery bank. Our Hybrid inverter comes built in with an MPPT Charge controller which is more efficient at DC Conversion compared to older PWM technology.
 
-##### Sizing
+#### Sizing
 Sizing of a controller depends on three factors
 - Solar panel array’s maximum open-circuit voltage (Voc)
 - Total Power rating of Solar panel array
 - Battery Bank Voltage
 
-##### Required Ratings
-
-- **Solar panel array’s maximum open-circuit voltage (Voc)**: The 8 solar panels are arranged in a 2x4 array, such that 4 pairs of solar panels are in parallel, with each pair in series. Each Solar panel has a open circuit voltage of 49V. So, the maximum open circuit voltage of solar panel is 49x2= 98V.
-
-- **Total Power rating of Solar panel array**: Since, we are using 8 solar panels with 440 W power rating.Hence, the total power rating of Solar panel array is 3520W.
-
-- **Battery Bank Voltage**: Battery Bank Volatge of our system is 48V.
-
-Now, from power rating and battery bank voltage, we can calculate the required Ampere rating of the controller, which is equal to (power rating/Bank Voltage).
-So, the required Ampere rating is 73.33A.
-The required maximum input Voc of controller = maximum open circuit voltage of solar panel.
-
-Hence, Our Controller must have atleast 98V input Voc rating and 73.33A current rating. We select the controller such that these two figures slightly exceed the requirements to build a safety margin.
 
 Specifications of the in-built charge controller
 
-| Specification                  | Value       |
-| ------------------------------ | ----------- |
-| Brand                          | Flin Energy |
-| Type                           | MPPT        |
-| Maximum Solar Charging Current | 80A         |
-| Maximum PV Array Power         | 5 kW        |
-| Operating Voltage Range        | 120-450V    |
-| Nominal PV Voltage             | 240V        |
-| Maximum PV VOC                 | 500V        |
+| Specification                    | Value       |
+| ------------------------------   | ----------- |
+| Brand                            | Luminous    |
+| Type                             | MPPT        |
+| Nominal Battery Charging Current | 91A$\pm$ 2A     |
+| Maximum Battery Charging Current | <=100A$\pm$ 10A |
+| Maximum PV Array Power           | 3.5 kW      |
+| Maximum PV Input Current(Imp)    | 38A         |
+| Solar Input Voltage VMP          | 60V - 120V  |
+| Solar Input Voltage VOC          | 75V - 150V  |
 
-[Product Link](https://www.amazon.in/Flin-Energy-FlinFuzion-Hybrid-Inverter/dp/B0793KN2K8/)
+[Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter#)
 
 ---
 
