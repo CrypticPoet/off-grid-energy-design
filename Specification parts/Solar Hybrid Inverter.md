@@ -1,36 +1,37 @@
 ## Hybrid Solar Inverter (Built in Solar Charge Controller)
-### 5KVA/ 48 V off Grid Solar Inverter
+### 3KVA/ 36 V off Grid Solar Inverter
 
 
-<img src="https://m.media-amazon.com/images/I/81H1wHEtr3L._SL1500_.jpg" height="300"/>
+<img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg?v=1635314512" width = "400",height="500"/>
 
-FlinFuzion Solar Hybrid Inverter 5kVA/48V is an off grid hybrid solar inverter which supports lead acid and lithium batteries both. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power.   
-
--   Off grid hybrid solar inverter with lithium battery / Lead acid battery support functionality.
--   5 kva system with 5000 watt solar panel support
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+-   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
--   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage
+-   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
 -   Surge warnings, safety alarms and troubleshooting Fault Codes 
--   Included battery monitoring software with USB and RS232 Data Ports
+-   BIS certified solar inverter and IP-21 protection level.
+-  MCB protection in the case of any short circuit
+-  Comprehensive protection against short-circuit, reverse polarity, battery overload etc.
 
 | Specification                 | Value                             |
 | ----------------------------- | --------------------------------- |
-| Brand                         | Flin Energy                       |
-| Rated Power                   | 5kVA                              |
+| Brand                         | Luminous                          |
+| Rated Power                   | 3kVA                              |
 | Waveform                      | Pure sine wave                    |
-| Output Voltage Regulation     | 230VAC $\pm$ 5%                   |
+| Output Voltage Regulation     | 230VAC $\pm$ 2%                       |
 | Output Frequency              | 50 Hz                             |
-| Battery Voltage               | 48 VDC                            |
-| Battery Overcharge protection | 63 VDC                            |
-| Battery Equalization          | Yes                               |
-| Maximum AC Charge Current     | 60 A                              |
-| Peak Efficiency               | 93%                               |
-| Overload Protection           | 5s@≥150% load; 10s@110%~150% load |
-| Surge Capacity                | 10kVA for 5 seconds               |
-| No Load Power Consumption     | <35W                              |
-| Dimensions                    | D x W x H (mm) 100 x 300 x 440    |
-| Net Weight                    | 10 kg                             |
-| Cost                          | Rs. 78,800                        |
+| Battery Bank Voltage          | 36 V(3x12V batteries)             |
+| Input Voltage Mains Mode      | 180-260 VAC                       |
+| Output Voltage Distortion(THD)| <=3%                              |
+|Nominal Output Current from UPS| 11 A                              |
+| Operating Temperature         | 0 - 45<sup>.</sup>C                          |
+| Input Protection              | 32A MCB                           |
+| Battery Charging Current      | 14A, 17A, 21A                     |
+| Max. Relative Humidity @25<sup>.</sup>C  | upto 95%                          |
+| Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
+| Net Weight                    | 32.5 kg                           |
+| Cost                          | Rs. 39,950                        |
+
 
 
 ### Solar Charge Controller
@@ -43,29 +44,21 @@ Sizing of a controller depends on three factors
 - Total Power rating of Solar panel array
 - Battery Bank Voltage
 
-#### Required Ratings
-- **Solar panel array’s maximum open-circuit voltage (Voc)**: The 8 solar panels are arranged in a 2x4 array, such that 4 pairs of solar panels are in parallel, with each pair in series. Each Solar panel has a open circuit voltage of 49V. So, the maximum open circuit voltage of solar panel is 49x2= 98V.
-
-- **Total Power rating of Solar panel array**: Since, we are using 8 solar panels with 440 W power rating.Hence, the total power rating of Solar panel array is 3520W.
-
-- **Battery Bank Voltage**: Battery Bank Volatge of our system is 48V.
-
-Now, from power rating and battery bank voltage, we can calculate the required Ampere rating of the controller, which is equal to (power rating/Bank Voltage).
-So, the required Ampere rating is 73.33A.
-The required maximum input Voc of controller = maximum open circuit voltage of solar panel.
-
-Hence, Our Controller must have atleast 98V input Voc rating and 73.33A current rating. We select the controller such that these two figures slightly exceed the requirements to build a safety margin.
 
 Specifications of the in-built charge controller
 
-| Specification                  | Value       |
-| ------------------------------ | ----------- |
-| Brand                          | Flin Energy |
-| Type                           | MPPT        |
-| Maximum Solar Charging Current | 80A         |
-| Maximum PV Array Power         | 5 kW        |
-| Operating Voltage Range        | 120-450V    |
-| Nominal PV Voltage             | 240V        |
-| Maximum PV VOC                 | 500V        |
+| Specification                    | Value       |
+| ------------------------------   | ----------- |
+| Brand                            | Luminous    |
+| Type                             | MPPT        |
+| Nominal Battery Charging Current | 91A$\pm$ 2A     |
+| Maximum Battery Charging Current | <=100A$\pm$ 10A |
+| Maximum PV Array Power           | 3.5 kW      |
+| Maximum PV Input Current(Imp)    | 38A         |
+| Solar Input Voltage VMP          | 60V - 120V  |
+| Solar Input Voltage VOC          | 75V - 150V  |
 
-[Product Link](https://www.amazon.in/Flin-Energy-FlinFuzion-Hybrid-Inverter/dp/B0793KN2K8/)
+[Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter#)
+
+
+
