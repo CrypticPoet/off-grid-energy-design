@@ -1,25 +1,33 @@
-#### 5.1 CAD/Assembly
+## 3.1 CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center">
-    <img align = "center" src="./front view.png" alt="Front View">
-    <figcaption align="center">Fig 5.1.1: Front View</figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/front%20view.png" alt="Front View" width=500>
+	<figcaption align="center">Fig 3.1.1: Front View</figcaption>
 </p>
 
+---
+
 <p align="center">
- <img src="./side view.png" alt="Side view" width=300 /> <img src="./back view.png" alt="Back View" width=300/>
- <figcaption align="center">Fig 5.1.2: Side View and Back View (L to R)</figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20view.png" alt="Side view" width=300/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20view.png" alt="Back View" width=300/>
+	 <figcaption align="center">Fig 3.1.2: Side View and Back View (L to R)</figcaption>
 </p>
 
+---
+
 <p align="center">
- <img src="./tinker.jpeg" alt="Isometric view"  width=300 /> 
- <figcaption align="center">Fig 5.1.3: Isometric View</figcaption>
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/tinker.jpeg" alt="Isometric view"  width=300/> 
+	 <figcaption align="center">Fig 3.1.3: Isometric View</figcaption>
 </p>
 
-The components of the mule bot are detailed as follows:
+---
+
+The components of our energy solution are detailed as follows:
 
 <p align="center">
-    <img align = "center" src="./side cut.png" alt="Side cut view"> <img src="./back cut.png" alt="Back Cut View"/>
-    <figcaption align="center">Fig 5.1.3: Component Labels</figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20cut.png" alt="Side Cut view" width=300/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20cut.png" alt="Back Cut View" width=300/>
+	<figcaption align="center">Fig 3.1.4: Component Labels</figcaption>
 </p>
 
 ***Label 1*** - Solar Panels  
@@ -31,4 +39,4 @@ Takes the solar DC current and supply it power supply as well as store it in bat
 ***Label 3*** - Battery  
 Stores the solar converted electrical energy for further use when solar power cannot be harnessed e.g. Night. 
 
-<div style="page-break-after: always;"></div>
+---
