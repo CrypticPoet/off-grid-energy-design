@@ -78,11 +78,11 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
 |------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
-| 2637       | 922            | 1715             | 49          | 22879        | 16198                   | 4471        |
+| 434        | 922            | 1715             | 11          | 3592         | 3204                    | 941         |
 
 | Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
 |--------------------------|-------------------------------|---------------------------|--------------------------|
-| 54                       | 467                           | 6.1                       | 1.69                     |
+| 40                       | 327                           | 7.4                       | 2.16                     |
 
 The above results were obtained using https://wordcounter.net/ [7].
 
@@ -93,11 +93,11 @@ The above results were obtained using https://wordcounter.net/ [7].
 
 | Readability Index                | Score |
 |----------------------------------|-------|
-| Flesch Reading Ease score        | 58    |
-| Dale-Chall Readability score     | 8.3   |
-| Flesch-Kincaid Grade level       | 8     |
-| The Coleman-Liau Index           | 16    |
-| Automated Readability Index      | 12    |
+| Flesch Reading Ease score        | 61    |
+| Dale-Chall Readability score     | 8.8   |
+| Flesch-Kincaid Grade level       | 7     |
+| The Coleman-Liau Index           | 14    |
+| Automated Readability Index      | 11    |
 | SMOG Formula score               | 12    |
 | Spache Readability score         | 4     |
 
