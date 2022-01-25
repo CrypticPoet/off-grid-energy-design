@@ -6,8 +6,7 @@
 
 In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trust worthy as possible.
 
-<font size="4">**Table of Contents:**</font>
-
+##### Table of Contents:
 - [1. **SUNERGY Requirements**](#1-sunergy-requirements)
   - [1.1 **Base Setup**](#11-base-setup)
   - [1.2 **Basic Requirements**](#12-basic-requirements)
@@ -99,33 +98,31 @@ Various technical apparatus and tools required to acheive our goal are:
 11. **Bio Gas plant**(optional): A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
 
 ---
-## 1.4 **Documentation Statistics**
+## 1.4 Documentation Statistics
 
--   **Word count**: 1560
--   **Total number of unique words**: 647
--   **Total number of repeated words**: 913
--   **Total number of sentences**: 41
--   **Total number of characters**: 9382
--   **Total number of characters without spaces**: 7888
--   **Total number of syllables**: 2466
--   **Average number of words per sentence**: 39
--   **Average number of characters per sentence**: 229
--   **Average number of characters per word**: 5.10
--   **Average number of syllables per word**: 1.57
+| Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
+|------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
+| 1560       | 647            | 913              | 41          | 9382         | 7888                    | 2466        |
+
+| Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
+|--------------------------|-------------------------------|---------------------------|--------------------------|
+| 39                       | 229                           | 5.10                      | 1.57                     |
+
 
 The above results were obtained using https://wordcounter.net/.
 
 ---
 
-## 1.5 **Document Readability indices**
-
--   **Flesch Reading Ease score**: 57
--   **Dale-Chall Readability score**: 12
--   **Flesch-Kincaid Grade level**: 9
--   **The Coleman-Liau Index**: 11
--   **Automated Readability Index**: 10
--   **SMOG Formula score**: 13
--   **Spache Readability score**: 6
+## 1.5 Document Readability indices
+| Readability Index                | Score |
+|----------------------------------|-------|
+| Flesch Reading Ease score        | 57    |
+| Dale-Chall Readability score     | 12    |
+| Flesch-Kincaid Grade level       | 9     |
+| The Coleman-Liau Index           | 11    |
+| Automated Readability Index      | 10    |
+| SMOG Formula score               | 13    |
+| Spache Readability score         | 6     |
 
 The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 

@@ -9,6 +9,7 @@ In the following document, we give a brief on various specifications of the comp
 
 **NOTE:** These specifications may change as the design work progresses further.
 
+##### Table of Contents:
 - [2. **SUNERGY Specifications**](#2-sunergy-specifications)
   - [2.1 **Electrical Specifications**](#21-electrical-specifications)
     - [2.1.1 Battery](#211-battery)
@@ -363,17 +364,13 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 
 ## 2.3 Documentation Statistics [2]
 
--   **Word count**: 2637
--   **Total number of unique words**: 922
--   **Total number of repeated words**: 1715
--   **Total number of sentences**: 49
--   **Total number of characters**: 22879
--   **Total number of characters without spaces**: 16198
--   **Total number of syllables**: 4471
--   **Average number of words per sentence**: 54
--   **Average number of characters per sentence**: 467
--   **Average number of characters per word**: 6.1
--   **Average number of syllables per word**: 1.69
+| Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
+|------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
+| 2637       | 922            | 1715             | 49          | 22879        | 16198                   | 4471        |
+
+| Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
+|--------------------------|-------------------------------|---------------------------|--------------------------|
+| 54                       | 467                           | 6.1                       | 1.69                     |
 
 The above results were obtained using https://wordcounter.net/.
 
@@ -381,13 +378,15 @@ The above results were obtained using https://wordcounter.net/.
 
 ## 2.4 Document Readability indices [3]
 
--   **Flesch Reading Ease score**: 58
--   **Dale-Chall Readability score**: 8.3
--   **Flesch-Kincaid Grade level**: 8
--   **The Coleman-Liau Index**: 16
--   **Automated Readability Index**: 12
--   **SMOG Formula score**: 12
--   **Spache Readability score**: 4
+| Readability Index                | Score |
+|----------------------------------|-------|
+| Flesch Reading Ease score        | 58    |
+| Dale-Chall Readability score     | 8.3   |
+| Flesch-Kincaid Grade level       | 8     |
+| The Coleman-Liau Index           | 16    |
+| Automated Readability Index      | 12    |
+| SMOG Formula score               | 12    |
+| Spache Readability score         | 4     |
 
 The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 
