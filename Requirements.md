@@ -1,22 +1,23 @@
-<font size="5"> <center> ELP305 Design and Systems Laboratory </center> </font>
-<font size="4"> <center> Semester 2, 2021-2022 </center></font>
-<font size="3"> <center> Tribe E </center></font>
+# ELP305 Design and Systems Laboratory
+## Semester 2, 2021-2022 
+### Tribe E
 
-# 1. **SUNERGY Requirements**
+# 1. SUNERGY Requirements
 
 In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trust worthy as possible.
 
-<font size="4">**Table of Contents:**</font>
-
+##### Table of Contents:
 - [1. **SUNERGY Requirements**](#1-sunergy-requirements)
   - [1.1 **Base Setup**](#11-base-setup)
   - [1.2 **Basic Requirements**](#12-basic-requirements)
   - [1.3 **Technical Requirements**](#13-technical-requirements)
-  - [1.4 **References**](#14-references)
-  - [1.5 **Documentation Statistics**](#15-documentation-statistics)
-  - [1.6 **Document Readability indices**](#16-document-readability-indices)
+  - [1.4 **Documentation Statistics**](#14-documentation-statistics)
+  - [1.5 **Document Readability indices**](#15-document-readability-indices)
+  - [1.6 **References**](#16-references)
 
-## 1.1 **Base Setup**
+---
+
+## 1.1 Base Setup
 
 One of the main requirements for the system is that it is reasonably easy to set up so that minimum technical assistance is required for the same, and the house owner can perhaps even set it up himself.
 These requirements require the system to be:
@@ -28,30 +29,29 @@ These requirements require the system to be:
 -   **Long-term sustenance**: Should sustain itself for long periods of time even in the absence of production (no solar production during winters).
 -   **Backup Generator**: Need in cases of emergency, high power usage situations, and 2nd option for achieving the above goal (long-term sustenance).
 
-## 1.2 **Basic Requirements**
+---
+
+## 1.2 Basic Requirements
 
 Some of the basic user requirements are:
 
 1. **Accommodation**: The energy generated should be able to satisfy the needs of a family of six.
 
 2. **Power Requirements**: The daily power requirement is approximately 24-25 kWh. The explanation for the same can be seen as follows:
- <p style="page-break-before: always">
+
 
 | S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
 | ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
-| 1                       | Tube Light                | 10                   | 0.036kW                | 8 Hours                | 0.036\*5\*8=1.44kWh    | Assuming, on average, 5 lights out of 10 are ON for 8 hours.      |
-| 2                       | Television (50 inches)    | 1                    | 0.1kW                  | 6 Hours                | 0.1\*1\*6=0.6kWh       | Assuming the television to be ON for 6 hours a day                |
-| 3                       | Air Conditioner (1 tonne) | 1                    | 1kW                    | 8 Hours                | 1\*1\*8=8kWh           | The ACs need to be used only during the summers                   |
-| 4                       | Heater                    | 1                    | 1.5kW                  | 6 Hours                | 1.5\*1\*6=9kWh         | The heater needs to be used only during the winters.              |
-| 5                       | Ordinary ceiling fan      | 4                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |                                                                   |
-| 6                       | Refrigerator (400L)       | 1                    | 0.15kW                 | 24 Hours               | 0.15\*1\*24=3.6kWh     |                                                                   |
-| 7                       | Washing machine (7kg)     | 1                    | 2kW                    | 0.5 Hour               | 2\*1\*0.5=1kWh         |                                                                   |
-| 8                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         |                                                                   |
-| 9                       | Personal Computer         | 1                    | 0.2kW                  | 6 Hours                | 0.2\*1\*6=1.2kWh       |                                                                   |
-| 10                      | Miscellaneous             |                      |                        |                        | 3kWh                   | Assuming laptops, cooking appliances etc to consume 3kWh per day. |
-| Daily power requirement | Summers//Winters          |                      |                        |                        | 21.84//22.84 kWh ± 10% |
+| 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
+| 2                       | LED Bulbs                | 4                   | 0.04kW                | 6 Hours                | 0.04\*3\*6=0.72kWh    | Assuming, on average, 3 lights out of 4 are ON for 6 hours.      |
+| 3                       | Ordinary ceiling fan      | 6                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |  Assuming, on average, 4 fans out of 6 are ON for 8 hours.  Only in Summers    |
+| 4                       | Induction Stove              | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh         |                                                            |
+| 5                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         | Only in Winters                                                                  |
+| 6                      | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
+| 7                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
+| Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
 
-3. **Budget**: The cost of manufacturing should not be more than Rs. 4,00,000.
+3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
 
 4. **Backup**: In case of any system failure, there must be a fuel generator strong enough to provide backup for the basic energy requirements.
 
@@ -69,7 +69,9 @@ Some of the basic user requirements are:
 
 11. **Remote Access**: The system should be equipped with a remote accessing facility of solar panels as well as the appliances.
 
-## 1.3 **Technical Requirements**
+---
+
+## 1.3 Technical Requirements
 
 Various technical apparatus and tools required to acheive our goal are:
 
@@ -79,54 +81,55 @@ Various technical apparatus and tools required to acheive our goal are:
 
 3. **Inverter**: Solar panels generate DC electricity which needs to be converted to AC electricity needed by many common household appliances which are achieved by using an inverter. We wish to have an inverter that is cheap and provides high efficiency in converting DC to AC with minimal power losses.
 
-4. **Timed rotators for panels** (optional): In order to obtain more solar energy, the panels should be able to rotate on a shaft in accordance with the motion of the sun. The cost of such a tracking-based system, however, can be significant.
+4. **Mounting apparatus**: Solar panels are usually connected to each other and then subsequently mounted either on the roof or on the ground. The panels must be mounted so as to ensure cooling airflow and in a manner where maximum sunlight is available to the panels throughout the day.
 
-5. **Mounting apparatus**: Solar panels are usually connected to each other and then subsequently mounted either on the roof or on the ground. The panels must be mounted so as to ensure cooling airflow and in a manner where maximum sunlight is available to the panels throughout the day.
+5. **Charge Controllers**: Charge controllers are used to control the amount of current fed into the battery by the solar panels.This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. There are two types of charge controller devices available - PWM and MPPT of which MPPT though more expensive is upto 30% more efficient than PWM charge controllers.
 
-6. **Charge Controllers**: Charge controllers are used to control the amount of current fed into the battery by the solar panels.This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. There are two types of charge controller devices available - PWM and MPPT of which MPPT though more expensive is upto 30% more efficient than PWM charge controllers.
+6. **Battery Monitor**: This meter would allow us to get an idea of how much power is being generated, how much amount we are saving by using solar panels and helps monitor which appliances use more power to manage energy utility.
 
-7. **Battery Monitor**: This meter would allow us to get an idea of how much power is being generated, how much amount we are saving by using solar panels and helps monitor which appliances use more power to manage energy utility.
+7. **Backup Generator**: In case of off-grid systems backup power supply like a generator can serve as an alternate power supply in case of cloudy days, high demand or other unforeseen circumstances. The environmental impact of the generator could be reduced by using alternative fuels like biodiesel.
 
-8. **Backup Generator**: In case of off-grid systems backup power supply like a generator can serve as an alternate power supply in case of cloudy days, high demand or other unforeseen circumstances. The environmental impact of the generator could be reduced by using alternative fuels like biodiesel.
+8. **Disconnects**: These are manual switches that enable us to cut off the power supply to and from the inverter in case of maintenance. This prevents current from flowing beyond the switch to some damaged component.
 
-9. **Disconnects**: These are manual switches that enable us to cut off the power supply to and from the inverter in case of maintenance. This prevents current from flowing beyond the switch to some damaged component.
+9. **Smart Lights**: Smart lights can be used to track Daytime and thus switching on/off lights at necessary places accordingly. This would allow us to smartly switch off electrical appliances not being used in order to save energy.
 
-10. **PIR sensors**: Passive infrared sensors can be used in order to detect human motion in and out of rooms. This would allow us to smartly switch off electrical appliances not being used in order to save energy.
+10. **Wires**: Insulated copper or aluminum wires needed to connect various electrical components
 
-11. **Dynamo**: A small electrical generator that can be installed in gym equipment to harness energy to power some low power electrical devices
+11. **Bio Gas plant**(optional): A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
 
-12. **Wires**: Insulated copper or aluminum wires needed to connect various electrical components
+---
+## 1.4 Documentation Statistics
 
-13. **Bio Gas plant**: A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
+| Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
+|------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
+| 1560       | 647            | 913              | 41          | 9382         | 7888                    | 2466        |
 
-## 1.4 **References**
+| Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
+|--------------------------|-------------------------------|---------------------------|--------------------------|
+| 39                       | 229                           | 5.10                      | 1.57                     |
 
--   https://www.alternative-energy-tutorials.com/solar-power/7-components-of-your-solar-power-system.html
-
-## 1.5 **Documentation Statistics**
-
--   **Word count**: 1560
--   **Total number of unique words**: 647
--   **Total number of repeated words**: 913
--   **Total number of sentences**: 41
--   **Total number of characters**: 9382
--   **Total number of characters without spaces**: 7888
--   **Total number of syllables**: 2466
--   **Average number of words per sentence**: 39
--   **Average number of characters per sentence**: 229
--   **Average number of characters per word**: 5.10
--   **Average number of syllables per word**: 1.57
 
 The above results were obtained using https://wordcounter.net/.
 
-## 1.6 **Document Readability indices**
+---
 
--   **Flesch Reading Ease score**: 57
--   **Dale-Chall Readability score**: 12
--   **Flesch-Kincaid Grade level**: 9
--   **The Coleman-Liau Index**: 11
--   **Automated Readability Index**: 10
--   **SMOG Formula score**: 13
--   **Spache Readability score**: 6
+## 1.5 Document Readability indices
+| Readability Index                | Score |
+|----------------------------------|-------|
+| Flesch Reading Ease score        | 57    |
+| Dale-Chall Readability score     | 12    |
+| Flesch-Kincaid Grade level       | 9     |
+| The Coleman-Liau Index           | 11    |
+| Automated Readability Index      | 10    |
+| SMOG Formula score               | 13    |
+| Spache Readability score         | 6     |
 
 The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
+
+---
+
+## 1.6 References
+
+-   https://www.alternative-energy-tutorials.com/solar-power/7-components-of-your-solar-power-system.html
+
+---
