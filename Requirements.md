@@ -1,8 +1,8 @@
-<font size="5"> <center> ELP305 Design and Systems Laboratory </center> </font>
-<font size="4"> <center> Semester 2, 2021-2022 </center></font>
-<font size="3"> <center> Tribe E </center></font>
+# ELP305 Design and Systems Laboratory
+## Semester 2, 2021-2022 
+### Tribe E
 
-# 1. **SUNERGY Requirements**
+# 1. SUNERGY Requirements
 
 In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trust worthy as possible.
 
@@ -12,11 +12,13 @@ In the following document, we give a brief on various traits that our off-grid l
   - [1.1 **Base Setup**](#11-base-setup)
   - [1.2 **Basic Requirements**](#12-basic-requirements)
   - [1.3 **Technical Requirements**](#13-technical-requirements)
-  - [1.4 **References**](#14-references)
-  - [1.5 **Documentation Statistics**](#15-documentation-statistics)
-  - [1.6 **Document Readability indices**](#16-document-readability-indices)
+  - [1.4 **Documentation Statistics**](#14-documentation-statistics)
+  - [1.5 **Document Readability indices**](#15-document-readability-indices)
+  - [1.6 **References**](#16-references)
 
-## 1.1 **Base Setup**
+---
+
+## 1.1 Base Setup
 
 One of the main requirements for the system is that it is reasonably easy to set up so that minimum technical assistance is required for the same, and the house owner can perhaps even set it up himself.
 These requirements require the system to be:
@@ -28,14 +30,16 @@ These requirements require the system to be:
 -   **Long-term sustenance**: Should sustain itself for long periods of time even in the absence of production (no solar production during winters).
 -   **Backup Generator**: Need in cases of emergency, high power usage situations, and 2nd option for achieving the above goal (long-term sustenance).
 
-## 1.2 **Basic Requirements**
+---
+
+## 1.2 Basic Requirements
 
 Some of the basic user requirements are:
 
 1. **Accommodation**: The energy generated should be able to satisfy the needs of a family of six.
 
 2. **Power Requirements**: The daily power requirement is approximately 24-25 kWh. The explanation for the same can be seen as follows:
- <p style="page-break-before: always">
+
 
 | S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
 | ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
@@ -66,7 +70,9 @@ Some of the basic user requirements are:
 
 11. **Remote Access**: The system should be equipped with a remote accessing facility of solar panels as well as the appliances.
 
-## 1.3 **Technical Requirements**
+---
+
+## 1.3 Technical Requirements
 
 Various technical apparatus and tools required to acheive our goal are:
 
@@ -92,11 +98,8 @@ Various technical apparatus and tools required to acheive our goal are:
 
 11. **Bio Gas plant**(optional): A biogas plant can be set up to harness energy out of the biodegradable waste that is produced in the household. This can later be used in the form of cooking gas or processed through a biogas generator for an alternative electricity source.
 
-## 1.4 **References**
-
--   https://www.alternative-energy-tutorials.com/solar-power/7-components-of-your-solar-power-system.html
-
-## 1.5 **Documentation Statistics**
+---
+## 1.4 **Documentation Statistics**
 
 -   **Word count**: 1560
 -   **Total number of unique words**: 647
@@ -112,7 +115,9 @@ Various technical apparatus and tools required to acheive our goal are:
 
 The above results were obtained using https://wordcounter.net/.
 
-## 1.6 **Document Readability indices**
+---
+
+## 1.5 **Document Readability indices**
 
 -   **Flesch Reading Ease score**: 57
 -   **Dale-Chall Readability score**: 12
@@ -123,3 +128,11 @@ The above results were obtained using https://wordcounter.net/.
 -   **Spache Readability score**: 6
 
 The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
+
+---
+
+## 1.6 References
+
+-   https://www.alternative-energy-tutorials.com/solar-power/7-components-of-your-solar-power-system.html
+
+---

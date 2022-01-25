@@ -1,8 +1,8 @@
-<font size="5"> <center> ELP305 Design and Systems Laboratory </center> </font>
-<font size="4"> <center> Semester 2, 2021-2022 </center></font>
-<font size="3"> <center> Tribe E </center></font>
+# ELP305 Design and Systems Laboratory
+## Semester 2, 2021-2022 
+### Tribe E
 
-# 2. **SUNERGY Specifications**
+# 2. SUNERGY Specifications
 _The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)_ [1].
 
 In the following document, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
@@ -39,7 +39,7 @@ In the following document, we give a brief on various specifications of the comp
 ---
 
 
-## 2.1 **Electrical Specifications**
+## 2.1 Electrical Specifications
 ### 2.1.1 Battery
 #### Luminous Red Charge RC 18000 150 Ah battery
 
@@ -337,7 +337,7 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 
 ---
 
-## 2.2 **Mechanical Specifications**
+## 2.2 Mechanical Specifications
 ### 2.2.1 Solar Panel Mounts
 
 Panel mounts are used to fix solar panels on surfaces like roofs, building facades, or ground. The panel array is mounted with each panel aligned at an angle. This angle is variable and mounts should be bought according to the type of rooftop. We'll be using ones with 25° inclination.
@@ -361,7 +361,7 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 
 ---
 
-## 2.3 **Documentation Statistics** [2]
+## 2.3 Documentation Statistics [2]
 
 -   **Word count**: 2637
 -   **Total number of unique words**: 922
@@ -377,7 +377,9 @@ We'll be using 2 such mounts for our system, which consists of 8 panels.
 
 The above results were obtained using https://wordcounter.net/.
 
-## 2.4 **Document Readability indices** [3]
+---
+
+## 2.4 Document Readability indices [3]
 
 -   **Flesch Reading Ease score**: 58
 -   **Dale-Chall Readability score**: 8.3
@@ -389,13 +391,14 @@ The above results were obtained using https://wordcounter.net/.
 
 The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 
+---
 
-
-
-## 2.5 **References**
+## 2.5 References
 
 [1] [GitHub - Off Grid Energy Design - Tribe E](https://github.com/CrypticPoet/off-grid-energy-design)
 
 [2] [WordCounter - Count Words & Correct Writing](https://wordcounter.net/)
 
 [3] [Readability Check - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck)
+
+---
