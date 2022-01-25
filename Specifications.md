@@ -9,6 +9,8 @@ In the following document, we give a brief on various specifications of the comp
 
 **NOTE:** These specifications may change as the design work progresses further.
 
+---
+
 ##### Table of Contents:
 - [2. **SUNERGY Specifications**](#2-sunergy-specifications)
   - [2.1 **Electrical Specifications**](#21-electrical-specifications)

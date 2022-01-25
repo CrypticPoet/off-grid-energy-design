@@ -6,6 +6,8 @@
 
 In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trust worthy as possible.
 
+---
+
 ##### Table of Contents:
 - [1. **SUNERGY Requirements**](#1-sunergy-requirements)
   - [1.1 **Base Setup**](#11-base-setup)
