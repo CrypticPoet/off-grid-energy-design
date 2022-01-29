@@ -16,7 +16,7 @@ In the following document, we give a brief on various traits that our off-grid l
   - [1.4 **Documentation Statistics**](#14-documentation-statistics)
   - [1.5 **Document Readability indices**](#15-document-readability-indices)
   - [1.6 **References**](#16-references)
-<div align="center">
+
 
 | S.No.|Tables       |
 |:-:|:-:           |
@@ -24,7 +24,7 @@ In the following document, we give a brief on various traits that our off-grid l
 | 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
 | 3 | [**Document Readability indices**](#15-document-readability-indices) |
 
-</div>
+
 
 ---
 
