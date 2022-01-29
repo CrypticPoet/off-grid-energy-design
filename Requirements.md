@@ -24,6 +24,16 @@ In the following document, we give a brief on various traits that our off-grid l
 | 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
 | 3 | [**Document Readability indices**](#15-document-readability-indices) |
 
+| S.No.|abbreviation | Stands For |
+|:-:|:-:|:-:|
+| 1 |**kWh**| kiloWatt hour |
+| 2 |**kW**| kiloWatt|
+| 3 |**W**| Watt|
+|4  |**MCB**| Miniature Circuit Breaker|
+|5| **AC**| Alternating Current|
+|6| **DC**| Direct Current|
+
+
 
 
 ---
