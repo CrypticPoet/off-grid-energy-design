@@ -22,8 +22,8 @@ In the following document, we give a brief on how the off-grid energy solution i
 
 | S.No.|Tables       |
 |:-:|:-:           |
-| 1 |    [**Documentation Statistics**](#14-documentation-statistics)|
-| 2 | [**Document Readability indices**](#15-document-readability-indices) |
+| 1 |    [**Documentation Statistics**](#33-documentation-statistics)|
+| 2 | [**Document Readability indices**](#34-document-readability-indices) |
 
 | S.No.| Figures       |
 |:-:|:-:           |
