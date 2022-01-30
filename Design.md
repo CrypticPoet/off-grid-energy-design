@@ -74,7 +74,6 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 ---
 
 ## 3.3 Documentation Statistics
-%%Needs to be changed%%
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
 |------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
@@ -89,7 +88,6 @@ The above results were obtained using https://wordcounter.net/ [7].
 ---
 
 ## 3.4 Document Readability indices
-%%Needs to be changed%%
 
 | Readability Index                | Score |
 |----------------------------------|-------|
