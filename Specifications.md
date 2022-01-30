@@ -336,7 +336,7 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 | Quantity      | 2 sets                                           |
 | Cost          | &#8377;799                                       |
 
-[Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/)
+[Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1)
 
 ---
 
@@ -348,7 +348,7 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202" height=500>
 
-We'll be using 2 such mounts for our system, which consists of 8 panels.
+We'll be using 1 such mount for our system, which consists of 4 panels.
 
 | Specification  (Single unit) | Value           |
 | ---------------------------- | --------------- |
