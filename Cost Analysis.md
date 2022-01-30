@@ -13,5 +13,6 @@
 | MC4 Solar Panel Connectors | &#8377;449 | 2 | &#8377;898 | [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)|
 |4 in 1 T4 Connector | &#8377;799 | 2 | &#8377;1,598 | [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1)|
 |Solar Panel Mount | &#8377;18,000 | 1 | &#8377;18,000 | [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)|
-| Labour Cost| | | &#8377;15,000 | |
-|Total Price | | | &#8377;2,11,207 |
+| Installation Cost| | | &#8377;12,320 | [Product Link](https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india)|
+| Electrician Charges| | | &#8377;3,000 | [Product Link](https://www.urbancompany.com/request/electricians)|
+|Total Price | | | &#8377;2,11,527 |
