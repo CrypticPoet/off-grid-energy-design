@@ -22,25 +22,26 @@ In the following document, we give a brief on how the off-grid energy solution i
 
 | S.No.|Tables       |
 |:-:|:-:           |
-| 1 |[**Power Requirements**](#12-basic-requirements)|
-| 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
-| 3 | [**Document Readability indices**](#15-document-readability-indices) |
+| 1 |    [**Documentation Statistics**](#14-documentation-statistics)|
+| 2 | [**Document Readability indices**](#15-document-readability-indices) |
 
 | S.No.| Figures       |
 |:-:|:-:           |
 | 1 |[**Front View of Designed House**](#front)|
-| 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
-| 3 | [**Document Readability indices**](#15-document-readability-indices) |
+| 2 |    [**Side View of Designed House**](#side)|
+| 3 | [**Back View of Designed House**](#side) |
+|4  | [**Isometric View of Designed House**](#isometric)|
+|5| [**Components Label**](#component)|
+|6| [**Wiring Diagram**](#wiring)|
 
 
 | S.No.|abbreviation | Stands For |
 |:-:|:-:|:-:|
-| 1 |**kWh**| kiloWatt hour |
-| 2 |**kW**| kiloWatt|
-| 3 |**W**| Watt|
-|4  |**MCB**| Miniature Circuit Breaker|
-|5| **AC**| Alternating Current|
-|6| **DC**| Direct Current|
+| 1 |**CAD**| Computer Aided Design |
+|2  |**MC4**| Multi-Contact 4 millimetre|
+|3| **AC**| Alternating Current|
+|4| **DC**| Direct Current|
+|5| **MCB** | Miniature Circuit Breaker| 
 ---
 
 ## 3.1 CAD/Assembly
@@ -52,7 +53,7 @@ The following image is the 3-D diagram of the designed house.
 
 ---
 
-<p align="center">
+<p align="center" id="side">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20view.png" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20view.png" alt="Back View" width=300/>
 	 <figcaption align="center">Fig 3.1.2: Side View and Back View (L to R)</figcaption>
@@ -60,7 +61,7 @@ The following image is the 3-D diagram of the designed house.
 
 ---
 
-<p align="center">
+<p align="center" id="isometric">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/tinker.jpeg" alt="Isometric view"  width=300/> 
 	 <figcaption align="center">Fig 3.1.3: Isometric View</figcaption>
 </p>
@@ -69,7 +70,7 @@ The following image is the 3-D diagram of the designed house.
 
 The components of our energy solution are detailed as follows:
 
-<p align="center">
+<p align="center" id="component" >
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20cut.png" alt="Side Cut view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20cut.png" alt="Back Cut View" width=300/>
 	<figcaption align="center">Fig 3.1.4: Component Labels</figcaption>
@@ -89,7 +90,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 ## 3.2 Wiring Diagram
 The next step is to realize the design using all the components mentioned in the specifications by appropriately connecting them. The diagram below shows the connections for the same. 
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Images/wiring_diagram.jpg" width=512></p>
+<p align="center" id="wiring"><img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Images/wiring_diagram.jpg" width=512></p>
 
 The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. These are then connected to a DC Circuit Breaker using T4 connectors. The wires then go via a DC Surge Protector to the invertor which is connected to a series combination of 3 batteries of 12V each. The output of the invertor then goes to an AC circuit breaker which has also been connected to the generator for backup. This is finally connected to the MCB inside the house.
 
