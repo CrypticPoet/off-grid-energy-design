@@ -19,6 +19,28 @@ In the following document, we give a brief on how the off-grid energy solution i
   - [3.4 **Document Readability indices**](#34-document-readability-indices)
   - [3.5 **References**](#35-references)
 
+
+| S.No.|Tables       |
+|:-:|:-:           |
+| 1 |[**Power Requirements**](#12-basic-requirements)|
+| 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
+| 3 | [**Document Readability indices**](#15-document-readability-indices) |
+
+| S.No.| Figures       |
+|:-:|:-:           |
+| 1 |[**Front View of Designed House**](#front)|
+| 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
+| 3 | [**Document Readability indices**](#15-document-readability-indices) |
+
+
+| S.No.|abbreviation | Stands For |
+|:-:|:-:|:-:|
+| 1 |**kWh**| kiloWatt hour |
+| 2 |**kW**| kiloWatt|
+| 3 |**W**| Watt|
+|4  |**MCB**| Miniature Circuit Breaker|
+|5| **AC**| Alternating Current|
+|6| **DC**| Direct Current|
 ---
 
 ## 3.1 CAD/Assembly
