@@ -45,7 +45,7 @@ In the following document, we give a brief on how the off-grid energy solution i
 
 ## 3.1 CAD/Assembly
 The following image is the 3-D diagram of the designed house.
-<p align="center">
+<p align="center" id="front">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/front%20view.png" alt="Front View" width=500>
 	<figcaption align="center">Fig 3.1.1: Front View</figcaption>
 </p>
