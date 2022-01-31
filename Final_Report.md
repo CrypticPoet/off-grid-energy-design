@@ -54,12 +54,20 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 #### List of Figures
 ---
 
+## Project Management
+
+---
+
 ## Abstract
 The necessity for increased power generation is unavoidable since the world's electricity consumption rises on a regular basis. As a result, we need renewable energy resources which can meet electrical power demand up to a large fraction of total demand. In this report we are designing a cost-effective self-sustainable electrical system using the available solution in the market to meet the general electrical requirements of an Indian Household. Solar energy is used as major renewable energy source as it is versatile compared to other renewable sources, easy and feasible to convert in electrical form.
 
 ---
 
 ## Aim
+
+---
+
+## Scope
 
 ---
 
@@ -74,3 +82,11 @@ The necessity for increased power generation is unavoidable since the world's el
 ## Design
 
 ---
+
+## Cost Analysis
+
+---
+
+## Reuse
+
+--

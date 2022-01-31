@@ -37,8 +37,8 @@ In the following document, we give a brief on how the off-grid energy solution i
 
 | S.No.|abbreviation | Stands For |
 |:-:|:-:|:-:|
-| 1 |**CAD**| Computer Aided Design |
-|2  |**MC4**| Multi-Contact 4 millimetre|
+|1|**CAD**| Computer Aided Design |
+|2|**MC4**| Multi-Contact 4 millimetre|
 |3| **AC**| Alternating Current|
 |4| **DC**| Direct Current|
 |5| **MCB** | Miniature Circuit Breaker| 
@@ -46,44 +46,58 @@ In the following document, we give a brief on how the off-grid energy solution i
 
 ## 3.1 CAD/Assembly
 The following image is the 3-D diagram of the designed house.
-<p align="center" id="front">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/front%20view.png" alt="Front View" width=500>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
 	<figcaption align="center">Fig 3.1.1: Front View</figcaption>
 </p>
 
----
-
-<p align="center" id="side">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20view.png" alt="Side view" width=300/> 
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20view.png" alt="Back View" width=300/>
-	 <figcaption align="center">Fig 3.1.2: Side View and Back View (L to R)</figcaption>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe.jpg" alt="Side view" width=500/> 
+	 <figcaption align="center">Fig 3.1.2: Side View</figcaption>
 </p>
 
----
-
-<p align="center" id="isometric">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/tinker.jpeg" alt="Isometric view"  width=300/> 
-	 <figcaption align="center">Fig 3.1.3: Isometric View</figcaption>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_top.jpg" alt="Top View" width=500/>
+	 <figcaption align="center">Fig 3.1.3: Top View</figcaption>
 </p>
 
----
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_orthographic.jpg" alt="Isometric view"  width=500/> 
+	 <figcaption align="center">Fig 3.1.3: Orthographic View</figcaption>
+</p>
+
 
 The components of our energy solution are detailed as follows:
 
-<p align="center" id="component" >
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20cut.png" alt="Side Cut view" width=300/> 
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20cut.png" alt="Back Cut View" width=300/>
-	<figcaption align="center">Fig 3.1.4: Component Labels</figcaption>
-</p>
-
-***Label 1*** - Solar Panels  
+***Label 1*** - Solar Panels
 Solar panels to take the solar energy and give a DC current.
 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.4: Side View, Front View and Top View (L to R)</figcaption>
+</p>
+
 ***Label 2*** - Inverter  
-Takes the solar DC current and supply it power supply as well as store it in battery.
+Takes the solar DC current, and supply it power supply as well as store it in battery.
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+</p>
 
 ***Label 3*** - Battery  
 Stores the solar converted electrical energy for further use when solar power cannot be harnessed e.g. Night. 
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+</p>
 
 ---
 
