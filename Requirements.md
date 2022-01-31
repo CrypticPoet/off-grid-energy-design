@@ -4,7 +4,7 @@
 
 # 1. SUNERGY Requirements
 
-In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trust worthy as possible.
+In the following document, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
 ---
 
