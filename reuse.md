@@ -4,7 +4,7 @@
 
     - Create Greenhouses : A greenhouse is generally made up of glass and so are solar panels. We can easily make use of them and keep our plants warm throughout the cooler months. The junction box and frame are separately removed to recover copper and aluminum. Both of these materials are 100% reusable.
     
-     - Use Them as Insulation : We can use our old solar panels to create walls and insulation to make our home even more eco friendly.
+    - Use Them as Insulation : We can use our old solar panels to create walls and insulation to make our home even more eco friendly.
     
 2) Battery 
 
@@ -16,10 +16,12 @@
 
     - These are structures made of galvanized iron and can be used for mounting other solar panels or can also be sold as scrap iron to manufacture other equipment.
 
-4) Battery monitors
+4) Backup Generator
 
-    - They can be used for any electrical apparatus that is battery operated or stores energy such as electric vehicles like e-bikes and scooters and power banks.
- 
+    - Generator is always needed for family reunions, weddings, cookouts and other outdoor parties to provide power.
+    
+    - Generators can be used to store the energy captured by solar panels to be used later instead of sending it back to the grid.
+
 5) Disconnects
     
     - Circuit breaker is reusable and can be reset after it has tripped due to overloads.
