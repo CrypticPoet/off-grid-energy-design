@@ -17,6 +17,25 @@ In the following document, we give a brief on various traits that our off-grid l
   - [1.5 **Document Readability indices**](#15-document-readability-indices)
   - [1.6 **References**](#16-references)
 
+
+| S.No.|Tables       |
+|:-:|:-:           |
+| 1 |[**Power Requirements**](#12-basic-requirements)|
+| 2 |    [**Documentation Statistics**](#14-documentation-statistics)|
+| 3 | [**Document Readability indices**](#15-document-readability-indices) |
+
+| S.No.|abbreviation | Stands For |
+|:-:|:-:|:-:|
+| 1 |**kWh**| kiloWatt hour |
+| 2 |**kW**| kiloWatt|
+| 3 |**W**| Watt|
+|4  |**MCB**| Miniature Circuit Breaker|
+|5| **AC**| Alternating Current|
+|6| **DC**| Direct Current|
+
+
+
+
 ---
 
 ## 1.1 Base Setup
@@ -41,7 +60,7 @@ Some of the basic user requirements are:
 
 2. **Power Requirements**: The daily power requirement is approximately 24-25 kWh. The explanation for the same can be seen as follows:
 
-
+<!-- # table1 -->
 | S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
 | ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
 | 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
