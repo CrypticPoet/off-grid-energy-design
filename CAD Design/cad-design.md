@@ -1,42 +1,56 @@
 ## 3.1 CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/front%20view.png" alt="Front View" width=500>
+	<img src="./home_wireframe_front.jpg" alt="Front View" width=500>
 	<figcaption align="center">Fig 3.1.1: Front View</figcaption>
 </p>
 
----
-
 <p align="center">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20view.png" alt="Side view" width=300/> 
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20view.png" alt="Back View" width=300/>
-	 <figcaption align="center">Fig 3.1.2: Side View and Back View (L to R)</figcaption>
+	<img src="./home_wireframe.jpg" alt="Side view" width=500/> 
+	 <figcaption align="center">Fig 3.1.2: Side View</figcaption>
 </p>
 
----
-
 <p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/tinker.jpeg" alt="Isometric view"  width=300/> 
-	 <figcaption align="center">Fig 3.1.3: Isometric View</figcaption>
+	 <img src="./home_wireframe_top.jpg" alt="Top View" width=500/>
+	 <figcaption align="center">Fig 3.1.3: Top View</figcaption>
 </p>
 
----
+<p align="center">
+	 <img src="./home_orthographic.jpg" alt="Isometric view"  width=500/> 
+	 <figcaption align="center">Fig 3.1.3: Orthographic View</figcaption>
+</p>
+
 
 The components of our energy solution are detailed as follows:
-
-<p align="center">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/side%20cut.png" alt="Side Cut view" width=300/> 
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/back%20cut.png" alt="Back Cut View" width=300/>
-	<figcaption align="center">Fig 3.1.4: Component Labels</figcaption>
-</p>
 
 ***Label 1*** - Solar Panels  
 Solar panels to take the solar energy and give a DC current.
 
+<p align="center">
+	<img src="./solar_side.jpg" alt="Side view" width=300/> 
+	<img src="./solar_front.jpg" alt="Front View" width=300/>
+	<img src="./solar_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.4: Side View, Front View and Top View (L to R)</figcaption>
+</p>
+
 ***Label 2*** - Inverter  
 Takes the solar DC current and supply it power supply as well as store it in battery.
 
+<p align="center">
+	<img src="./inverter_side.jpg" alt="Side view" width=300/> 
+	<img src="./inverter_front.jpg" alt="Front View" width=300/>
+	<img src="./inverter_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+</p>
+
 ***Label 3*** - Battery  
 Stores the solar converted electrical energy for further use when solar power cannot be harnessed e.g. Night. 
+
+<p align="center">
+	<img src="./battery_side.jpg" alt="Side view" width=300/> 
+	<img src="./battery_side.jpg" alt="Front View" width=300/>
+	<img src="./battery_top.jpg" alt="Top View" width=300/>
+	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+</p>
 
 ---
