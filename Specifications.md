@@ -39,6 +39,87 @@ In the following document, we give a brief on various specifications of the comp
   - [2.4 **Document Readability indices** [3]](#24-document-readability-indices-3)
   - [2.5 **References**](#25-references)
 
+#### List of Abbreviations 
+|  S.NO.  | Abbreviation|Stands For|
+ | :---:|:-----:|:--------------------:|
+ |1.| A | Ampere|
+ |2.| AC | Alternating Current|
+ |3.| Ah | Ampere Hour|
+ |4.| BIS | Bureau of Indian Standards|
+ |5.| cm| centimetre|
+|6.| °C | Degree Celsius| 
+|7.| DC| Direct Current|
+|8.| ETP | Electrolytic Tough Pitch |
+|9.| ft | Feet | 
+|10.| g | Gram |
+|11.| Hz| Hertz|
+|12.| H | Height|
+|13.| HRFR|Heat Resistant Flame Retardant|
+|14.| IMP| Current at Maximum Power|
+|15.| IP | Ingress Protection|
+|16.| kW| Kilo Watt|
+|17.| kg | Kilogram|
+|18.| kVA| Kilo Volt Ampere|
+|19.| kWh| Kilo Watt Hour|
+|20.| L | Litre|
+|21.| LED| Light Emitting Diode|
+|22.| hr| Hour|
+|23.| MPPT | Maximum Power Point Tracking|
+|24.| m | metre|
+|25.| mm| milimetre|
+|26.| mA| mili Ampere|
+|27.| m<sup>2</sup>| metre square|
+|28.| mm<sup>2</sup>| milimetre square|
+|29.| misc| Miscellaneous|
+|30.| MCB| Miniature Circuit Breaker|
+|31.| MC4 Connector|Multi-Contact 4 mm diameter contact pin Connector|
+|32.| PERC| Passivated Emitter and Rear Contact|
+|33.| PWM| Pulse Width Modulation|
+|34.| PC | Personal Computer |
+|35.| PA| Polyamide|
+|36.| PPO| Polyphenylene Oxide |
+|37.| UV | UltraViolet|
+|38.| V| Volt|
+|39.| VMP| Voltage at Maximum Power|
+|40.| Voc| Voltage at Open Circuit|
+|41.| W| Watt|
+#### List of Tables
+|  S.NO.  | Specification Tables|
+ | :---:|:-----:|
+ | 1. |  [**Battery**](#211-battery)|
+ |2.| [**Backup Genertaor**](#212-backup-generator)|
+ |3.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
+|4.|[**Solar Charge Controller**](#sizing)|
+|5.|[**High Efficiency Solar Panels**](#214-high-efficiency-solar-panels)|
+|6.|[**Solar DC Cables**](#solar-dc-cable)|
+|7.|[**Household Connection Wires**](#household-connection-wires)|
+|8.|[**AC Circuit Breaker**](#ac-circuit-breaker)|
+|9.|[**DC Circuit Breaker**](#dc-circuit-breaker)|
+|10.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
+|11.|[**Porcelain Fuse**](#porcelain-fuse)|
+|12.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
+|13.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
+|14.|[**Solar Panel Mounts**](#221-solar-panel-mounts)|
+|15.|[**Documentation Statistics**](#23-documentation-statistics-2)|
+|16.|[**Document Readability Indices**](#24-document-readability-indices-3)|
+ 
+ 
+ #### List of Figures
+ |  S.NO.  | Figures|
+ | :---:|:-----:|
+ |1.|[**Luminous Red Charge RC 18000 150 Ah battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
+|2.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
+|3.|[**Solar Panels**](#214-high-efficiency-solar-panels)|
+|4.|[**Solar DC Cables**](#solar-dc-cable)|
+|5.|[**Household Connection Wires**](#household-connection-wires)|
+|6.|[**AC Circuit Breaker**](#ac-circuit-breaker)|
+|7.|[**DC Circuit Breaker**](#dc-circuit-breaker)|
+|8.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
+|9.|[**Porcelain Fuse**](#porcelain-fuse)|
+|10.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
+|11.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
+|12.|[**Solar Panel Mounts**](#221-solar-panel-mounts)|
+ 
 ---
 
 
@@ -93,7 +174,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 ---
 
 ### 2.1.3 Hybrid Solar Inverter (Built in Solar Charge Controller)
-### 3KVA/ 36 V off Grid Solar Inverter
+### 3KVA/ 36 V Off Grid Solar Inverter
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 
