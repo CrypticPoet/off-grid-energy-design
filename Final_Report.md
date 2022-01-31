@@ -105,6 +105,8 @@ In this project we aim to design a cost-effective off-grid self sustainable elec
 
 In the following section, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
+---
+
 ### Base Setup
 
 One of the main requirements for the system is that it is reasonably easy to set up so that minimum technical assistance is required for the same, and the house owner can perhaps even set it up himself.
@@ -190,6 +192,8 @@ Various technical apparatus and tools required to acheive our goal are:
 ## Specifications
 
 In the following section, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
+
+---
 
 ### Electrical Specifications
 #### Battery
