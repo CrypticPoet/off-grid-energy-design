@@ -10,13 +10,8 @@ The following shows the start dates and durations of various sub-teams in the pr
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/sunergy1.png" alt=""  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/sunergy2.png" alt=""  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
+/sunergy.png" alt=""  width=500/> 
+	 <figcaption align="center">Sun Energy</figcaption>
 </p>
 
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
