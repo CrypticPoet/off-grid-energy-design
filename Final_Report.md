@@ -249,21 +249,24 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |  17.   | [**Side View of Designed House**](#side)                                                        |
 |  18.   | [**Top View of Designed House**](#top)                                                          |
 |  19.   | [**Orthographic View of Designed House**](#orthographic)                                        |
-|  20.   | [**Isometric View of Solar Panels 1**](#panel_view)                                             |
-|  21.   | [**Isometric View of Solar Panels 2**](#panel_view)                                             |
-|  22.   | [**Isometric View of Inverter 1**](#inverter_view)                                              |
-|  23.   | [**Isometric View of Inverter 2**](#inverter_view)                                              |
-|  24.   | [**Isometric View of Battery 1**](#battery_view)                                                |
-|  25.   | [**Isometric View of Battery 2**](#battery_view)                                                |
-|  26.   | [**Wiring Diagram**](#wiring)                                                                   |
-|  27.   | [**Gantt Chart**](#gantt)                                                                       |
-|  28.   | [**Work Breakdown Structure**](#work_breakdown)                                                 |
-|  29.   | [**Resources**](#resources)                                                                     |
-|  30.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
-|  31.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
-|  32.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
-|  33.   | [**Work Breakdown: Specifications**](#specs)                                                    |
-|  34.   | [**Work Breakdown: Documentation**](#docs)                                                      |
+|  20.   | [**Side View of Solar Panels**](#panel_view)                                                    |
+|  21.   | [**Front View of Solar Panels**](#panel_view)                                                   |
+|  22.   | [**Top View of Solar Panels**](#panel_view)                                                     |
+|  23.   | [**Side View of Inverter**](#inverter_view)                                                     |
+|  24.   | [**Front View of Inverter**](#inverter_view)                                                    |
+|  25.   | [**Top View of Inverter**](#inverter_view)                                                      |
+|  26.   | [**Side View of Battery**](#battery_view)                                                       |
+|  27.   | [**Front View of Battery**](#battery_view)                                                      |
+|  28.   | [**Top View of Battery**](#battery_view)                                                        |
+|  29.   | [**Wiring Diagram**](#wiring)                                                                   |
+|  30.   | [**Gantt Chart**](#gantt)                                                                       |
+|  31.   | [**Work Breakdown Structure**](#work_breakdown)                                                 |
+|  32.   | [**Resources**](#resources)                                                                     |
+|  33.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
+|  34.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
+|  35.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
+|  36.   | [**Work Breakdown: Specifications**](#specs)                                                    |
+|  37.   | [**Work Breakdown: Documentation**](#docs)                                                      |
 
 
 ---
@@ -896,7 +899,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/gantt.png" alt="Gantt chart" id="gantt" width=500/> 
-	 <figcaption align="center">Gantt Chart</figcaption>
+	 <figcaption align="center">Figure 27: Gantt Chart</figcaption>
 </p>
 
 The red path in the above Gantt Chart indicates the critical path. It was closely monitored, so that there were no delays in the corresponding works.
@@ -905,39 +908,39 @@ The following shows the start dates and durations of various subteams in the pro
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/sunergy.png" alt="Work breakdown structure" id="work_breakdown" width=500/> 
-	 <figcaption align="center">Work breakdown structure</figcaption>
+	 <figcaption align="center">Figure 28: Work breakdown structure</figcaption>
 </p>
 
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
-	 <figcaption align="center">Resources</figcaption>
+	 <figcaption align="center">Figure 29: Resources</figcaption>
 </p>
 
 The following shows the work breakdown structure:
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/assign.png" alt="Work Breakdown Structure" id="assign_work" width=500/> 
-	 <figcaption align="center">Assignment of Work</figcaption>
+	 <figcaption align="center">Figure 30: Assignment of Work</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/proj.png" alt="Work Breakdown Structure" id="proj_manage" width=500/> 
-	 <figcaption align="center">Project Management</figcaption>
+	 <figcaption align="center">Figure 31: Project Management</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/cad.png" alt="Work Breakdown Structure" id="cad_model" width=500/> 
-	 <figcaption align="center">CAD Model</figcaption>
+	 <figcaption align="center">Figure 32: CAD Model</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/lts.png" alt="Work Breakdown Structure" id="circuit" width=500/> 
-	 <figcaption align="center">Circuit design</figcaption>
+	 <figcaption align="center">Figure 33: Circuit design</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/specs.png" alt="Work Breakdown Structure" id="specs" width=500/> 
-	 <figcaption align="center">Specifications</figcaption>
+	 <figcaption align="center">Figure 34: Specifications</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/doc.png" alt="Work Breakdown Structure" id="docs" width=500/> 
-	 <figcaption align="center">Documentation</figcaption>
+	 <figcaption align="center">Figure 35: Documentation</figcaption>
 </p>
 
 ---
