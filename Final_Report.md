@@ -79,7 +79,7 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 ## Preamble
 #### List of Abbreviations
 #### List of Tables
-|  S.NO.  | Specification Tables|
+|  S.NO.  | Table|
 | :---:|:-----:|
 | 1.|  [**Authors**](#authors)|
 |2.| [**Documentation Statistics**](#documentation-statistics)|
