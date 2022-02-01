@@ -96,7 +96,7 @@ keywords:
 |    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     0.6     |
 |    14. | Amit Kumar               | mt6190744@iitd.ac.in | Member                                     |     1.0     |
 |    15. | Anirudh Singh Chauhan    | ee1191072@iitd.ac.in | Member                                     |     1.0     |
-|    16. | Ankit kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
+|    16. | Ankit Kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
 |    17. | Anshuman Panda           | mt1190463@iitd.ac.in | Member                                     |     1.0     |
 |    18. | Anurag Sharma            | mt6190745@iitd.ac.in | Member                                     |     1.0     |
 |    19. | Ayush Joshi              | ee1190486@iitd.ac.in | Member                                     |     1.0     |
@@ -156,7 +156,7 @@ The above results were obtained using https://wordcounter.net/.
 
 | Readability Index            | Score | Can be easily understood by |
 | :--------------------------- | :---- | :-------------------------- |
-| Flesch Reading Ease score    | 58    | 13 to 15 year olds          |
+| Flesch Reading Ease score    | 58    | 10th to 12th grade students |
 | Dale-Chall Readability score | 8.8   | 11th or 12th grade students |
 | Flesch-Kincaid Grade level   | 7     | 7th grade students          |
 | The Coleman-Liau Index       | 14    | Undergraduate students      |
