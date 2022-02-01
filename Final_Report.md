@@ -418,7 +418,7 @@ It also paves the way for more power output per panel, which means less number o
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
-<figcaption align="center">Figure 5: Solar Panels</figcaption>
+<figcaption align="center">Figure 5:  Solar Panels</figcaption>
 
 
 We'll be using 4 such panels in our system.
