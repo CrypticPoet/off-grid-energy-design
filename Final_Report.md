@@ -105,6 +105,11 @@ In this project we aim to design a cost-effective off-grid self sustainable elec
 
 In the following section, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/requirements.png" alt="Mindmap for Requirements"  width=450/> 
+	 <figcaption align="center">Mindmap for Requirements</figcaption>
+</p>
+
 ---
 
 ### Base Setup
@@ -192,6 +197,11 @@ Various technical apparatus and tools required to acheive our goal are:
 ## Specifications
 
 In the following section, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
+
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/specifications.png" alt="Mindmap for Specifications"  width=450/> 
+	 <figcaption align="center">Mindmap for Specifications</figcaption>
+</p>
 
 ---
 
@@ -504,7 +514,7 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 We'll be using 1 such mount for our system, which consists of 4 panels.
 
-| Specification  (Single unit) | Value           |
+| Specification (Single unit)  | Value           |
 | ---------------------------- | --------------- |
 | Cost                         | &#8377;12,000   |
 | Inclination                  | 25°             |
@@ -522,26 +532,31 @@ We'll be using 1 such mount for our system, which consists of 4 panels.
 
 Here, we give a brief on how the off-grid energy solution is expected to look like after assembling the various components. We also give design blueprints and wiring diagrams wherever required, making necessary but plausible assumptions about the geography and architecture of the house.
 
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/design.png" alt="Mindmap for Design"  width=450/> 
+	 <figcaption align="center">Mindmap for Design</figcaption>
+</p>
+
 ### CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
-	<figcaption align="center">Fig 3.1.1: Front View</figcaption>
+	<figcaption align="center">Front View</figcaption>
 </p>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe.jpg" alt="Side view" width=500/> 
-	 <figcaption align="center">Fig 3.1.2: Side View</figcaption>
+	 <figcaption align="center">Side View</figcaption>
 </p>
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_top.jpg" alt="Top View" width=500/>
-	 <figcaption align="center">Fig 3.1.3: Top View</figcaption>
+	 <figcaption align="center">Top View</figcaption>
 </p>
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_orthographic.jpg" alt="Isometric view"  width=500/> 
-	 <figcaption align="center">Fig 3.1.3: Orthographic View</figcaption>
+	 <figcaption align="center">Orthographic View</figcaption>
 </p>
 
 
@@ -554,7 +569,7 @@ Solar panels to take the solar energy and give a DC current.
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Fig 3.1.4: Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
 </p>
 
 ***Label 2*** - Inverter  
@@ -564,7 +579,7 @@ Takes the solar DC current, and supply it power supply as well as store it in ba
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
 </p>
 
 ***Label 3*** - Battery  
@@ -574,7 +589,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Fig 3.1.5: Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
 </p>
 
 ---
