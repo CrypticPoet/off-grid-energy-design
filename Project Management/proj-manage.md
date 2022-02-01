@@ -2,9 +2,9 @@
 
 ![Gantt chart](./gantt1.png)
 ![Gantt chart](./gantt2.png "Gantt chart")
-The red path in the above Gantt Chart shows the critical path. It was closely monitored so that there were no delays in the corresponding works.
+The red path in the above Gantt Chart shows the critical path. It was closely monitored, so that there were no delays in the corresponding works.
 
-The following shows the start dates and durations of various sub-teams in the project:
+The following shows the start dates and durations of various subteams in the project:
 
 
 
