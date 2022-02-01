@@ -42,7 +42,7 @@
 ## Authors
 | S. No. | Name | Email id | Role | Performance |
 |------:|:----:|:--------:|:----:|:----------:|
-
+Table 1
 ---
 
 ## Documentation Statistics
@@ -57,7 +57,7 @@
 |--------------------------|-------------------------------|---------------------------|--------------------------|
 | 40                       | 327                           | 7.4                       | 2.16                     |
 
-The above results were obtained using https://wordcounter.net/.
+Table 2 :The above results were obtained using https://wordcounter.net/.
 
 #### Readability indices
 <!-- To be changed -->
@@ -72,7 +72,7 @@ The above results were obtained using https://wordcounter.net/.
 | SMOG Formula score               | 12    |
 | Spache Readability score         | 4     |
 
-The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
+Table 3 :The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 
 ---
 
@@ -234,6 +234,7 @@ Some of the basic user requirements are:
 | 6                      | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
 | 7                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
 | Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
+                                                                 Table 4: Power Requirements
 
 3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
 
@@ -316,6 +317,7 @@ In the following section, we give a brief on various specifications of the compo
 | Electrolyte Volume              | 20L (+/-5%)                                                      |
 | Water Level Indicators          | 6                                                           |
 | Cost                            |  &#8377;12150 X 3 = &#8377;36450                           |
+                                 Table 5: Specifications of Battery
 
 ---
 
@@ -339,6 +341,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 | Weight             | 30kg                          |
 | Cost               | Rs. 22,900                    |
 | Size               | 1kW                           |
+--                         Table 6: Specifications of Backup Generator
 
 [Product Link](https://www.indiamart.com/proddetail/1-kva-portable-petrol-generator-23901047630.html)
 
@@ -376,6 +379,7 @@ Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter wh
 | Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
 | Net Weight                    | 32.5 kg                           |
 | Cost                          | Rs. 39,950                        |
+ --                         Table 7: Specifications of Hybrid Solar Inverter
 
 
 
@@ -402,6 +406,7 @@ Specifications of the in-built charge controller
 | Maximum PV Input Current(Imp)    | 38A         |
 | Solar Input Voltage VMP          | 60V - 120V  |
 | Solar Input Voltage VOC          | 75V - 150V  |
+--                        Table 8: Specifications of  Solar Charge Controller
 
 [Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter#)
 
@@ -430,6 +435,7 @@ We'll be using 4 such panels in our system.
 | Rated Output Power (Peak)    | 440W          |
 | Output Voltage at max. power | 42V           |
 | Output Current at max. power | 10.5A         |
+--               Table 9:  Specifications of High Efficiency Solar Panels
 
 
 *Above electrical data is for, Irradiance: 1000W/m² and Cell Temperature:25°C*
@@ -458,6 +464,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 | Cross Sectional Area      | 10 mm²                |
 | Length                    | 15m Red and 15m Black |
 | Cost                      | &#8377;1990           |
+--               Table 10: Specification of Solar DC Cable
 
 [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)
 
@@ -478,6 +485,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Insulation material       | HRFR PV                   |
 | Conductor material        | ETP Grade Annealed Copper |
 | Cost                      | &#8377;2,871              |
+--                               Tbale 11 : Specification of Household Connection Wires
 
 [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)
 
@@ -503,7 +511,7 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 | Material       | Polycarbonate        |
 | Color          | White                |
 | Cost           | &#8377;   1500       |
- 
+ --                              Table 12: Specification of AC Circuit Breakers
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
 ##### DC Circuit Breaker
@@ -521,6 +529,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 | Voltage              | 800 V (DC)             |
 | Dimensions           | 7.1 cm X 3.6 cm X 8 cm |
 | Cost                 | &#8377;999             |
+--                                    Table 13: Specification of DC Circuit Breaker
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -538,7 +547,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Dimension          | 9 cm X 6 cm X 3.5 cm |
 | Weight             | 245 g                |
 | Cost               | &#8377;799           |
-
+--           Table 14 : Specification of DC surge protection device
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
 #####  Porcelain Fuse
@@ -552,6 +561,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Material           | Ceramic             |
 | Dimensions         | 10 cm X 5 cm X 5 cm |
 | Cost               | &#8377;185          |
+--                                                 Table 15 : Specification of porcelain fuse
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -572,6 +582,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 | Dimensions    | 6 x 4 x 2 cm                                     |
 | Quantity      | 10 Male + Female MC4 Connectors                  |
 | Cost          | &#8377;449                                       |
+--                              Table 16: Specification of MC4 solar panel connectors
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
@@ -588,6 +599,7 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 | Dimension     | 17 x 17 x 2 cm                                   |
 | Quantity      | 2 sets                                           |
 | Cost          | &#8377;799                                       |
+--                               Table 17: Specification of T4 connector
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1)
 
@@ -612,7 +624,7 @@ We'll be using 1 such mount for our system, which consists of 4 panels.
 | Weight                       | 50kg            |
 | Material                     | Galvanised Iron |
 | Holding Capacity             | 4 Panels        |
-
+--                         Table 18 : Specification of solar panel mounts
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
 ---
@@ -713,7 +725,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 | Installation Cost| | | &#8377;12,320 | [Product Link](https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india)|
 | Electrician Charges| | | &#8377;3,000 | [Product Link](https://www.urbancompany.com/request/electricians)|
 |Total Price | | | &#8377;2,11,527 |
-
+-							   Table 19 : Cost Analysis
 ---
 
 ## Reuse of Materials
