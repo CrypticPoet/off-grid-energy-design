@@ -5,7 +5,15 @@
 
 # SUNERGY: Final Report
 
-**NOTE** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
+| ID                  | v4.0                                                         |
+| :------------------ | :----------------------------------------------------------- |
+| Tribe               | Tribe E                                                      |
+| Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                  |
+| Contact for Queries | Mihir Okte                                                   |
+| Submitted to        | Prof. Subrat Kar, Course Coordinator \| ELP305: Design and Systems Laboratory |
+| Date of Submission  | 02-02-2022                                                   |
+
+**NOTE:** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
 
 ## Table of Contents
 
@@ -367,7 +375,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 
-Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an MPPT technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
 -   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
 -   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
