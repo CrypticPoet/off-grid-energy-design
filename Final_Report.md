@@ -262,8 +262,9 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |  30.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
 |  31.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
 |  32.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
-|  33.   | [**Work Breakdown: Specifications**](#specs)                                                    |
-|  34.   | [**Work Breakdown: Documentation**](#docs)                                                      |
+|  33.   | [**Work Breakdown: Circuit Design**](#circuit)                                                  |
+|  34.   | [**Work Breakdown: Specifications**](#specs)                                                    |
+|  35.   | [**Work Breakdown: Documentation**](#docs)                                                      |
 
 
 ---
@@ -896,7 +897,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/gantt.png" alt="Gantt chart" id="gantt" width=500/> 
-	 <figcaption align="center">Gantt Chart</figcaption>
+	 <figcaption align="center"><b>Figure 27:</b> Gantt Chart</figcaption>
 </p>
 
 The red path in the above Gantt Chart indicates the critical path. It was closely monitored, so that there were no delays in the corresponding works.
@@ -905,39 +906,39 @@ The following shows the start dates and durations of various subteams in the pro
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/sunergy.png" alt="Work breakdown structure" id="work_breakdown" width=500/> 
-	 <figcaption align="center">Work breakdown structure</figcaption>
+	 <figcaption align="center"><b>Figure 28:</b> Work breakdown structure</figcaption>
 </p>
 
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
-	 <figcaption align="center">Resources</figcaption>
+	 <figcaption align="center"><b>Figure 29:</b> Resources</figcaption>
 </p>
 
 The following shows the work breakdown structure:
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/assign.png" alt="Work Breakdown Structure" id="assign_work" width=500/> 
-	 <figcaption align="center">Assignment of Work</figcaption>
+	 <figcaption align="center"><b>Figure 30:</b> Assignment of Work</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/proj.png" alt="Work Breakdown Structure" id="proj_manage" width=500/> 
-	 <figcaption align="center">Project Management</figcaption>
+	 <figcaption align="center"><b>Figure 31:</b> Project Management</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/cad.png" alt="Work Breakdown Structure" id="cad_model" width=500/> 
-	 <figcaption align="center">CAD Model</figcaption>
+	 <figcaption align="center"><b>Figure 32:</b> CAD Model</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/lts.png" alt="Work Breakdown Structure" id="circuit" width=500/> 
-	 <figcaption align="center">Circuit design</figcaption>
+	 <figcaption align="center"><b>Figure 33:</b> Circuit design</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/specs.png" alt="Work Breakdown Structure" id="specs" width=500/> 
-	 <figcaption align="center">Specifications</figcaption>
+	 <figcaption align="center"><b>Figure 34:</b> Specifications</figcaption>
 </p>
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/doc.png" alt="Work Breakdown Structure" id="docs" width=500/> 
-	 <figcaption align="center">Documentation</figcaption>
+	 <figcaption align="center"><b>Figure 35:</b> Documentation</figcaption>
 </p>
 
 ---
