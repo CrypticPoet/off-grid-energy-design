@@ -28,56 +28,56 @@ keywords:
 ## Table of Contents
 
 - [ELP305 Design and Systems Laboratory](#elp305-design-and-systems-laboratory)
-	- [Semester 2, 2021-2022](#semester-2-2021-2022)
-		- [Tribe E](#tribe-e)
+  - [Semester 2, 2021-2022](#semester-2-2021-2022)
+    - [Tribe E](#tribe-e)
 - [SUNERGY: Final Report](#sunergy-final-report)
-	- [Table of Contents](#table-of-contents)
-	- [Authors](#authors)
-	- [Documentation Statistics](#documentation-statistics)
-		- [Text Statistics](#text-statistics)
-		- [Readability indices](#readability-indices)
-	- [Preamble](#preamble)
-		- [List of Abbreviations](#list-of-abbreviations)
-		- [List of Tables](#list-of-tables)
-		- [List of Figures](#list-of-figures)
-	- [Abstract](#abstract)
-	- [Aim](#aim)
-	- [Scope](#scope)
-	- [Requirements](#requirements)
-		- [Base Setup](#base-setup)
-		- [Basic Requirements](#basic-requirements)
-		- [Technical Requirements](#technical-requirements)
-	- [Specifications](#specifications)
-		- [Electrical Specifications](#electrical-specifications)
-			- [Battery](#battery)
-				- [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
-			- [Backup Generator](#backup-generator)
-			- [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
-				- [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
-			- [Solar Charge Controller](#solar-charge-controller)
-				- [Sizing](#sizing)
-			- [High Efficiency Solar Panels](#high-efficiency-solar-panels)
-			- [Wires](#wires)
-				- [Solar DC Cable](#solar-dc-cable)
-				- [Household connection wires](#household-connection-wires)
-			- [Safety Measures](#safety-measures)
-				- [AC Circuit Breaker](#ac-circuit-breaker)
-				- [DC Circuit Breaker](#dc-circuit-breaker)
-				- [DC Surge Protection Device](#dc-surge-protection-device)
-				- [Porcelain Fuse](#porcelain-fuse)
-			- [MC4 Connectors](#mc4-connectors)
-				- [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
-				- [4 in 1 T4 Connector](#4-in-1-t4-connector)
-		- [Mechanical Specifications](#mechanical-specifications)
-			- [Solar Panel Mounts](#solar-panel-mounts)
-	- [Design](#design)
-		- [CAD/Assembly](#cadassembly)
-		- [Wiring Diagram](#wiring-diagram)
-	- [Cost Analysis](#cost-analysis)
-	- [Reuse of Materials](#reuse-of-materials)
-	- [Project Management](#project-management)
-	- [Attributions](#attributions)
-	- [References](#references)
+  - [Table of Contents](#table-of-contents)
+  - [Authors](#authors)
+  - [Documentation Statistics](#documentation-statistics)
+      - [Text Statistics](#text-statistics)
+      - [Readability indices](#readability-indices)
+  - [Preamble](#preamble)
+      - [List of Abbreviations](#list-of-abbreviations)
+      - [List of Tables](#list-of-tables)
+      - [List of Figures](#list-of-figures)
+  - [Abstract](#abstract)
+  - [Aim](#aim)
+  - [Scope](#scope)
+  - [Requirements](#requirements)
+    - [Base Setup](#base-setup)
+    - [Basic Requirements](#basic-requirements)
+    - [Technical Requirements](#technical-requirements)
+  - [Specifications](#specifications)
+    - [Electrical Specifications](#electrical-specifications)
+      - [Battery](#battery)
+        - [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
+      - [Backup Generator](#backup-generator)
+      - [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
+        - [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
+      - [Solar Charge Controller](#solar-charge-controller)
+        - [Sizing](#sizing)
+      - [High Efficiency Solar Panels](#high-efficiency-solar-panels)
+      - [Wires](#wires)
+        - [Solar DC Cable](#solar-dc-cable)
+        - [Household connection wires](#household-connection-wires)
+      - [Safety Measures](#safety-measures)
+        - [AC Circuit Breaker](#ac-circuit-breaker)
+        - [DC Circuit Breaker](#dc-circuit-breaker)
+        - [DC Surge Protection Device](#dc-surge-protection-device)
+        - [Porcelain Fuse](#porcelain-fuse)
+      - [MC4 Connectors](#mc4-connectors)
+        - [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
+        - [4 in 1 T4 Connector](#4-in-1-t4-connector)
+    - [Mechanical Specifications](#mechanical-specifications)
+      - [Solar Panel Mounts](#solar-panel-mounts)
+  - [Design](#design)
+    - [CAD/Assembly](#cadassembly)
+    - [Wiring Diagram](#wiring-diagram)
+  - [Cost Analysis](#cost-analysis)
+  - [Reuse of Materials](#reuse-of-materials)
+  - [Project Management](#project-management)
+  - [Attributions](#attributions)
+  - [References](#references)
 
 ---
 
@@ -799,30 +799,27 @@ The components of our energy solution are detailed as follows:
 Solar panels to take the solar energy and give a DC current.
 
 <p align="center" id = "panel_view">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center"><b>Figure 20, 21, 22:</b> Side, Front, and Top View of Solar Panel </figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_iso1.jpg" alt="Side view" width=400/> 
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_iso2.jpg" alt="Front View" width=400/>
+	<figcaption align="center"><b>Figure 20, 21:</b> Isometric Views of Solar Panel </figcaption>
 </p>
 
 ***Label 2*** - Inverter  
 Takes the solar DC current, and supply it power supply as well as store it in battery.
 
 <p align="center" id = "inverter_view">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/>
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center"><b>Figure 23, 24, 25:</b> Side, Front, and Top View of Inverter</figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_iso1.jpg" alt="Side view" width=400/>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_iso2.jpg" alt="Front View" width=400/>
+	<figcaption align="center"><b>Figure 22, 23:</b> Isometric Views of Inverter</figcaption>
 </p>
 
 ***Label 3*** - Battery  
 Stores the solar converted electrical energy for further use when solar power cannot be harnessed e.g. Night. 
 
 <p align="center" id="battery_view">
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/>
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
-	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center"><b>Figure 26, 27, and 28:</b> Side, Front, and Top View Battery</figcaption>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_iso1.jpg" alt="Side view" width=400/>
+	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_iso2.jpg" alt="Front View" width=400/>
+	<figcaption align="center"><b>Figure 24, 25:</b> Isometric Views of Battery</figcaption>
 </p>
 
 ---
@@ -832,7 +829,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 The next step is to realize the design using all the components mentioned in the specifications by appropriately connecting them. The diagram below shows the connections for the same. 
 
 <p align="center" id="wiring"><img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Images/wiring_diagram.jpg" width=512></p>
-<figcaption align="center"><b>Figure 29:</b> Wiring Diagram</figcaption>
+<figcaption align="center"><b>Figure 26:</b> Wiring Diagram</figcaption>
 
 The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. These are then connected to a DC Circuit Breaker using T4 connectors. The wires then go via a DC Surge Protector to the invertor which is connected to a series combination of 3 batteries of 12V each. The output of the invertor then goes to an AC circuit breaker which has also been connected to the generator for backup. This is finally connected to the MCB inside the house.
 
