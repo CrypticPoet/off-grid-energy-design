@@ -87,7 +87,7 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |4.|[**Power Requirements**](#basic-requirements)|
 |5.|[**Battery**](#battery)|
 |6.|[**Backup Generator**](#backup-generator)|
-|7.|[**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller))|
+|7.|[**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller)|
 |8.|[**Solar Charge Controller**](#solar-charge-controller)|
 |9.|[**High Efficiency Solar Panels**](#high-efficiency-solar-panels)|
 |10.|[**Solar DC Cable**](#solar-dc-cable)|
