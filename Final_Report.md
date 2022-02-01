@@ -679,8 +679,8 @@ While designing this solution for off grid living, we used a number of softwares
 - [**Draw.io**](https://app.diagrams.net/): For creating mind maps
 - [**Tinkercad**](https://www.tinkercad.com/): For designing 3D models and plans for the project
 - [**GLC Player**](https://sourceforge.net/projects/glc-player/): For exporting the OBJ models from Tinkercad to images
-- [**LTSpice**](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html): For designing the circuit diagram for the project
-- [**Zotero**](): For collecting and managing references
+- [**Excalidraw**](https://excalidraw.com/): For designing the circuit diagram for the project
+- [**Zotero**](https://www.zotero.org/): For collecting and managing references
 
 ---
 
