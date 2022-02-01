@@ -79,6 +79,27 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 ## Preamble
 #### List of Abbreviations
 #### List of Tables
+|  S.NO.  | Specification Tables|
+| :---:|:-----:|
+| 1.|  [**Authors**](#authors)|
+|2.| [**Documentation Statistics**](#documentation-statistics)|
+|3.|[**Readability indices**](#readability-indices)|
+|4.|[**Power Requirements**](#basic-requirements)|
+|5.|[**Battery**](#battery)|
+|6.|[**Backup Generator**](#backup-generator)|
+|7.|[**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller))|
+|8.|[**Solar Charge Controller**](#solar-charge-controller)|
+|9.|[**High Efficiency Solar Panels**](#high-efficiency-solar-panels)|
+|10.|[**Solar DC Cable**](#solar-dc-cable)|
+|11.|[**Household connection wires**](#household-connection-wires)|
+|12.|[**AC Circuit Breakers**](#ac-circuit-breaker)|
+|13.|[**DC Circuit Breakers**](#dc-circuit-breaker)|
+|14.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
+|15.|[**Porcelain Fuse**](#porcelain-fuse)|
+|16.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
+|17.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
+|18.|[**Solar Panel Mounts**](#solar-panel-mounts)|
+|19.|[**Cost Analysis**](#cost-analysis)|
 #### List of Figures
 ---
 
