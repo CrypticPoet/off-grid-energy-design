@@ -139,11 +139,11 @@ keywords:
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
 | ---------- | -------------- | ---------------- | ----------- | ------------ | ----------------------- | ----------- |
-| 434        | 922            | 1715             | 11          | 3592         | 3204                    | 941         |
+| 7530        | 2284            | 5246             | 216          | 71422        | 49169                    | 13615         |
 
 | Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
 | ------------------------ | ----------------------------- | ------------------------- | ------------------------ |
-| 40                       | 327                           | 7.4                       | 2.16                     |
+| 35                       | 330.6                           | 9.5                       | 1.80                     |
 
 **Table 2:** Text Statistics
 
@@ -154,7 +154,7 @@ The above results were obtained using https://wordcounter.net/.
 
 | Readability Index            | Score | Can be easily understood by |
 | :--------------------------- | :---- | :-------------------------- |
-| Flesch Reading Ease score    | 61    | 13 to 15 year olds          |
+| Flesch Reading Ease score    | 58    | 13 to 15 year olds          |
 | Dale-Chall Readability score | 8.8   | 11th or 12th grade students |
 | Flesch-Kincaid Grade level   | 7     | 7th grade students          |
 | The Coleman-Liau Index       | 14    | Undergraduate students      |
