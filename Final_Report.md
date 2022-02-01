@@ -249,24 +249,21 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |  17.   | [**Side View of Designed House**](#side)                                                        |
 |  18.   | [**Top View of Designed House**](#top)                                                          |
 |  19.   | [**Orthographic View of Designed House**](#orthographic)                                        |
-|  20.   | [**Side View of Solar Panels**](#panel_view)                                                    |
-|  21.   | [**Front View of Solar Panels**](#panel_view)                                                   |
-|  22.   | [**Top View of Solar Panels**](#panel_view)                                                     |
-|  23.   | [**Side View of Inverter**](#inverter_view)                                                     |
-|  24.   | [**Front View of Inverter**](#inverter_view)                                                    |
-|  25.   | [**Top View of Inverter**](#inverter_view)                                                      |
-|  26.   | [**Side View of Battery**](#battery_view)                                                       |
-|  27.   | [**Front View of Battery**](#battery_view)                                                      |
-|  28.   | [**Top View of Battery**](#battery_view)                                                        |
-|  29.   | [**Wiring Diagram**](#wiring)                                                                   |
-|  30.   | [**Gantt Chart**](#gantt)                                                                       |
-|  31.   | [**Work Breakdown Structure**](#work_breakdown)                                                 |
-|  32.   | [**Resources**](#resources)                                                                     |
-|  33.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
-|  34.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
-|  35.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
-|  36.   | [**Work Breakdown: Specifications**](#specs)                                                    |
-|  37.   | [**Work Breakdown: Documentation**](#docs)                                                      |
+|  20.   | [**Isometric View of Solar Panels 1**](#panel_view)                                             |
+|  21.   | [**Isometric View of Solar Panels 2**](#panel_view)                                             |
+|  22.   | [**Isometric View of Inverter 1**](#inverter_view)                                              |
+|  23.   | [**Isometric View of Inverter 2**](#inverter_view)                                              |
+|  24.   | [**Isometric View of Battery 1**](#battery_view)                                                |
+|  25.   | [**Isometric View of Battery 2**](#battery_view)                                                |
+|  26.   | [**Wiring Diagram**](#wiring)                                                                   |
+|  27.   | [**Gantt Chart**](#gantt)                                                                       |
+|  28.   | [**Work Breakdown Structure**](#work_breakdown)                                                 |
+|  29.   | [**Resources**](#resources)                                                                     |
+|  30.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
+|  31.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
+|  32.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
+|  33.   | [**Work Breakdown: Specifications**](#specs)                                                    |
+|  34.   | [**Work Breakdown: Documentation**](#docs)                                                      |
 
 
 ---
