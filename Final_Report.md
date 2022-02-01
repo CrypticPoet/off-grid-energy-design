@@ -17,33 +17,57 @@
 
 ## Table of Contents
 
-- [**SUNERGY: Final Report**](#sunergy-final-report)
-  - [**Authors**](#authors)
-  - [**Documentation Statistics**](#documentation-statistics)
-    - [**Text Statistics**](#text-statistics)
-    - [**Readability Indices**](#readability-indices)
-  - [**Preamble**](#preamble)
-    - [**List of Abbreviations**](#list-of-abbreviations)
-    - [**List of Tables**](#list-of-tables)
-    - [**List of Figures**](#list-of-figures)
-  - [**Abstract**](#abstract)
-  - [**Aim**](#aim)
-  - [**Scope**](#scope)
-  - [**Requirements**](#requirements)
-    - [**Base Setup**](#base-setup)
-    - [**Basic Requirements**](#basic-requirements)
-    - [**Technical Requirements**](#technical-requirements)
-  - [**Specifications**](#specifications)
-    - [**Electrical Specifications**](#electrical-specifications)
-    - [**Mechanical Specifications**](#mechanical-specifications)
-  - [**Design**](#design)
-    - [**CAD/Assembly**](#cadassembly)
-    - [**Wiring Diagram**](#wiring-diagram)
-  - [**Cost Analysis**](#cost-analysis)
-  - [**Reuse of Materials**](#reuse-of-materials)
-  - [**Project Management**](#project-management)
-  - [**Attributions**](#attributions)
-  - [**References**](#references)
+- [ELP305 Design and Systems Laboratory](#elp305-design-and-systems-laboratory)
+  - [Semester 2, 2021-2022](#semester-2-2021-2022)
+    - [Tribe E](#tribe-e)
+- [SUNERGY: Final Report](#sunergy-final-report)
+  - [Table of Contents](#table-of-contents)
+  - [Authors](#authors)
+  - [Documentation Statistics](#documentation-statistics)
+      - [Text Statistics](#text-statistics)
+      - [Readability indices](#readability-indices)
+  - [Preamble](#preamble)
+      - [List of Abbreviations](#list-of-abbreviations)
+      - [List of Tables](#list-of-tables)
+      - [List of Figures](#list-of-figures)
+  - [Abstract](#abstract)
+  - [Aim](#aim)
+  - [Scope](#scope)
+  - [Requirements](#requirements)
+    - [Base Setup](#base-setup)
+    - [Basic Requirements](#basic-requirements)
+    - [Technical Requirements](#technical-requirements)
+  - [Specifications](#specifications)
+    - [Electrical Specifications](#electrical-specifications)
+      - [Battery](#battery)
+        - [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
+      - [Backup Generator](#backup-generator)
+      - [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
+        - [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
+      - [Solar Charge Controller](#solar-charge-controller)
+        - [Sizing](#sizing)
+      - [High Efficiency Solar Panels](#high-efficiency-solar-panels)
+      - [Wires](#wires)
+        - [Solar DC Cable](#solar-dc-cable)
+        - [Household connection wires](#household-connection-wires)
+      - [Safety Measures](#safety-measures)
+        - [AC Circuit Breaker](#ac-circuit-breaker)
+        - [DC Circuit Breaker](#dc-circuit-breaker)
+        - [DC Surge Protection Device](#dc-surge-protection-device)
+        - [Porcelain Fuse](#porcelain-fuse)
+      - [MC4 Connectors](#mc4-connectors)
+        - [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
+        - [4 in 1 T4 Connector](#4-in-1-t4-connector)
+    - [Mechanical Specifications](#mechanical-specifications)
+      - [Solar Panel Mounts](#solar-panel-mounts)
+  - [Design](#design)
+    - [CAD/Assembly](#cadassembly)
+    - [Wiring Diagram](#wiring-diagram)
+  - [Cost Analysis](#cost-analysis)
+  - [Reuse of Materials](#reuse-of-materials)
+  - [Project Management](#project-management)
+  - [Attributions](#attributions)
+  - [References](#references)
 
 ---
 
@@ -257,7 +281,7 @@ Some of the basic user requirements are:
 
 **Table 4:** Power Requirements
 
-3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
+3. **Budget**: The cost of manufacturing should not be more than &#8377;3,00,000.
 
 4. **Backup**: In case of any system failure, there must be a fuel generator strong enough to provide backup for the basic energy requirements.
 
@@ -362,7 +386,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 | Rated voltage      | 220V+-15                      |
 | Peak output power  | 1kVA                          |
 | Weight             | 30kg                          |
-| Cost               | Rs. 22,900                    |
+| Cost               | &#8377;22,900                    |
 | Size               | 1kW                           |
 
 **Table 6:** Specifications of Backup Generator
@@ -404,7 +428,7 @@ Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter whic
 | Max. Relative Humidity @25<sup>.</sup>C  | upto 95%                          |
 | Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
 | Net Weight                    | 32.5 kg                           |
-| Cost                          | Rs. 39,950                        |
+| Cost                          | &#8377;39,950                        |
 
 **Table 7:** Specifications of Hybrid Solar Inverter
 
