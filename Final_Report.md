@@ -5,15 +5,7 @@
 
 # SUNERGY: Final Report
 
-| ID                  | v4.0                                                         |
-| :------------------ | :----------------------------------------------------------- |
-| Tribe               | Tribe E                                                      |
-| Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                  |
-| Contact for Queries | Mihir Okte                                                   |
-| Submitted to        | Prof. Subrat Kar, Course Coordinator \| ELP305: Design and Systems Laboratory |
-| Date of Submission  | 02-02-2022                                                   |
-
-**NOTE:** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
+**NOTE** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
 
 ## Table of Contents
 
@@ -26,6 +18,7 @@
     - [**List of Abbreviations**](#list-of-abbreviations)
     - [**List of Tables**](#list-of-tables)
     - [**List of Figures**](#list-of-figures)
+  - [**Project Management**](#project-management)
   - [**Abstract**](#abstract)
   - [**Aim**](#aim)
   - [**Scope**](#scope)
@@ -41,7 +34,6 @@
     - [**Wiring Diagram**](#wiring-diagram)
   - [**Cost Analysis**](#cost-analysis)
   - [**Reuse of Materials**](#reuse-of-materials)
-  - [**Project Management**](#project-management)
   - [**Attributions**](#attributions)
   - [**References**](#references)
 
@@ -50,9 +42,7 @@
 ## Authors
 | S. No. | Name | Email id | Role | Performance |
 |------:|:----:|:--------:|:----:|:----------:|
-
-**Table 1:** List of Authors
-
+Table 1
 ---
 
 ## Documentation Statistics
@@ -67,15 +57,13 @@
 |--------------------------|-------------------------------|---------------------------|--------------------------|
 | 40                       | 327                           | 7.4                       | 2.16                     |
 
-**Table 2:** Text Statistics
-
-The above results were obtained using https://wordcounter.net/.
+Table 2 :The above results were obtained using https://wordcounter.net/.
 
 #### Readability indices
 <!-- To be changed -->
 
 | Readability Index                | Score |
-|:---------------------------------|:------|
+|----------------------------------|-------|
 | Flesch Reading Ease score        | 61    |
 | Dale-Chall Readability score     | 8.8   |
 | Flesch-Kincaid Grade level       | 7     |
@@ -84,19 +72,14 @@ The above results were obtained using https://wordcounter.net/.
 | SMOG Formula score               | 12    |
 | Spache Readability score         | 4     |
 
-
-**Table 3:** Readability indices
-
-The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
+Table 3 :The above scores were obtained using Visual Studio Code extension called Readability Check by jemcclin.
 
 ---
 
 ## Preamble
-
 #### List of Abbreviations
-
-|  S. No.  | Abbreviation|Stands For|
- | :---:|:-----:|:--------------------|
+|  S.NO.  | Abbreviation|Stands For|
+ | :---:|:-----:|:--------------------:|
  |1.| AC | Alternating Current|
  |2.| BIS | Bureau of Indian Standards|
 |3.| CAD |Computer Aided Design|
@@ -118,11 +101,9 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |19.| UV | UltraViolet|
 |20.| VMP| Voltage at Maximum Power|
 |21.| Voc| Voltage at Open Circuit|
-
 #### List of Tables
-
-|  S. No.  | Table|
-| :---:|:-----|
+|  S.NO.  | Table|
+| :---:|:-----:|
 | 1.|  [**Authors**](#authors)|
 |2.| [**Documentation Statistics**](#documentation-statistics)|
 |3.|[**Readability indices**](#readability-indices)|
@@ -142,13 +123,11 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |17.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
 |18.|[**Solar Panel Mounts**](#solar-panel-mounts)|
 |19.|[**Cost Analysis**](#cost-analysis)|
-
 #### List of Figures
-
-|  S. No.  | Figures|
- | :---:|:-----|
- |1.| [**Mindmap for Requirements**](#reqs_mm)|
- |2.|[**Mindmap for Specifications**](#specs_mm)|
+|  S.NO.  | Figures|
+ | :---:|:-----:|
+ |1.| [**Mindmap for Requirements**](#requirements)|
+ |2.|[**Mindmap for Specifications**](#specifications)|
  |3.|[**Luminous Red Charge RC 18000 150 Ah battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
 |4.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
 |5.|[**Solar Panels**](#high-efficiency-solar-panels)|
@@ -162,10 +141,10 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |13.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
 |14.|[**Solar Panel Mounts**](#solar-panel-mounts)|
 |15.|[**Mindmap for Design**](#design)|
-|16. |[**Front View of Designed House**](#front)|
-|17. |[**Side View of Designed House**](#side)|
-|18. |[**Top View of Designed House**](#top) |
-|19.  |[**Orthographic View of Designed House**](#orthographic)|
+| 16. |[**Front View of Designed House**](#front)|
+| 17. |    [**Side View of Designed House**](#side)|
+| 18. | [**Top View of Designed House**](#top) |
+|19.  | [**Orthographic View of Designed House**](#orthographic)|
 |20.|[**Side View of Solar Panels**](#panel_view)|
 |21.|[**Front View of Solar Panels**](#panel_view)|
 |22.|[**Top View of Solar Panels**](#panel_view)|
@@ -176,15 +155,10 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |27.|[**Front View of Battery**](#battery_view)|
 |28.|[**Top View of Battery**](#battery_view)|
 |29.| [**Wiring Diagram**](#wiring)|
-|30.| [**Gantt Chart**](#gantt)|
-|31.| [**Work Breakdown Structure**](#work_breakdown)|
-|32.| [**Resources**](#resources)|
-|33.| [**Work Breakdown: Assignment of Work**](#assign_work)|
-|34.| [**Work Breakdown: Project Management**](#proj_manage)|
-|35.| [**Work Breakdown: CAD Model**](#cad_model)|
-|36.| [**Work Breakdown: Specifications**](#specs)|
-|37.| [**Work Breakdown: Documentation**](#docs)|
 
+---
+
+## Project Management
 
 ---
 
@@ -215,9 +189,9 @@ The solution has been made keeping in mind a specific geographical location (A f
 
 In the following section, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
-<p align="center" id = "reqs_mm">
+<p align="center" id = "requirement">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/requirements.png" alt="Mindmap for Requirements"  width=450/> 
-	 <figcaption align="center">Mindmap for Requirements</figcaption>
+	 <figcaption align="center">Figure 1: Mindmap for Requirements</figcaption>
 </p>
 
 ---
@@ -244,6 +218,7 @@ Some of the basic user requirements are:
 
 2. **Power Requirements**: The daily power requirement is approximately 24-25 kWh. The explanation for the same can be seen as follows:
 
+<!-- # table1 -->
 | S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
 | ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
 | 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
@@ -254,8 +229,7 @@ Some of the basic user requirements are:
 | 6                      | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
 | 7                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
 | Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
-
-**Table 4:** Power Requirements
+                                                                 Table 4: Power Requirements
 
 3. **Budget**: The cost of manufacturing should not be more than Rs. 3,00,000.
 
@@ -279,7 +253,7 @@ Some of the basic user requirements are:
 
 ### Technical Requirements
 
-Various technical apparatus and tools required to achieve our goal are:
+Various technical apparatus and tools required to acheive our goal are:
 
 1. **Solar Panels**: An assembly of photo-voltaic cells mounted and connected to each other used to harness solar energy and convert it into electrical energy. The electricity produced by solar panels is DC in nature. Some factors characteristic of a good solar panel are low price, high efficiency, low-temperature coefficient.
 
@@ -309,18 +283,18 @@ Various technical apparatus and tools required to achieve our goal are:
 
 In the following section, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
 
-<p align="center" id="specs_mm">
+<p align="center" id="specification">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/specifications.png" alt="Mindmap for Specifications"  width=450/> 
-	 <figcaption align="center">Mindmap for Specifications</figcaption>
+	 <figcaption align="center">Figure 2: Mindmap for Specifications</figcaption>
 </p>
 
 ---
 
 ### Electrical Specifications
 #### Battery
-##### Luminous Red Charge RC 18000 150 Ah battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
+ <figcaption align="center">Figure 3: Luminous Red Charge RC 18000 150 Ah battery</figcaption>
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  fast battery charging with adaptive battery charging control technology
@@ -330,7 +304,7 @@ In the following section, we give a brief on various specifications of the compo
 | Brand                           | Luminous                                                    |
 | Nominal Voltage                 | 12V                                                         |
 | Rated Capacity(at room temp.)   | 150 ah (at room temp.)                                                     |
-| Protections                     | Dust & waterproof with heavy plastic body                  |
+| Protections                     | Dust & water proof with heavy plastic body                  |
 | Charging Current(Boost mode)    | 15.10A(starting), 7.60A(finishing)                           |
 | Charging Current (Trickle mode) | 504 mA(max), 126 mA(min)                                    |
 | Weight                          | 53.30 Kg (28.5 Kg dry weight) (+/- 5%)                                 |
@@ -338,8 +312,7 @@ In the following section, we give a brief on various specifications of the compo
 | Electrolyte Volume              | 20L (+/-5%)                                                      |
 | Water Level Indicators          | 6                                                           |
 | Cost                            |  &#8377;12150 X 3 = &#8377;36450                           |
-
-**Table 5:** Specifications of Battery
+                                 Table 5: Specifications of Battery
 
 ---
 
@@ -349,7 +322,7 @@ The generator size should be of 1kW. In our system, generator will mostly be nee
 
 Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
-**Note**: Here the misc includes PC, stove and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 9hr(which is minimum requirement for overnight functionality). Spare fuel should always be kept in case of emergencies. 
+**Note**: Here the misc includes PC,stove and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 9hr(which is minimum requirement for overnight functionality). Spare fuel should always be kept in case of emergencies. 
 
 
 | Specification      | Value                         |
@@ -363,19 +336,18 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 | Weight             | 30kg                          |
 | Cost               | Rs. 22,900                    |
 | Size               | 1kW                           |
-
-**Table 6:** Specifications of Backup Generator
+--                         Table 6: Specifications of Backup Generator
 
 [Product Link](https://www.indiamart.com/proddetail/1-kva-portable-petrol-generator-23901047630.html)
 
 ---
 
 #### Hybrid Solar Inverter (Built in Solar Charge Controller)
-##### 3KVA/ 36 V Off Grid Solar Inverter
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
+<figcaption align="center">Figure 4: 3KVA/ 36 V Off Grid Solar Inverter</figcaption>
 
-Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an MPPT technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
 -   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
 -   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
@@ -402,8 +374,8 @@ Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter whic
 | Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
 | Net Weight                    | 32.5 kg                           |
 | Cost                          | Rs. 39,950                        |
+ --                         Table 7: Specifications of Hybrid Solar Inverter
 
-**Table 7:** Specifications of Hybrid Solar Inverter
 
 
 #### Solar Charge Controller
@@ -429,8 +401,7 @@ Specifications of the in-built charge controller
 | Maximum PV Input Current(Imp)    | 38A         |
 | Solar Input Voltage VMP          | 60V - 120V  |
 | Solar Input Voltage VOC          | 75V - 150V  |
-
-**Table 8:** Specifications of Solar Charge Controller
+--                        Table 8: Specifications of  Solar Charge Controller
 
 [Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter#)
 
@@ -447,6 +418,8 @@ It also paves the way for more power output per panel, which means less number o
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
+<figcaption align="center">Figure 5: Solar Panels</figcaption>
+
 
 We'll be using 4 such panels in our system.
 
@@ -459,8 +432,7 @@ We'll be using 4 such panels in our system.
 | Rated Output Power (Peak)    | 440W          |
 | Output Voltage at max. power | 42V           |
 | Output Current at max. power | 10.5A         |
-
-**Table 9:** Specifications of High Efficiency Solar Panels
+--               Table 9:  Specifications of High Efficiency Solar Panels
 
 
 *Above electrical data is for, Irradiance: 1000W/m² and Cell Temperature:25°C*
@@ -479,6 +451,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 - UV resistance to ensure longevity
 
 <img src="https://m.media-amazon.com/images/I/417e-1jmi4S.jpg">
+<figcaption align="center">Figure 6: Solar DC Cables</figcaption>
 
 
 
@@ -489,8 +462,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 | Cross Sectional Area      | 10 mm²                |
 | Length                    | 15m Red and 15m Black |
 | Cost                      | &#8377;1990           |
-
-**Table 10:** Specification of Solar DC Cable
+--               Table 10: Specification of Solar DC Cable
 
 [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)
 
@@ -498,6 +470,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 Connecting wires would be used to connect different appliances in the energy grid.  Hence they should be able to carry high current and be well insulated.
 
 <img src="https://rukminim1.flixcart.com/image/416/416/k5zn9u80/electrical-wire/h/e/b/whffdnka1x50-fr-sc-5-mm-wire-black-90mtr-havells-original-imafa8rhtuurspyd.jpeg?q=70" alt="connecting wires" height="300"/>
+<figcaption align="center">Figure 7: Household connection Wire</figcaption>
 
 
 
@@ -511,8 +484,7 @@ Connecting wires would be used to connect different appliances in the energy gri
 | Insulation material       | HRFR PV                   |
 | Conductor material        | ETP Grade Annealed Copper |
 | Cost                      | &#8377;2,871              |
-
-Table 11 : Specification of Household Connection Wires
+--                               Tbale 11 : Specification of Household Connection Wires
 
 [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)
 
@@ -526,6 +498,7 @@ Table 11 : Specification of Household Connection Wires
 A separate AC Breaker between the AC Input and Inverter is required to ensure tha the inverter can be securely disconnected during maintenance and secured from AC Input over current
 
 <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
+<figcaption align="center">Figure 8: AC Circuit Breaker</figcaption>
 
 
 | Specification  | Value                |
@@ -537,10 +510,8 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 | Weight         | 660 g                |
 | Material       | Polycarbonate        |
 | Color          | White                |
-| Cost           | &#8377;1500         |
-
-**Table 12:** Specification of AC Circuit Breakers
-
+| Cost           | &#8377;   1500       |
+ --                              Table 12: Specification of AC Circuit Breakers
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
 ##### DC Circuit Breaker
@@ -548,6 +519,7 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 A DC Circuit breaker between the Solar Panels and Inverter is required for disconnecting the solar panels safely for maintenance or replacement. The Circuit breaker also protects the inverter from over current damage
 
 <img src = "https://m.media-amazon.com/images/I/71JEQ-sPGaL._SL1500_.jpg" width = 200>
+<figcaption align="center">Figure 9: DC Circuit Breaker</figcaption>
 
 | Specification        | Value                  |
 | -------------------- | ---------------------- |
@@ -558,8 +530,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 | Voltage              | 800 V (DC)             |
 | Dimensions           | 7.1 cm X 3.6 cm X 8 cm |
 | Cost                 | &#8377;999             |
-
-**Table 13:** Specification of DC Circuit Breaker
+--                                    Table 13: Specification of DC Circuit Breaker
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
@@ -568,6 +539,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 The DC Surge Protector protects the inverter and panels from any unforeseen voltage surges in instances such as Lightning strikes
 
 <img src = "https://m.media-amazon.com/images/I/61l8Y7CfuAL._SL1500_.jpg" width = 200>
+<figcaption align="center">Figure 10: DC Surge Protection Device</figcaption>
 
 | Specification      | Value                |
 | ------------------ | -------------------- |
@@ -577,13 +549,12 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Dimension          | 9 cm X 6 cm X 3.5 cm |
 | Weight             | 245 g                |
 | Cost               | &#8377;799           |
-
-**Table 14:** Specification of DC surge protection device
-
+--           Table 14 : Specification of DC surge protection device
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
 #####  Porcelain Fuse
 <img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
+<figcaption align="center">Figure 11: Porcelain Fuse</figcaption>
 
 | Specification      | Value               |
 | ------------------ | ------------------- |
@@ -593,8 +564,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 | Material           | Ceramic             |
 | Dimensions         | 10 cm X 5 cm X 5 cm |
 | Cost               | &#8377;185          |
-
-**Table 15:** Specification of porcelain fuse
+--                                                 Table 15 : Specification of porcelain fuse
 
 [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)
 
@@ -607,7 +577,7 @@ MC4 Connectors are required for a safe and convenient connection between the sol
 The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame boasting an estimated life of upto 25 years and thus require minimum maintenance.
 
 <img src="https://m.media-amazon.com/images/I/81DukcckFRL._SL1500_.jpg" height="300">
-
+<figcaption align="center">Figure 12: MC4 Solar Panel Connectors</figcaption>
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
 | Brand         | Kenbrook                                         |
@@ -615,8 +585,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 | Dimensions    | 6 x 4 x 2 cm                                     |
 | Quantity      | 10 Male + Female MC4 Connectors                  |
 | Cost          | &#8377;449                                       |
-
-**Table 16:** Specification of MC4 solar panel connectors
+--                              Table 16: Specification of MC4 solar panel connectors
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
@@ -625,6 +594,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 T4 Connector is required to connect the 2x4 parallel solar panel array to the solar charge controller. The T4 connector also comes with UV Resistance, anti flame and water resistance
 
 <img src="https://m.media-amazon.com/images/I/81v6jkEqD4L._SL1500_.jpg" height="300">
+<figcaption align="center">Figure 13: 4 in 1 T4 Connector</figcaption>
 
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
@@ -633,8 +603,7 @@ T4 Connector is required to connect the 2x4 parallel solar panel array to the so
 | Dimension     | 17 x 17 x 2 cm                                   |
 | Quantity      | 2 sets                                           |
 | Cost          | &#8377;799                                       |
-
-Table 17: Specification of T4 connector
+--                               Table 17: Specification of T4 connector
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1)
 
@@ -647,6 +616,7 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202" height=500>
+<figcaption align="center">Figure 14: Solar Panel Mounts</figcaption>
 
 We'll be using 1 such mount for our system, which consists of 4 panels.
 
@@ -659,9 +629,7 @@ We'll be using 1 such mount for our system, which consists of 4 panels.
 | Weight                       | 50kg            |
 | Material                     | Galvanised Iron |
 | Holding Capacity             | 4 Panels        |
-
-**Table 18:** Specification of solar panel mounts
-
+--                         Table 18 : Specification of solar panel mounts
 [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)
 
 ---
@@ -672,29 +640,29 @@ Here, we give a brief on how the off-grid energy solution is expected to look li
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/design.png" alt="Mindmap for Design"  width=450/> 
-	 <figcaption align="center">Mindmap for Design</figcaption>
+	 <figcaption align="center">Figure 15: Mindmap for Design</figcaption>
 </p>
 
 ### CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center" id = "front">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
-	<figcaption align="center">Front View</figcaption>
+	<figcaption align="center">Figure 16: Front View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "side">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe.jpg" alt="Side view" width=500/> 
-	 <figcaption align="center">Side View</figcaption>
+	 <figcaption align="center">Figure 17: Side View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "top">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_top.jpg" alt="Top View" width=500/>
-	 <figcaption align="center">Top View</figcaption>
+	 <figcaption align="center">Figure18: Top View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "orthographic">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_orthographic.jpg" alt="Isometric view"  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
+	 <figcaption align="center">Figure 19: Orthographic View of Designed House</figcaption>
 </p>
 
 
@@ -705,9 +673,11 @@ Solar panels to take the solar energy and give a DC current.
 
 <p align="center" id = "panel_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 20: Side View of Solar Panel</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 21: Front View of Solar Panel</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 22: Top View of Solar Panel </figcaption>
 </p>
 
 ***Label 2*** - Inverter  
@@ -715,9 +685,11 @@ Takes the solar DC current, and supply it power supply as well as store it in ba
 
 <p align="center" id = "inverter_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 23: Side View of Inverter</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 24: Front View of Inverter</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 25: Top View of Inverter</figcaption>
 </p>
 
 ***Label 3*** - Battery  
@@ -725,9 +697,11 @@ Stores the solar converted electrical energy for further use when solar power ca
 
 <p align="center" id="battery_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 26: Top View Battery</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 27: Front View Battery</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 28: Top View Battery</figcaption>
 </p>
 
 ---
@@ -737,6 +711,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 The next step is to realize the design using all the components mentioned in the specifications by appropriately connecting them. The diagram below shows the connections for the same. 
 
 <p align="center" id="wiring"><img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Images/wiring_diagram.jpg" width=512></p>
+<figcaption align="center">Figure 29: Wiring Diagram</figcaption>
 
 The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. These are then connected to a DC Circuit Breaker using T4 connectors. The wires then go via a DC Surge Protector to the invertor which is connected to a series combination of 3 batteries of 12V each. The output of the invertor then goes to an AC circuit breaker which has also been connected to the generator for backup. This is finally connected to the MCB inside the house.
 
@@ -762,9 +737,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 | Installation Cost| | | &#8377;12,320 | [Product Link](https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india)|
 | Electrician Charges| | | &#8377;3,000 | [Product Link](https://www.urbancompany.com/request/electricians)|
 |Total Price | | | &#8377;2,11,527 |
-
-**Table 19:** Cost Analysis
-
+-							   Table 19 : Cost Analysis
 ---
 
 ## Reuse of Materials
@@ -798,57 +771,6 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 - **Inverter**
     
     - The DC electricity generated by the solar panels is converted into AC using this inverter, for powering all electrical appliances, lighting, power tools etc. in the house.
-
----
-
-
-## Project Management
-
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/gantt.png" alt="Gantt chart" id="gantt" width=500/> 
-	 <figcaption align="center">Gantt Chart</figcaption>
-</p>
-
-The red path in the above Gantt Chart indicates the critical path. It was closely monitored, so that there were no delays in the corresponding works.
-
-The following shows the start dates and durations of various subteams in the project:
-
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/sunergy.png" alt="Work breakdown structure" id="work_breakdown" width=500/> 
-	 <figcaption align="center">Work breakdown structure</figcaption>
-</p>
-
-The following shows the resources available, a gear symbol against a name shows that they were involved in the project
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
-	 <figcaption align="center">Resources</figcaption>
-</p>
-
-The following shows the work breakdown structure:
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/assign.png" alt="Work Breakdown Structure" id="assign_work" width=500/> 
-	 <figcaption align="center">Assignment of Work</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/proj.png" alt="Work Breakdown Structure" id="proj_manage" width=500/> 
-	 <figcaption align="center">Project Management</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/cad.png" alt="Work Breakdown Structure" id="cad_model" width=500/> 
-	 <figcaption align="center">CAD Model</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/lts.png" alt="Work Breakdown Structure" id="circuit" width=500/> 
-	 <figcaption align="center">Circuit design</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/specs.png" alt="Work Breakdown Structure" id="specs" width=500/> 
-	 <figcaption align="center">Specifications</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/doc.png" alt="Work Breakdown Structure" id="docs" width=500/> 
-	 <figcaption align="center">Documentation</figcaption>
-</p>
 
 ---
 
