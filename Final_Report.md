@@ -77,9 +77,8 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 ---
 
 ## Preamble
-
 #### List of Abbreviations
-|  S. No.  | Abbreviation|Stands For|
+|  S.NO.  | Abbreviation|Stands For|
  | :---:|:-----:|:--------------------:|
  |1.| AC | Alternating Current|
  |2.| BIS | Bureau of Indian Standards|
@@ -102,13 +101,11 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |19.| UV | UltraViolet|
 |20.| VMP| Voltage at Maximum Power|
 |21.| Voc| Voltage at Open Circuit|
-
 #### List of Tables
-
-|  S. No.  | Table|
+|  S.NO.  | Table|
 | :---:|:-----:|
 | 1.|  [**Authors**](#authors)|
-|2.| [**Text Statistics**](#text-statistics)|
+|2.| [**Documentation Statistics**](#documentation-statistics)|
 |3.|[**Readability indices**](#readability-indices)|
 |4.|[**Power Requirements**](#basic-requirements)|
 |5.|[**Battery**](#battery)|
@@ -126,14 +123,12 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |17.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
 |18.|[**Solar Panel Mounts**](#solar-panel-mounts)|
 |19.|[**Cost Analysis**](#cost-analysis)|
-
 #### List of Figures
-
-|  S. No.  | Figures|
+|  S.NO.  | Figures|
  | :---:|:-----:|
  |1.| [**Mindmap for Requirements**](#requirements)|
  |2.|[**Mindmap for Specifications**](#specifications)|
- |3.|[**Luminous Red Charge RC 18000 150 Ah Battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
+ |3.|[**Luminous Red Charge RC 18000 150 Ah battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
 |4.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
 |5.|[**Solar Panels**](#high-efficiency-solar-panels)|
 |6.|[**Solar DC Cables**](#solar-dc-cable)|
@@ -146,19 +141,19 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |13.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
 |14.|[**Solar Panel Mounts**](#solar-panel-mounts)|
 |15.|[**Mindmap for Design**](#design)|
-| 16. |[**Front View of Designed House**](#cadassembly)|
-| 17. |[**Side View of Designed House**](#cadassembly)|
-| 18. |[**Top View of Designed House**](#cadassembly) |
-|19.  |[**Orthographic View of Designed House**](#cadassembly)|
-|20.|[**Side View of Solar Panels**](#cadassembly)|
-|21.|[**Front View of Solar Panels**](#cadassembly)|
-|22.|[**Top View of Solar Panels**](#cadassembly)|
-|23.|[**Side View of Inverter**](#cadassembly)|
-|24.|[**Front View of Inverter**](#cadassembly)|
-|25.|[**Top View of Inverter**](#cadassembly)|
-|26.|[**Side View of Battery**](#cadassembly)|
-|27.|[**Front View of Battery**](#cadassembly)|
-|28.|[**Top View of Battery**](#cadassembly)|
+| 16. |[**Front View of Designed House**](#front)|
+| 17. |    [**Side View of Designed House**](#side)|
+| 18. | [**Top View of Designed House**](#top) |
+|19.  | [**Orthographic View of Designed House**](#orthographic)|
+|20.|[**Side View of Solar Panels**](#panel_view)|
+|21.|[**Front View of Solar Panels**](#panel_view)|
+|22.|[**Top View of Solar Panels**](#panel_view)|
+|23.|[**Side View of Inverter**](#inverter_view)|
+|24.|[**Front View of Inverter**](#inverter_view)|
+|25.|[**Top View of Inverter**](#inverter_view)|
+|26.|[**Side View of Battery**](#battery_view)|
+|27.|[**Front View of Battery**](#battery_view)|
+|28.|[**Top View of Battery**](#battery_view)|
 |29.| [**Wiring Diagram**](#wiring)|
 
 ---
@@ -194,7 +189,7 @@ The solution has been made keeping in mind a specific geographical location (A f
 
 In the following section, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
-<p align="center">
+<p align="center" id = "requirement">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/requirements.png" alt="Mindmap for Requirements"  width=450/> 
 	 <figcaption align="center">Mindmap for Requirements</figcaption>
 </p>
@@ -287,7 +282,7 @@ Various technical apparatus and tools required to acheive our goal are:
 
 In the following section, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
 
-<p align="center">
+<p align="center" id="specification">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/specifications.png" alt="Mindmap for Specifications"  width=450/> 
 	 <figcaption align="center">Mindmap for Specifications</figcaption>
 </p>
@@ -296,7 +291,7 @@ In the following section, we give a brief on various specifications of the compo
 
 ### Electrical Specifications
 #### Battery
-##### Luminous Red Charge RC 18000 150 Ah Battery
+##### Luminous Red Charge RC 18000 150 Ah battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
 
@@ -349,8 +344,8 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 
-Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
--   3 kva system with 3500 watt solar panel support
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+-   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
 -   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
 -   Surge warnings, safety alarms and troubleshooting Fault Codes 
@@ -628,22 +623,22 @@ Here, we give a brief on how the off-grid energy solution is expected to look li
 
 ### CAD/Assembly
 The following image is the 3-D diagram of the designed house.
-<p align="center">
+<p align="center" id = "front">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
 	<figcaption align="center">Front View</figcaption>
 </p>
 
-<p align="center">
+<p align="center" id = "side">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe.jpg" alt="Side view" width=500/> 
 	 <figcaption align="center">Side View</figcaption>
 </p>
 
-<p align="center">
+<p align="center" id = "top">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_top.jpg" alt="Top View" width=500/>
 	 <figcaption align="center">Top View</figcaption>
 </p>
 
-<p align="center">
+<p align="center" id = "orthographic">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_orthographic.jpg" alt="Isometric view"  width=500/> 
 	 <figcaption align="center">Orthographic View</figcaption>
 </p>
@@ -654,7 +649,7 @@ The components of our energy solution are detailed as follows:
 ***Label 1*** - Solar Panels
 Solar panels to take the solar energy and give a DC current.
 
-<p align="center">
+<p align="center" id = "panel_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
@@ -664,7 +659,7 @@ Solar panels to take the solar energy and give a DC current.
 ***Label 2*** - Inverter  
 Takes the solar DC current, and supply it power supply as well as store it in battery.
 
-<p align="center">
+<p align="center" id = "inverter_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
@@ -674,7 +669,7 @@ Takes the solar DC current, and supply it power supply as well as store it in ba
 ***Label 3*** - Battery  
 Stores the solar converted electrical energy for further use when solar power cannot be harnessed e.g. Night. 
 
-<p align="center">
+<p align="center" id="battery_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/> 
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
@@ -760,8 +755,8 @@ While designing this solution for off grid living, we used a number of softwares
 - [**Draw.io**](https://app.diagrams.net/): For creating mind maps
 - [**Tinkercad**](https://www.tinkercad.com/): For designing 3D models and plans for the project
 - [**GLC Player**](https://sourceforge.net/projects/glc-player/): For exporting the OBJ models from Tinkercad to images
-- [**Excalidraw**](https://excalidraw.com/): For designing the circuit diagram for the project
-- [**Zotero**](https://www.zotero.org/): For collecting and managing references
+- [**LTSpice**](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html): For designing the circuit diagram for the project
+- [**Zotero**](): For collecting and managing references
 
 ---
 
