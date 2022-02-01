@@ -74,15 +74,15 @@ The above results were obtained using https://wordcounter.net/.
 #### Readability indices
 <!-- To be changed -->
 
-| Readability Index                | Score |
-|:---------------------------------|:------|
-| Flesch Reading Ease score        | 61    |
-| Dale-Chall Readability score     | 8.8   |
-| Flesch-Kincaid Grade level       | 7     |
-| The Coleman-Liau Index           | 14    |
-| Automated Readability Index      | 11    |
-| SMOG Formula score               | 12    |
-| Spache Readability score         | 4     |
+| Readability Index                | Score | Can be easily understood by |
+|:---------------------------------|:------|:----------------------------|
+| Flesch Reading Ease score        | 61    | 13 to 15 year olds 	 |
+| Dale-Chall Readability score     | 8.8   | 11th or 12th grade students |
+| Flesch-Kincaid Grade level       | 7     | 7th grade students		 |
+| The Coleman-Liau Index           | 14    | Undergraduate students	 |
+| Automated Readability Index      | 11    | 10th grade students	 |
+| SMOG Formula score               | 12    | 7th grade students 	 |
+| Spache Readability score         | 4     | 4th grade students 	 |
 
 
 **Table 3:** Readability indices
