@@ -321,7 +321,7 @@ In the following section, we give a brief on various specifications of the compo
 ##### Luminous Red Charge RC 18000 150 Ah battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
- <figcaption align="center">Figure 3: Luminous Red Charge RC 18000 150 Ah battery</figcaption>
+ <figcaption>Figure 3: Luminous Red Charge RC 18000 150 Ah battery</figcaption>
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  fast battery charging with adaptive battery charging control technology
@@ -375,6 +375,8 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 ##### 3KVA/ 36 V Off Grid Solar Inverter
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
+<figcaption><b>Figure 4:</b> 3KVA/ 36 V Off Grid Solar Inverter</figcaption>
+<br>
 
 Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an MPPT technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
 -   3 kva system with 3500 watt solar panel support
@@ -445,13 +447,10 @@ The panels which we're using, are based on [mono PERC cells](https://regenpower.
  
 It also paves the way for more power output per panel, which means less number of panels are required for a given power requirement. It means less expenditure for 
 [panel mounts](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhB7u8DxJiUJTM2uH5U-6Ml3h3SoByqJd8g&usqp=CAU).
-
-<img src = 
-"https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
-<figcaption align="center">Figure 5:  Solar Panels</figcaption>
-
-
 We'll be using 4 such panels in our system.
+
+<img src ="https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
+<figcaption><b>Figure 5:</b>  Solar Panels</figcaption>
 
 | Specification (Single panel) | Value         |
 | ---------------------------- | ------------- |
@@ -482,7 +481,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 - UV resistance to ensure longevity
 
 <img src="https://m.media-amazon.com/images/I/417e-1jmi4S.jpg">
-<figcaption align="center">Figure 6: Solar DC Cables</figcaption>
+<figcaption>Figure 6: Solar DC Cables</figcaption>
 
 
 
@@ -502,6 +501,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 Connecting wires would be used to connect different appliances in the energy grid.  Hence they should be able to carry high current and be well insulated.
 
 <img src="https://rukminim1.flixcart.com/image/416/416/k5zn9u80/electrical-wire/h/e/b/whffdnka1x50-fr-sc-5-mm-wire-black-90mtr-havells-original-imafa8rhtuurspyd.jpeg?q=70" alt="connecting wires" height="300"/>
+<figcaption>Figure 7: Household connection Wire</figcaption>
 
 
 
@@ -530,7 +530,7 @@ Table 11 : Specification of Household Connection Wires
 A separate AC Breaker between the AC Input and Inverter is required to ensure tha the inverter can be securely disconnected during maintenance and secured from AC Input over current
 
 <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
-<figcaption align="center">Figure 8: AC Circuit Breaker</figcaption>
+<figcaption>Figure 8: AC Circuit Breaker</figcaption>
 
 
 | Specification  | Value                |
@@ -553,6 +553,7 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 A DC Circuit breaker between the Solar Panels and Inverter is required for disconnecting the solar panels safely for maintenance or replacement. The Circuit breaker also protects the inverter from over current damage
 
 <img src = "https://m.media-amazon.com/images/I/71JEQ-sPGaL._SL1500_.jpg" width = 200>
+<figcaption>Figure 9: DC Circuit Breaker</figcaption>
 
 | Specification        | Value                  |
 | -------------------- | ---------------------- |
@@ -573,7 +574,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 The DC Surge Protector protects the inverter and panels from any unforeseen voltage surges in instances such as Lightning strikes
 
 <img src = "https://m.media-amazon.com/images/I/61l8Y7CfuAL._SL1500_.jpg" width = 200>
-<figcaption align="center">Figure 10: DC Surge Protection Device</figcaption>
+<figcaption>Figure 10: DC Surge Protection Device</figcaption>
 
 | Specification      | Value                |
 | ------------------ | -------------------- |
@@ -589,7 +590,9 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
 #####  Porcelain Fuse
+
 <img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
+<figcaption>Figure 11: Porcelain Fuse</figcaption>
 
 | Specification      | Value               |
 | ------------------ | ------------------- |
@@ -613,7 +616,7 @@ MC4 Connectors are required for a safe and convenient connection between the sol
 The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame boasting an estimated life of upto 25 years and thus require minimum maintenance.
 
 <img src="https://m.media-amazon.com/images/I/81DukcckFRL._SL1500_.jpg" height="300">
-<figcaption align="center">Figure 12: MC4 Solar Panel Connectors</figcaption>
+<figcaption>Figure 12: MC4 Solar Panel Connectors</figcaption>
 
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
@@ -632,7 +635,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 T4 Connector is required to connect the 2x4 parallel solar panel array to the solar charge controller. The T4 connector also comes with UV Resistance, anti flame and water resistance
 
 <img src="https://m.media-amazon.com/images/I/81v6jkEqD4L._SL1500_.jpg" height="300">
-<figcaption align="center">Figure 13: 4 in 1 T4 Connector</figcaption>
+<figcaption>Figure 13: 4 in 1 T4 Connector</figcaption>
 
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
@@ -655,7 +658,7 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202" height=500>
-<figcaption align="center">Figure 14: Solar Panel Mounts</figcaption>
+<figcaption>Figure 14: Solar Panel Mounts</figcaption>
 
 We'll be using 1 such mount for our system, which consists of 4 panels.
 
