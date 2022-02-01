@@ -22,7 +22,7 @@ The following shows the start dates and durations of various sub-teams in the pr
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/resourcespng" alt="Resource management"  width=500/> 
+/resources.png" alt="Resource management"  width=500/> 
 	 <figcaption align="center">Resources</figcaption>
 </p>
 
