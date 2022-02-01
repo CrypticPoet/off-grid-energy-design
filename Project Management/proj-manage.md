@@ -1,26 +1,71 @@
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/gantt1.png" alt="Gantt chart part 1"  width=500/> 
+	 <figcaption align="center">Orthographic View</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/gantt2.png" alt="Gantt chart part 2"  width=500/> 
+	 <figcaption align="center">Gantt Chart</figcaption>
+</p>
+https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/project-management-markdown/
 
+The red path in the above Gantt Chart shows the critical path. It was closely monitored so that there were no delays in the corresponding works.
 
-![Gantt chart](./gantt1.png)
-![Gantt chart](./gantt2.png "Gantt chart")
-The red path in the above Gantt Chart shows the critical path. It was closely monitored, so that there were no delays in the corresponding works.
+The following shows the start dates and durations of various sub-teams in the project:
 
-The following shows the start dates and durations of various subteams in the project:
-
-
-
-
-![Gantt chart part 1](./sunergy1.png "Gantt chart part 1")
-![Gantt chart](./sunergy2.png "Gantt chart")
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/sunergy1.png" alt=""  width=500/> 
+	 <figcaption align="center">Orthographic View</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/sunergy2.png" alt=""  width=500/> 
+	 <figcaption align="center">Orthographic View</figcaption>
+</p>
 
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
-![Resource management](./resources1.png "Resource management")
-![Resource management](./resources2.png "Resource management")
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/resources1.png" alt="Resource management"  width=500/> 
+	 <figcaption align="center">Orthographic View</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/resources2.png" alt="Resource management"  width=500/> 
+	 <figcaption align="center">Orthographic View</figcaption>
+</p>
 
 
 The following shows the work breakdown structure:
-![Work Breakdown Structure](./assign.png "Work Breakdown Structure")
-![Work Breakdown Structure](./proj.png)
-![Work Breakdown Structure](./cad.png)
-![Work Breakdown Structure](./lts.png "Gantt chart")
-![Work Breakdown Structure](./specs.png)
-![Work Breakdown Structure](./doc.png)
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/assign.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">Assignment of Work</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/proj.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">Project Management</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/cad.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">CAD Model</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/lts.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">LT Spice Circuit design</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/specs.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">Specifications</figcaption>
+</p>
+<p align="center">
+	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
+/doc.png" alt="Work Breakdown Structure"  width=500/> 
+	 <figcaption align="center">Documentation</figcaption>
+</p>
