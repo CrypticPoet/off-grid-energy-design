@@ -5,76 +5,124 @@
 
 # SUNERGY: Final Report
 
-| ID                  | v4.0                                                         |
-| :------------------ | :----------------------------------------------------------- |
-| Tribe               | Tribe E                                                      |
-| Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                  |
-| Contact for Queries | Mihir Okte                                                   |
+| ID                  | v4.0                                                                          |
+| :------------------ | :---------------------------------------------------------------------------- |
+| Tribe               | Tribe E                                                                       |
+| Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                                   |
+| Contact for Queries | Mihir Okte                                                                    |
 | Submitted to        | Prof. Subrat Kar, Course Coordinator \| ELP305: Design and Systems Laboratory |
-| Date of Submission  | 02-02-2022                                                   |
+| Date of Submission  | 02-02-2022                                                                    |
 
 **NOTE:** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
 
 ## Table of Contents
 
 - [ELP305 Design and Systems Laboratory](#elp305-design-and-systems-laboratory)
-  - [Semester 2, 2021-2022](#semester-2-2021-2022)
-    - [Tribe E](#tribe-e)
+	- [Semester 2, 2021-2022](#semester-2-2021-2022)
+		- [Tribe E](#tribe-e)
 - [SUNERGY: Final Report](#sunergy-final-report)
-  - [Table of Contents](#table-of-contents)
-  - [Authors](#authors)
-  - [Documentation Statistics](#documentation-statistics)
-      - [Text Statistics](#text-statistics)
-      - [Readability indices](#readability-indices)
-  - [Preamble](#preamble)
-      - [List of Abbreviations](#list-of-abbreviations)
-      - [List of Tables](#list-of-tables)
-      - [List of Figures](#list-of-figures)
-  - [Abstract](#abstract)
-  - [Aim](#aim)
-  - [Scope](#scope)
-  - [Requirements](#requirements)
-    - [Base Setup](#base-setup)
-    - [Basic Requirements](#basic-requirements)
-    - [Technical Requirements](#technical-requirements)
-  - [Specifications](#specifications)
-    - [Electrical Specifications](#electrical-specifications)
-      - [Battery](#battery)
-        - [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
-      - [Backup Generator](#backup-generator)
-      - [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
-        - [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
-      - [Solar Charge Controller](#solar-charge-controller)
-        - [Sizing](#sizing)
-      - [High Efficiency Solar Panels](#high-efficiency-solar-panels)
-      - [Wires](#wires)
-        - [Solar DC Cable](#solar-dc-cable)
-        - [Household connection wires](#household-connection-wires)
-      - [Safety Measures](#safety-measures)
-        - [AC Circuit Breaker](#ac-circuit-breaker)
-        - [DC Circuit Breaker](#dc-circuit-breaker)
-        - [DC Surge Protection Device](#dc-surge-protection-device)
-        - [Porcelain Fuse](#porcelain-fuse)
-      - [MC4 Connectors](#mc4-connectors)
-        - [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
-        - [4 in 1 T4 Connector](#4-in-1-t4-connector)
-    - [Mechanical Specifications](#mechanical-specifications)
-      - [Solar Panel Mounts](#solar-panel-mounts)
-  - [Design](#design)
-    - [CAD/Assembly](#cadassembly)
-    - [Wiring Diagram](#wiring-diagram)
-  - [Cost Analysis](#cost-analysis)
-  - [Reuse of Materials](#reuse-of-materials)
-  - [Project Management](#project-management)
-  - [Attributions](#attributions)
-  - [References](#references)
+	- [Table of Contents](#table-of-contents)
+	- [Authors](#authors)
+	- [Documentation Statistics](#documentation-statistics)
+			- [Text Statistics](#text-statistics)
+			- [Readability indices](#readability-indices)
+	- [Preamble](#preamble)
+			- [List of Abbreviations](#list-of-abbreviations)
+			- [List of Tables](#list-of-tables)
+			- [List of Figures](#list-of-figures)
+	- [Abstract](#abstract)
+	- [Aim](#aim)
+	- [Scope](#scope)
+	- [Requirements](#requirements)
+		- [Base Setup](#base-setup)
+		- [Basic Requirements](#basic-requirements)
+		- [Technical Requirements](#technical-requirements)
+	- [Specifications](#specifications)
+		- [Electrical Specifications](#electrical-specifications)
+			- [Battery](#battery)
+				- [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
+			- [Backup Generator](#backup-generator)
+			- [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
+				- [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
+			- [Solar Charge Controller](#solar-charge-controller)
+				- [Sizing](#sizing)
+			- [High Efficiency Solar Panels](#high-efficiency-solar-panels)
+			- [Wires](#wires)
+				- [Solar DC Cable](#solar-dc-cable)
+				- [Household connection wires](#household-connection-wires)
+			- [Safety Measures](#safety-measures)
+				- [AC Circuit Breaker](#ac-circuit-breaker)
+				- [DC Circuit Breaker](#dc-circuit-breaker)
+				- [DC Surge Protection Device](#dc-surge-protection-device)
+				- [Porcelain Fuse](#porcelain-fuse)
+			- [MC4 Connectors](#mc4-connectors)
+				- [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
+				- [4 in 1 T4 Connector](#4-in-1-t4-connector)
+		- [Mechanical Specifications](#mechanical-specifications)
+			- [Solar Panel Mounts](#solar-panel-mounts)
+	- [Design](#design)
+		- [CAD/Assembly](#cadassembly)
+		- [Wiring Diagram](#wiring-diagram)
+	- [Cost Analysis](#cost-analysis)
+	- [Reuse of Materials](#reuse-of-materials)
+	- [Project Management](#project-management)
+	- [Attributions](#attributions)
+	- [References](#references)
 
 ---
 
 ## Authors
-| S. No. | Name | Email id | Role | Performance |
-|------:|:----:|:--------:|:----:|:----------:|
-
+| S. No. | Name                     |       Email id       | Role                                       | Performance |
+| -----: | :----------------------- | :------------------: | :----------------------------------------- | :---------: |
+|     1. | Vishal Asthana           | ee1191083@iitd.ac.in | Tribe Coordinator                          |     1.0     |
+|     2. | Ritvik Gupta             | mt1190512@iitd.ac.in | Documentation Sub Tribe Coordinator        |     1.0     |
+|     3. | Shubham Jangra           | ee1190529@iitd.ac.in | Solar Panels Sub Tribe Coordinator         |     1.0     |
+|     4. | Shailendra Thenua        | ee1190522@iitd.ac.in | Battery and Inverter Sub Tribe Coordinator |     1.0     |
+|     5. | Mihir Okte               | mt1190703@iitd.ac.in | CAD Design Sub Tribe Coordinator           |     1.0     |
+|     6. | Shloka Bhuwalka          | ee1190527@iitd.ac.in | Wiring and LTSpice Sub Tribe Coordinator   |     1.0     |
+|     7. | Uddhav Goel              | ee1190540@iitd.ac.in | Gantt Chart Sub Tribe Coordinator          |     1.0     |
+|     8. | Abhishek Kumar           | ee1190456@iitd.ac.in | Member                                     |     1.0     |
+|     9. | Abhishek Kumar           | ee1190457@iitd.ac.in | Member                                     |     1.0     |
+|    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     1.0     |
+|    11. | Ahsan Kamal              | mt6190740@iitd.ac.in | Member                                     |     1.0     |
+|    12. | Akash Agrawal            | ee3190006@iitd.ac.in | Member                                     |     1.0     |
+|    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     1.0     |
+|    14. | Amit Kumar               | mt6190744@iitd.ac.in | Member                                     |     1.0     |
+|    15. | Anirudh Singh Chauhan    | ee1191072@iitd.ac.in | Member                                     |     1.0     |
+|    16. | Ankit kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
+|    17. | Anshuman Panda           | mt1190463@iitd.ac.in | Member                                     |     1.0     |
+|    18. | Anurag Sharma            | mt6190745@iitd.ac.in | Member                                     |     1.0     |
+|    19. | Ayush Joshi              | ee1190486@iitd.ac.in | Member                                     |     1.0     |
+|    20. | Ayush Meena              | ee1190468@iitd.ac.in | Member                                     |     1.0     |
+|    21. | Bhargav Halipeth         | ee3190562@iitd.ac.in | Member                                     |     1.0     |
+|    22. | Govind Patidar           | ee1190478@iitd.ac.in | Member                                     |     1.0     |
+|    23. | Guruvu Surya Sai Prakash | ee1190481@iitd.ac.in | Member                                     |     1.0     |
+|    24. | Harshit Nekela           | mt1190693@iitd.ac.in | Member                                     |     1.0     |
+|    25. | Het Patel                | ee1190484@iitd.ac.in | Member                                     |     1.0     |
+|    26. | Manisha Chaudhary        | ee1190494@iitd.ac.in | Member                                     |     1.0     |
+|    27. | Mohit Yadav              | ee3190582@iitd.ac.in | Member                                     |     1.0     |
+|    28. | Ohm V                    | ee1190499@iitd.ac.in | Member                                     |     1.0     |
+|    29. | Pragya Dhakar            | mt6190756@iitd.ac.in | Member                                     |     1.0     |
+|    30. | Prasoon Bajpai           | mt6190824@iitd.ac.in | Member                                     |     1.0     |
+|    31. | Prateek Sinha            | mt1190716@iitd.ac.in | Member                                     |     1.0     |
+|    32. | Rajdeep Das              | mt1190718@iitd.ac.in | Member                                     |     1.0     |
+|    33. | Ronak Choudhary          | ee3190597@iitd.ac.in | Member                                     |     1.0     |
+|    34. | Sahil Raj                | mt1190723@iitd.ac.in | Member                                     |     1.0     |
+|    35. | Satyam Sharma            | ee1190521@iitd.ac.in | Member                                     |     1.0     |
+|    36. | Shashank Nehra           | ee1190523@iitd.ac.in | Member                                     |     1.0     |
+|    37. | Shivam Garg              | ee1190600@iitd.ac.in | Member                                     |     1.0     |
+|    38. | Shivam Gupta             | ee1190601@iitd.ac.in | Member                                     |     1.0     |
+|    39. | Shivang Garde            | ee1180501@iitd.ac.in | Member                                     |     1.0     |
+|    40. | Shivani Singh            | ee1190525@iitd.ac.in | Member                                     |     1.0     |
+|    41. | Siddhant Sharma          | ee1190531@iitd.ac.in | Member                                     |     1.0     |
+|    42. | Suvam Paul               | ee1190536@iitd.ac.in | Member                                     |     1.0     |
+|    43. | Tanmay Kumar             | ee1190538@iitd.ac.in | Member                                     |     1.0     |
+|    44. | Tushar Singh             | ee1190539@iitd.ac.in | Member                                     |     1.0     |
+|    45. | Udit Dahiya              | ee3190852@iitd.ac.in | Member                                     |     1.0     |
+|    46. | Vaibhav Verma            | ee1190543@iitd.ac.in | Member                                     |     1.0     |
+|    47. | Vansh Gupta              | ee1190143@iitd.ac.in | Member                                     |     1.0     |
+|    48. | Yash Pal Singh           | ee1190548@iitd.ac.in | Member                                     |     1.0     |
+|    49. | Yug Garg                 | ee3190607@iitd.ac.in | Member                                     |     1.0     |
 **Table 1:** List of Authors
 
 ---
@@ -84,11 +132,11 @@
 <!-- To be changed -->
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
-|------------|----------------|------------------|-------------|--------------|-------------------------|-------------|
+| ---------- | -------------- | ---------------- | ----------- | ------------ | ----------------------- | ----------- |
 | 434        | 922            | 1715             | 11          | 3592         | 3204                    | 941         |
 
 | Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
-|--------------------------|-------------------------------|---------------------------|--------------------------|
+| ------------------------ | ----------------------------- | ------------------------- | ------------------------ |
 | 40                       | 327                           | 7.4                       | 2.16                     |
 
 **Table 2:** Text Statistics
@@ -98,15 +146,15 @@ The above results were obtained using https://wordcounter.net/.
 #### Readability indices
 <!-- To be changed -->
 
-| Readability Index                | Score | Can be easily understood by |
-|:---------------------------------|:------|:----------------------------|
-| Flesch Reading Ease score        | 61    | 13 to 15 year olds 	 |
-| Dale-Chall Readability score     | 8.8   | 11th or 12th grade students |
-| Flesch-Kincaid Grade level       | 7     | 7th grade students		 |
-| The Coleman-Liau Index           | 14    | Undergraduate students	 |
-| Automated Readability Index      | 11    | 10th grade students	 |
-| SMOG Formula score               | 12    | 7th grade students 	 |
-| Spache Readability score         | 4     | 4th grade students 	 |
+| Readability Index            | Score | Can be easily understood by |
+| :--------------------------- | :---- | :-------------------------- |
+| Flesch Reading Ease score    | 61    | 13 to 15 year olds          |
+| Dale-Chall Readability score | 8.8   | 11th or 12th grade students |
+| Flesch-Kincaid Grade level   | 7     | 7th grade students          |
+| The Coleman-Liau Index       | 14    | Undergraduate students      |
+| Automated Readability Index  | 11    | 10th grade students         |
+| SMOG Formula score           | 12    | 7th grade students          |
+| Spache Readability score     | 4     | 4th grade students          |
 
 
 **Table 3:** Readability indices
@@ -119,95 +167,95 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 
 #### List of Abbreviations
 
-|  S. No.  | Abbreviation|Stands For|
- | :---:|:-----:|:--------------------|
- |1.| AC | Alternating Current|
- |2.| BIS | Bureau of Indian Standards|
-|3.| CAD |Computer Aided Design|
-|4.| DC| Direct Current|
-|5.| ETP | Electrolytic Tough Pitch |
-|6.| HRFR|Heat Resistant Flame Retardant|
-|7.| IMP| Current at Maximum Power|
-|8.| IP | Ingress Protection|
-|9.| LED| Light Emitting Diode|
-|10.| MPPT | Maximum Power Point Tracking|
-|11.| misc| Miscellaneous|
-|12.| MCB| Miniature Circuit Breaker|
-|13.| MC4 Connector|Multi-Contact 4 mm diameter contact pin Connector|
-|14.| PERC| Passivated Emitter and Rear Contact|
-|15.| PWM| Pulse Width Modulation|
-|16.| PC | Personal Computer |
-|17.| PA| Polyamide|
-|18.| PPO| Polyphenylene Oxide |
-|19.| UV | UltraViolet|
-|20.| VMP| Voltage at Maximum Power|
-|21.| Voc| Voltage at Open Circuit|
+| S. No. | Abbreviation  | Stands For                                        |
+| :----: | :-----------: | :------------------------------------------------ |
+|   1.   |      AC       | Alternating Current                               |
+|   2.   |      BIS      | Bureau of Indian Standards                        |
+|   3.   |      CAD      | Computer Aided Design                             |
+|   4.   |      DC       | Direct Current                                    |
+|   5.   |      ETP      | Electrolytic Tough Pitch                          |
+|   6.   |     HRFR      | Heat Resistant Flame Retardant                    |
+|   7.   |      IMP      | Current at Maximum Power                          |
+|   8.   |      IP       | Ingress Protection                                |
+|   9.   |      LED      | Light Emitting Diode                              |
+|  10.   |     MPPT      | Maximum Power Point Tracking                      |
+|  11.   |     misc      | Miscellaneous                                     |
+|  12.   |      MCB      | Miniature Circuit Breaker                         |
+|  13.   | MC4 Connector | Multi-Contact 4 mm diameter contact pin Connector |
+|  14.   |     PERC      | Passivated Emitter and Rear Contact               |
+|  15.   |      PWM      | Pulse Width Modulation                            |
+|  16.   |      PC       | Personal Computer                                 |
+|  17.   |      PA       | Polyamide                                         |
+|  18.   |      PPO      | Polyphenylene Oxide                               |
+|  19.   |      UV       | UltraViolet                                       |
+|  20.   |      VMP      | Voltage at Maximum Power                          |
+|  21.   |      Voc      | Voltage at Open Circuit                           |
 
 #### List of Tables
 
-|  S. No.  | Table|
-| :---:|:-----|
-| 1.|  [**Authors**](#authors)|
-|2.| [**Documentation Statistics**](#documentation-statistics)|
-|3.|[**Readability indices**](#readability-indices)|
-|4.|[**Power Requirements**](#basic-requirements)|
-|5.|[**Battery**](#battery)|
-|6.|[**Backup Generator**](#backup-generator)|
-|7.|[**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller)|
-|8.|[**Solar Charge Controller**](#solar-charge-controller)|
-|9.|[**High Efficiency Solar Panels**](#high-efficiency-solar-panels)|
-|10.|[**Solar DC Cable**](#solar-dc-cable)|
-|11.|[**Household connection wires**](#household-connection-wires)|
-|12.|[**AC Circuit Breakers**](#ac-circuit-breaker)|
-|13.|[**DC Circuit Breakers**](#dc-circuit-breaker)|
-|14.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
-|15.|[**Porcelain Fuse**](#porcelain-fuse)|
-|16.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
-|17.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
-|18.|[**Solar Panel Mounts**](#solar-panel-mounts)|
-|19.|[**Cost Analysis**](#cost-analysis)|
+| S. No. | Table                                                                                |
+| :----: | :----------------------------------------------------------------------------------- |
+|   1.   | [**Authors**](#authors)                                                              |
+|   2.   | [**Documentation Statistics**](#documentation-statistics)                            |
+|   3.   | [**Readability indices**](#readability-indices)                                      |
+|   4.   | [**Power Requirements**](#basic-requirements)                                        |
+|   5.   | [**Battery**](#battery)                                                              |
+|   6.   | [**Backup Generator**](#backup-generator)                                            |
+|   7.   | [**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller) |
+|   8.   | [**Solar Charge Controller**](#solar-charge-controller)                              |
+|   9.   | [**High Efficiency Solar Panels**](#high-efficiency-solar-panels)                    |
+|  10.   | [**Solar DC Cable**](#solar-dc-cable)                                                |
+|  11.   | [**Household connection wires**](#household-connection-wires)                        |
+|  12.   | [**AC Circuit Breakers**](#ac-circuit-breaker)                                       |
+|  13.   | [**DC Circuit Breakers**](#dc-circuit-breaker)                                       |
+|  14.   | [**DC Surge Protection Device**](#dc-surge-protection-device)                        |
+|  15.   | [**Porcelain Fuse**](#porcelain-fuse)                                                |
+|  16.   | [**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)                        |
+|  17.   | [**4 in 1 T4 Connector**](#4-in-1-t4-connector)                                      |
+|  18.   | [**Solar Panel Mounts**](#solar-panel-mounts)                                        |
+|  19.   | [**Cost Analysis**](#cost-analysis)                                                  |
 
 #### List of Figures
 
-|  S. No.  | Figures|
- | :---:|:-----|
- |1.| [**Mindmap for Requirements**](#reqs_mm)|
- |2.|[**Mindmap for Specifications**](#specs_mm)|
- |3.|[**Luminous Red Charge RC 18000 150 Ah Battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
-|4.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
-|5.|[**Solar Panels**](#high-efficiency-solar-panels)|
-|6.|[**Solar DC Cables**](#solar-dc-cable)|
-|7.|[**Household Connection Wires**](#household-connection-wires)|
-|8.|[**AC Circuit Breaker**](#ac-circuit-breaker)|
-|9.|[**DC Circuit Breaker**](#dc-circuit-breaker)|
-|10.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
-|11.|[**Porcelain Fuse**](#porcelain-fuse)|
-|12.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
-|13.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
-|14.|[**Solar Panel Mounts**](#solar-panel-mounts)|
-|15.|[**Mindmap for Design**](#design)|
-|16. |[**Front View of Designed House**](#front)|
-|17. |[**Side View of Designed House**](#side)|
-|18. |[**Top View of Designed House**](#top) |
-|19.  |[**Orthographic View of Designed House**](#orthographic)|
-|20.|[**Side View of Solar Panels**](#panel_view)|
-|21.|[**Front View of Solar Panels**](#panel_view)|
-|22.|[**Top View of Solar Panels**](#panel_view)|
-|23.|[**Side View of Inverter**](#inverter_view)|
-|24.|[**Front View of Inverter**](#inverter_view)|
-|25.|[**Top View of Inverter**](#inverter_view)|
-|26.|[**Side View of Battery**](#battery_view)|
-|27.|[**Front View of Battery**](#battery_view)|
-|28.|[**Top View of Battery**](#battery_view)|
-|29.| [**Wiring Diagram**](#wiring)|
-|30.| [**Gantt Chart**](#gantt)|
-|31.| [**Work Breakdown Structure**](#work_breakdown)|
-|32.| [**Resources**](#resources)|
-|33.| [**Work Breakdown: Assignment of Work**](#assign_work)|
-|34.| [**Work Breakdown: Project Management**](#proj_manage)|
-|35.| [**Work Breakdown: CAD Model**](#cad_model)|
-|36.| [**Work Breakdown: Specifications**](#specs)|
-|37.| [**Work Breakdown: Documentation**](#docs)|
+| S. No. | Figures                                                                                         |
+| :----: | :---------------------------------------------------------------------------------------------- |
+|   1.   | [**Mindmap for Requirements**](#reqs_mm)                                                        |
+|   2.   | [**Mindmap for Specifications**](#specs_mm)                                                     |
+|   3.   | [**Luminous Red Charge RC 18000 150 Ah Battery**](#luminous-red-charge-rc-18000-150-ah-battery) |
+|   4.   | [**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)                               |
+|   5.   | [**Solar Panels**](#high-efficiency-solar-panels)                                               |
+|   6.   | [**Solar DC Cables**](#solar-dc-cable)                                                          |
+|   7.   | [**Household Connection Wires**](#household-connection-wires)                                   |
+|   8.   | [**AC Circuit Breaker**](#ac-circuit-breaker)                                                   |
+|   9.   | [**DC Circuit Breaker**](#dc-circuit-breaker)                                                   |
+|  10.   | [**DC Surge Protection Device**](#dc-surge-protection-device)                                   |
+|  11.   | [**Porcelain Fuse**](#porcelain-fuse)                                                           |
+|  12.   | [**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)                                   |
+|  13.   | [**4 in 1 T4 Connector**](#4-in-1-t4-connector)                                                 |
+|  14.   | [**Solar Panel Mounts**](#solar-panel-mounts)                                                   |
+|  15.   | [**Mindmap for Design**](#design)                                                               |
+|  16.   | [**Front View of Designed House**](#front)                                                      |
+|  17.   | [**Side View of Designed House**](#side)                                                        |
+|  18.   | [**Top View of Designed House**](#top)                                                          |
+|  19.   | [**Orthographic View of Designed House**](#orthographic)                                        |
+|  20.   | [**Side View of Solar Panels**](#panel_view)                                                    |
+|  21.   | [**Front View of Solar Panels**](#panel_view)                                                   |
+|  22.   | [**Top View of Solar Panels**](#panel_view)                                                     |
+|  23.   | [**Side View of Inverter**](#inverter_view)                                                     |
+|  24.   | [**Front View of Inverter**](#inverter_view)                                                    |
+|  25.   | [**Top View of Inverter**](#inverter_view)                                                      |
+|  26.   | [**Side View of Battery**](#battery_view)                                                       |
+|  27.   | [**Front View of Battery**](#battery_view)                                                      |
+|  28.   | [**Top View of Battery**](#battery_view)                                                        |
+|  29.   | [**Wiring Diagram**](#wiring)                                                                   |
+|  30.   | [**Gantt Chart**](#gantt)                                                                       |
+|  31.   | [**Work Breakdown Structure**](#work_breakdown)                                                 |
+|  32.   | [**Resources**](#resources)                                                                     |
+|  33.   | [**Work Breakdown: Assignment of Work**](#assign_work)                                          |
+|  34.   | [**Work Breakdown: Project Management**](#proj_manage)                                          |
+|  35.   | [**Work Breakdown: CAD Model**](#cad_model)                                                     |
+|  36.   | [**Work Breakdown: Specifications**](#specs)                                                    |
+|  37.   | [**Work Breakdown: Documentation**](#docs)                                                      |
 
 
 ---
@@ -268,16 +316,16 @@ Some of the basic user requirements are:
 
 2. **Power Requirements**: The daily power requirement is approximately 24-25 kWh. The explanation for the same can be seen as follows:
 
-| S. No.                  | Appliance                 | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed  | Explanation                                                       |
-| ----------------------- | ------------------------- | -------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------------- |
-| 1                       | Tube Light                | 8                   | 0.02kW                | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.      |
-| 2                       | LED Bulbs                | 4                   | 0.04kW                | 6 Hours                | 0.04\*3\*6=0.72kWh    | Assuming, on average, 3 lights out of 4 are ON for 6 hours.      |
-| 3                       | Ordinary ceiling fan      | 6                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh      |  Assuming, on average, 4 fans out of 6 are ON for 8 hours.  Only in Summers    |
-| 4                       | Induction Stove              | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh         |                                                            |
-| 5                       | Water Heater              | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh         | Only in Winters                                                                  |
-| 6                      | Laptop Adapater         | 1                    | 0.045W                  | 10 Hours                | 0.045\*1\*10=0.45kWh       |                                                                   |
-| 7                      | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW)   |                      |                        |                        | 1kWh                   | Assuming extra consumption to be 1kWh per day. |
-| Daily power requirement | Summers//Winters          |                      |                        |                        | 9.41//9.41 kWh ± 10% |
+| S. No.                  | Appliance                                      | Number of Appliances | Power Consumed by Each | Daily Time Consumption | Total Energy Consumed | Explanation                                                                |
+| ----------------------- | ---------------------------------------------- | -------------------- | ---------------------- | ---------------------- | --------------------- | -------------------------------------------------------------------------- |
+| 1                       | Tube Light                                     | 8                    | 0.02kW                 | 8 Hours                | 0.02\*4\*8=0.64kWh    | Assuming, on average, 4 lights out of 8 are ON for 8 hours.                |
+| 2                       | LED Bulbs                                      | 4                    | 0.04kW                 | 6 Hours                | 0.04\*3\*6=0.72kWh    | Assuming, on average, 3 lights out of 4 are ON for 6 hours.                |
+| 3                       | Ordinary ceiling fan                           | 6                    | 0.075kW                | 10 Hours               | 0.075\*4\*10=3kWh     | Assuming, on average, 4 fans out of 6 are ON for 8 hours.  Only in Summers |
+| 4                       | Induction Stove                                | 1                    | 1.8kW                  | 2 Hour                 | 1.8\*1\*2=3.6kWh      |                                                                            |
+| 5                       | Water Heater                                   | 2                    | 1.5kW                  | 1 Hour                 | 1.5\*2\*1=3kWh        | Only in Winters                                                            |
+| 6                       | Laptop Adapater                                | 1                    | 0.045W                 | 10 Hours               | 0.045\*1\*10=0.45kWh  |                                                                            |
+| 7                       | Miscellaneous (e.g TV 50 inch 0.1kW, PC 0.2kW) |                      |                        |                        | 1kWh                  | Assuming extra consumption to be 1kWh per day.                             |
+| Daily power requirement | Summers//Winters                               |                      |                        |                        | 9.41//9.41 kWh ± 10%  |
 
 **Table 4:** Power Requirements
 
@@ -351,18 +399,18 @@ In the following section, we give a brief on various specifications of the compo
 -  fast battery charging with adaptive battery charging control technology
 
 | Specifications                  | Value                                                       |
-|---------------------------------|-------------------------------------------------------------|
+| ------------------------------- | ----------------------------------------------------------- |
 | Brand                           | Luminous                                                    |
 | Nominal Voltage                 | 12V                                                         |
-| Rated Capacity(at room temp.)   | 150 ah (at room temp.)                                                     |
-| Protections                     | Dust & waterproof with heavy plastic body                  |
-| Charging Current(Boost mode)    | 15.10A(starting), 7.60A(finishing)                           |
+| Rated Capacity(at room temp.)   | 150 ah (at room temp.)                                      |
+| Protections                     | Dust & waterproof with heavy plastic body                   |
+| Charging Current(Boost mode)    | 15.10A(starting), 7.60A(finishing)                          |
 | Charging Current (Trickle mode) | 504 mA(max), 126 mA(min)                                    |
-| Weight                          | 53.30 Kg (28.5 Kg dry weight) (+/- 5%)                                 |
+| Weight                          | 53.30 Kg (28.5 Kg dry weight) (+/- 5%)                      |
 | Dimensions                      | 50.2 $\times$ 44 $\times$ 19.1 cm (L $\times$ W $\times$ H) |
-| Electrolyte Volume              | 20L (+/-5%)                                                      |
+| Electrolyte Volume              | 20L (+/-5%)                                                 |
 | Water Level Indicators          | 6                                                           |
-| Cost                            |  &#8377;12150 X 3 = &#8377;36450                           |
+| Cost                            | &#8377;12150 X 3 = &#8377;36450                             |
 
 **Table 5:** Specifications of Battery
 
@@ -377,17 +425,17 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 **Note**: Here the misc includes PC, stove and other appliances that we might/might not use under emergency situation. The generator should be able to run under the above conditions for 9hr(which is minimum requirement for overnight functionality). Spare fuel should always be kept in case of emergencies. 
 
 
-| Specification      | Value                         |
-| ------------------ | ----------------------------- |
-| Manufacturer       | Generic                       |
-| Fuel               | Petrol                        |
-| Consumption        | 1L/hr under full load         |
-| Capacity           | 10L                           |
-| Rated voltage      | 220V+-15                      |
-| Peak output power  | 1kVA                          |
-| Weight             | 30kg                          |
-| Cost               | &#8377;22,900                    |
-| Size               | 1kW                           |
+| Specification     | Value                 |
+| ----------------- | --------------------- |
+| Manufacturer      | Generic               |
+| Fuel              | Petrol                |
+| Consumption       | 1L/hr under full load |
+| Capacity          | 10L                   |
+| Rated voltage     | 220V+-15              |
+| Peak output power | 1kVA                  |
+| Weight            | 30kg                  |
+| Cost              | &#8377;22,900         |
+| Size              | 1kW                   |
 
 **Table 6:** Specifications of Backup Generator
 
@@ -411,24 +459,24 @@ Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter whic
 -  MCB protection in the case of any short circuit
 -  Comprehensive protection against short-circuit, reverse polarity, battery overload etc.
 
-| Specification                 | Value                             |
-| ----------------------------- | --------------------------------- |
-| Brand                         | Luminous                          |
-| Rated Power                   | 3kVA                              |
-| Waveform                      | Pure sine wave                    |
-| Output Voltage Regulation     | 230VAC $\pm$ 2%                       |
-| Output Frequency              | 50 Hz                             |
-| Battery Bank Voltage          | 36 V(3x12V batteries)             |
-| Input Voltage Mains Mode      | 180-260 VAC                       |
-| Output Voltage Distortion(THD)| <=3%                              |
-|Nominal Output Current from UPS| 11 A                              |
-| Operating Temperature         | 0 - 45<sup>.</sup>C                          |
-| Input Protection              | 32A MCB                           |
-| Battery Charging Current      | 14A, 17A, 21A                     |
-| Max. Relative Humidity @25<sup>.</sup>C  | upto 95%                          |
-| Dimensions                    | D x W x H (mm) 300 x 417 x 452    |
-| Net Weight                    | 32.5 kg                           |
-| Cost                          | &#8377;39,950                        |
+| Specification                           | Value                          |
+| --------------------------------------- | ------------------------------ |
+| Brand                                   | Luminous                       |
+| Rated Power                             | 3kVA                           |
+| Waveform                                | Pure sine wave                 |
+| Output Voltage Regulation               | 230VAC $\pm$ 2%                |
+| Output Frequency                        | 50 Hz                          |
+| Battery Bank Voltage                    | 36 V(3x12V batteries)          |
+| Input Voltage Mains Mode                | 180-260 VAC                    |
+| Output Voltage Distortion(THD)          | <=3%                           |
+| Nominal Output Current from UPS         | 11 A                           |
+| Operating Temperature                   | 0 - 45<sup>.</sup>C            |
+| Input Protection                        | 32A MCB                        |
+| Battery Charging Current                | 14A, 17A, 21A                  |
+| Max. Relative Humidity @25<sup>.</sup>C | upto 95%                       |
+| Dimensions                              | D x W x H (mm) 300 x 417 x 452 |
+| Net Weight                              | 32.5 kg                        |
+| Cost                                    | &#8377;39,950                  |
 
 **Table 7:** Specifications of Hybrid Solar Inverter
 
@@ -446,16 +494,16 @@ Sizing of a controller depends on three factors
 
 Specifications of the in-built charge controller
 
-| Specification                    | Value       |
-| ------------------------------   | ----------- |
-| Brand                            | Luminous    |
-| Type                             | MPPT        |
+| Specification                    | Value           |
+| -------------------------------- | --------------- |
+| Brand                            | Luminous        |
+| Type                             | MPPT            |
 | Nominal Battery Charging Current | 91A$\pm$ 2A     |
 | Maximum Battery Charging Current | <=100A$\pm$ 10A |
-| Maximum PV Array Power           | 3.5 kW      |
-| Maximum PV Input Current(Imp)    | 38A         |
-| Solar Input Voltage VMP          | 60V - 120V  |
-| Solar Input Voltage VOC          | 75V - 150V  |
+| Maximum PV Array Power           | 3.5 kW          |
+| Maximum PV Input Current(Imp)    | 38A             |
+| Solar Input Voltage VMP          | 60V - 120V      |
+| Solar Input Voltage VOC          | 75V - 150V      |
 
 **Table 8:** Specifications of Solar Charge Controller
 
@@ -566,7 +614,7 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 | Weight         | 660 g                |
 | Material       | Polycarbonate        |
 | Color          | White                |
-| Cost           | &#8377;1500         |
+| Cost           | &#8377;1500          |
 
 **Table 12:** Specification of AC Circuit Breakers
 
@@ -686,15 +734,15 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 We'll be using 1 such mount for our system, which consists of 4 panels.
 
-| Specification (Single unit)  | Value           |
-| ---------------------------- | --------------- |
-| Cost                         | &#8377;12,000   |
-| Inclination                  | 25°             |
-| Dimensions(Leg)              | 150cm X 60cm    |
-| Manufacturer                 | Loom Solar      |
-| Weight                       | 50kg            |
-| Material                     | Galvanised Iron |
-| Holding Capacity             | 4 Panels        |
+| Specification (Single unit) | Value           |
+| --------------------------- | --------------- |
+| Cost                        | &#8377;12,000   |
+| Inclination                 | 25°             |
+| Dimensions(Leg)             | 150cm X 60cm    |
+| Manufacturer                | Loom Solar      |
+| Weight                      | 50kg            |
+| Material                    | Galvanised Iron |
+| Holding Capacity            | 4 Panels        |
 
 **Table 18:** Specification of solar panel mounts
 
@@ -781,24 +829,24 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 ## Cost Analysis
 
-| Component | Price | Quantity | Total Price | Vendor |
-|------------------|--------------|--------|-----------------|--------------|
-|Battery | &#8377;12,150 | 3 | &#8377;36,450 | [Product Link](https://www.amazon.in/LUMINOUS-RC-18000-Tubular-Battery/dp/B0713S16VF)|
-|Backup Generator| &#8377;22,900| 1 | &#8377;22,900 | [Product Link](https://www.indiamart.com/proddetail/1-kva-portable-petrol-generator-23901047630.html)|
-|Hybrid Solar Invertor| &#8377;39,950 |1 | &#8377;39,950 |[Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter) |
-|Solar Panels | &#8377;20,000 | 4 | &#8377;80,000| [Product Link](https://www.loomsolar.com/products/loom-solar-panel-shark-super-high-efficiency-module)|
-|Solar DC Cable (15 m) | &#8377;1,990 | 2 | &#8377;3,980 | [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)|
-|Household connection wire (90 m) | &#8377;2,949 | 1 | &#8377;2,949 | [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)|
-| AC Circuit Breaker | &#8377;1,500 | 1 | &#8377;1,500 | [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)|
-|DC Circuit Breaker | &#8377;999 | 2 | &#8377;1,998 | [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)|
-|DC Surge Protection Device | &#8377;799 | 1 | &#8377;799 | [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)|
-|Porcelsian Fuse | &#8377;185| 1 | &#8377;185 | [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)|
-| MC4 Solar Panel Connectors | &#8377;449 | 2 | &#8377;898 | [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)|
-|4 in 1 T4 Connector | &#8377;799 | 2 | &#8377;1,598 | [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1)|
-|Solar Panel Mount | &#8377;18,000 | 1 | &#8377;18,000 | [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)|
-| Installation Cost| | | &#8377;12,320 | [Product Link](https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india)|
-| Electrician Charges| | | &#8377;3,000 | [Product Link](https://www.urbancompany.com/request/electricians)|
-|Total Price | | | &#8377;2,11,527 |
+| Component                        | Price         | Quantity | Total Price     | Vendor                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------- | ------------- | -------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Battery                          | &#8377;12,150 | 3        | &#8377;36,450   | [Product Link](https://www.amazon.in/LUMINOUS-RC-18000-Tubular-Battery/dp/B0713S16VF)                                                                                                                                                                                                                                            |
+| Backup Generator                 | &#8377;22,900 | 1        | &#8377;22,900   | [Product Link](https://www.indiamart.com/proddetail/1-kva-portable-petrol-generator-23901047630.html)                                                                                                                                                                                                                            |
+| Hybrid Solar Invertor            | &#8377;39,950 | 1        | &#8377;39,950   | [Product Link](https://www.urbanurja.com/products/luminous-solarverter-pro-pcu-3-kva-36v-mppt-solar-inverter)                                                                                                                                                                                                                    |
+| Solar Panels                     | &#8377;20,000 | 4        | &#8377;80,000   | [Product Link](https://www.loomsolar.com/products/loom-solar-panel-shark-super-high-efficiency-module)                                                                                                                                                                                                                           |
+| Solar DC Cable (15 m)            | &#8377;1,990  | 2        | &#8377;3,980    | [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)                                                                                                                                                                                                                                      |
+| Household connection wire (90 m) | &#8377;2,949  | 1        | &#8377;2,949    | [Product Link](http://dl.flipkart.com/dl/havells-hrfr-pvc-2-5-sq-mm-black-90-m-wire/p/itmbcd2c1b016975?pid=ELWFHWS4S7YZAAQ7&cmpid=product.share.pp)                                                                                                                                                                              |
+| AC Circuit Breaker               | &#8377;1,500  | 1        | &#8377;1,500    | [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)                                                                                                                                                                                                                                        |
+| DC Circuit Breaker               | &#8377;999    | 2        | &#8377;1,998    | [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)                                                                                                                                            |
+| DC Surge Protection Device       | &#8377;799    | 1        | &#8377;799      | [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)                                                                                            |
+| Porcelsian Fuse                  | &#8377;185    | 1        | &#8377;185      | [Product Link](https://www.amazon.in/Anchor-9311-Porcelain-Pilot-Ivory/dp/B00V4VJ7IK/ref=sr_1_12?crid=NPAHCXCDE79L&keywords=fuses&qid=1642478482&sprefix=fuses%2Caps%2C376&sr=8-12)                                                                                                                                              |
+| MC4 Solar Panel Connectors       | &#8377;449    | 2        | &#8377;898      | [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)                                                                                                                                                                                                                                   |
+| 4 in 1 T4 Connector              | &#8377;799    | 2        | &#8377;1,598    | [Product Link](https://www.amazon.in/Kenbrook-Solar-T4-Connector-Support/dp/B09BK14GVL/ref=asc_df_B09BK14GVL/?tag=googleshopdes-21&linkCode=df0&hvadid=397082397254&hvpos=&hvnetw=g&hvrand=15819054729291385736&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-1394527439693&ext_vrnc=hi&th=1) |
+| Solar Panel Mount                | &#8377;18,000 | 1        | &#8377;18,000   | [Product Link](https://www.loomsolar.com/collections/solar-panel-stand/products/loom-solar-2-row-design-4-panel-stand-375-watt)                                                                                                                                                                                                  |
+| Installation Cost                |               |          | &#8377;12,320   | [Product Link](https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india)                                                                                                                                                                                                                               |
+| Electrician Charges              |               |          | &#8377;3,000    | [Product Link](https://www.urbancompany.com/request/electricians)                                                                                                                                                                                                                                                                |
+| Total Price                      |               |          | &#8377;2,11,527 |
 
 **Table 19:** Cost Analysis
 
