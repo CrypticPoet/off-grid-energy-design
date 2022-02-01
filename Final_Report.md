@@ -94,7 +94,7 @@ keywords:
 |    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     1.0     |
 |    14. | Amit Kumar               | mt6190744@iitd.ac.in | Member                                     |     1.0     |
 |    15. | Anirudh Singh Chauhan    | ee1191072@iitd.ac.in | Member                                     |     1.0     |
-|    16. | Ankit kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
+|    16. | Ankit Kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
 |    17. | Anshuman Panda           | mt1190463@iitd.ac.in | Member                                     |     1.0     |
 |    18. | Anurag Sharma            | mt6190745@iitd.ac.in | Member                                     |     1.0     |
 |    19. | Ayush Joshi              | ee1190486@iitd.ac.in | Member                                     |     1.0     |
