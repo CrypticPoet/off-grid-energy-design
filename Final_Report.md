@@ -19,7 +19,7 @@ keywords:
 | :------------------ | :---------------------------------------------------------------------------- |
 | Tribe               | Tribe E                                                                       |
 | Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                                   |
-| Contact for Queries | Mihir Okte                                                                    |
+| Contact for Queries | Mihir Okte (mt1190703@iitd.ac.in)                                             |
 | Submitted to        | Prof. Subrat Kar, Course Coordinator \| ELP305: Design and Systems Laboratory |
 | Date of Submission  | 02-02-2022                                                                    |
 
@@ -944,7 +944,7 @@ While designing this solution for off grid living, we used a number of softwares
 
 - [**WordCounter**](https://wordcounter.net/): For obtaining the document text statistics
 - [**Readability Check (VS Code Extension)**](https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck): For obtaining readability indices scores for the document
-- [**Markdown All in One (VS Code Extension)**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) : VSCode Extension for markdown utilities such as TOC generation, automatic formatting and auto-completion
+- [**Markdown All in One (VS Code Extension)**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): For Markdown utilities such as TOC generation, automatic formatting and auto-completion
 - [**ProjectLibre**](https://www.projectlibre.com/): For project management tools
 - [**Draw.io**](https://app.diagrams.net/): For creating mind maps
 - [**Tinkercad**](https://www.tinkercad.com/): For designing 3D models and plans for the project
