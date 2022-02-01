@@ -26,53 +26,55 @@ keywords:
 **NOTE:** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
 
 ## Table of Contents
-- [SUNERGY: Final Report](#sunergy-final-report)
-	- [1. Authors](#1-authors)
-	- [2. Documentation Statistics](#2-documentation-statistics)
-    	- [2.0.1. Text Statistics](#201-text-statistics)
-		- [2.0.2. Readability indices](#202-readability-indices)
-	- [3. Preamble](#3-preamble)
+- [1. Authors](#1-authors)
+- [2. Documentation Statistics](#2-documentation-statistics)
+	- [2.0.1. Text Statistics](#201-text-statistics)
+	- [2.0.2. Readability indices](#202-readability-indices)
+- [3. Preamble](#3-preamble)
 	- [3.0.1. List of Abbreviations](#301-list-of-abbreviations)
 	- [3.0.2. List of Tables](#302-list-of-tables)
 	- [3.0.3. List of Figures](#303-list-of-figures)
-	- [4. Abstract](#4-abstract)
-	- [5. Aim](#5-aim)
-	- [6. Scope](#6-scope)
-	- [7. Requirements](#7-requirements)
-		- [7.1. Base Setup](#71-base-setup)
-		- [7.2. Basic Requirements](#72-basic-requirements)
-		- [7.3. Technical Requirements](#73-technical-requirements)
-	- [8. Specifications](#8-specifications)
-		- [8.1. Electrical Specifications](#81-electrical-specifications)
-			- [8.1.1. Battery](#811-battery)
-				- [8.1.1.1. Luminous Red Charge RC 18000 150 Ah Battery](#8111-luminous-red-charge-rc-18000-150-ah-battery)
-			- [8.1.2. Backup Generator](#812-backup-generator)
-			- [8.1.3. Hybrid Solar Inverter (Built in Solar Charge Controller)](#813-hybrid-solar-inverter-built-in-solar-charge-controller)
-				- [8.1.3.1. 3KVA/ 36 V Off Grid Solar Inverter](#8131-3kva-36-v-off-grid-solar-inverter)
-			- [8.1.4. Solar Charge Controller](#814-solar-charge-controller)
-				- [8.1.4.1. Sizing](#8141-sizing)
-			- [8.1.5. High Efficiency Solar Panels](#815-high-efficiency-solar-panels)
-			- [8.1.6. Wires](#816-wires)
-				- [8.1.6.1. Solar DC Cable](#8161-solar-dc-cable)
-				- [8.1.6.2. Household connection wires](#8162-household-connection-wires)
-			- [8.1.7. Safety Measures](#817-safety-measures)
-				- [8.1.7.1. AC Circuit Breaker](#8171-ac-circuit-breaker)
-				- [8.1.7.2. DC Circuit Breaker](#8172-dc-circuit-breaker)
-				- [8.1.7.3. DC Surge Protection Device](#8173-dc-surge-protection-device)
-				- [8.1.7.4. Porcelain Fuse](#8174-porcelain-fuse)
-			- [8.1.8. MC4 Connectors](#818-mc4-connectors)
-				- [8.1.8.1. MC4 Solar Panel Connectors](#8181-mc4-solar-panel-connectors)
-				- [8.1.8.2. 4 in 1 T4 Connector](#8182-4-in-1-t4-connector)
-		- [8.2. Mechanical Specifications](#82-mechanical-specifications)
-			- [8.2.1. Solar Panel Mounts](#821-solar-panel-mounts)
-	- [9. Design](#9-design)
-		- [9.1. CAD/Assembly](#91-cadassembly)
-		- [9.2. Wiring Diagram](#92-wiring-diagram)
-	- [10. Cost Analysis](#10-cost-analysis)
-	- [11. Reuse of Materials](#11-reuse-of-materials)
-	- [12. Project Management](#12-project-management)
-	- [13. Attributions](#13-attributions)
-	- [14. References](#14-references)
+- [4. Abstract](#4-abstract)
+- [5. Aim](#5-aim)
+- [6. Scope](#6-scope)
+- [7. Requirements](#7-requirements)
+	- [7.1. Base Setup](#71-base-setup)
+	- [7.2. Basic Requirements](#72-basic-requirements)
+	- [7.3. Technical Requirements](#73-technical-requirements)
+- [8. Specifications](#8-specifications)
+	- [8.1. Electrical Specifications](#81-electrical-specifications)
+		- [8.1.1. Battery](#811-battery)
+			- [8.1.1.1. Luminous Red Charge RC 18000 150 Ah Battery](#8111-luminous-red-charge-rc-18000-150-ah-battery)
+		- [8.1.2. Backup Generator](#812-backup-generator)
+		- [8.1.3. Hybrid Solar Inverter (Built in Solar Charge Controller)](#813-hybrid-solar-inverter-built-in-solar-charge-controller)
+			- [8.1.3.1. 3KVA/ 36 V Off Grid Solar Inverter](#8131-3kva-36-v-off-grid-solar-inverter)
+		- [8.1.4. Solar Charge Controller](#814-solar-charge-controller)
+			- [8.1.4.1. Sizing](#8141-sizing)
+		- [8.1.5. High Efficiency Solar Panels](#815-high-efficiency-solar-panels)
+		- [8.1.6. Wires](#816-wires)
+			- [8.1.6.1. Solar DC Cable](#8161-solar-dc-cable)
+			- [8.1.6.2. Household connection wires](#8162-household-connection-wires)
+		- [8.1.7. Safety Measures](#817-safety-measures)
+			- [8.1.7.1. AC Circuit Breaker](#8171-ac-circuit-breaker)
+			- [8.1.7.2. DC Circuit Breaker](#8172-dc-circuit-breaker)
+			- [8.1.7.3. DC Surge Protection Device](#8173-dc-surge-protection-device)
+			- [8.1.7.4. Porcelain Fuse](#8174-porcelain-fuse)
+		- [8.1.8. MC4 Connectors](#818-mc4-connectors)
+			- [8.1.8.1. MC4 Solar Panel Connectors](#8181-mc4-solar-panel-connectors)
+			- [8.1.8.2. 4 in 1 T4 Connector](#8182-4-in-1-t4-connector)
+	- [8.2. Mechanical Specifications](#82-mechanical-specifications)
+		- [8.2.1. Solar Panel Mounts](#821-solar-panel-mounts)
+- [9. Design](#9-design)
+	- [9.1. CAD/Assembly](#91-cadassembly)
+	- [9.2. Wiring Diagram](#92-wiring-diagram)
+- [10. Cost Analysis](#10-cost-analysis)
+- [11. Reuse of Materials](#11-reuse-of-materials)
+- [12. Project Management](#12-project-management)
+	- [12.1. Gantt Chart and CPM](#121-gantt-chart-and-cpm)
+	- [12.2. Resources Chart](#122-resources-chart)
+	- [12.3. Work Packages](#123-work-packages)
+- [13. Attributions](#13-attributions)
+- [14. References](#14-references)
 
 ---
 
@@ -88,24 +90,24 @@ keywords:
 |     7. | Uddhav Goel              | ee1190540@iitd.ac.in | Project Management Sub Tribe Coordinator   |     1.0     |
 |     8. | Abhishek Kumar           | ee1190456@iitd.ac.in | Member                                     |     1.0     |
 |     9. | Abhishek Kumar           | ee1190457@iitd.ac.in | Member                                     |     1.0     |
-|    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     1.0     |
+|    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     0.8     |
 |    11. | Ahsan Kamal              | mt6190740@iitd.ac.in | Member                                     |     1.0     |
 |    12. | Akash Agrawal            | ee3190006@iitd.ac.in | Member                                     |     1.0     |
-|    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     1.0     |
+|    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     0.6     |
 |    14. | Amit Kumar               | mt6190744@iitd.ac.in | Member                                     |     1.0     |
 |    15. | Anirudh Singh Chauhan    | ee1191072@iitd.ac.in | Member                                     |     1.0     |
 |    16. | Ankit kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
 |    17. | Anshuman Panda           | mt1190463@iitd.ac.in | Member                                     |     1.0     |
 |    18. | Anurag Sharma            | mt6190745@iitd.ac.in | Member                                     |     1.0     |
 |    19. | Ayush Joshi              | ee1190486@iitd.ac.in | Member                                     |     1.0     |
-|    20. | Ayush Meena              | ee1190468@iitd.ac.in | Member                                     |     1.0     |
+|    20. | Ayush Meena              | ee1190468@iitd.ac.in | Member                                     |     0.6     |
 |    21. | Bhargav Halipeth         | ee3190562@iitd.ac.in | Member                                     |     1.0     |
-|    22. | Govind Patidar           | ee1190478@iitd.ac.in | Member                                     |     1.0     |
+|    22. | Govind Patidar           | ee1190478@iitd.ac.in | Member                                     |     0.0     |
 |    23. | Guruvu Surya Sai Prakash | ee1190481@iitd.ac.in | Member                                     |     1.0     |
 |    24. | Harshit Nekela           | mt1190693@iitd.ac.in | Member                                     |     1.0     |
 |    25. | Het Patel                | ee1190484@iitd.ac.in | Member                                     |     1.0     |
 |    26. | Manisha Chaudhary        | ee1190494@iitd.ac.in | Member                                     |     1.0     |
-|    27. | Mohit Yadav              | ee3190582@iitd.ac.in | Member                                     |     1.0     |
+|    27. | Mohit Yadav              | ee3190582@iitd.ac.in | Member                                     |     0.5     |
 |    28. | Ohm V                    | ee1190499@iitd.ac.in | Member                                     |     1.0     |
 |    29. | Pragya Dhakar            | mt6190756@iitd.ac.in | Member                                     |     1.0     |
 |    30. | Prasoon Bajpai           | mt6190824@iitd.ac.in | Member                                     |     1.0     |
@@ -113,7 +115,7 @@ keywords:
 |    32. | Rajdeep Das              | mt1190718@iitd.ac.in | Member                                     |     1.0     |
 |    33. | Ronak Choudhary          | ee3190597@iitd.ac.in | Member                                     |     1.0     |
 |    34. | Sahil Raj                | mt1190723@iitd.ac.in | Member                                     |     1.0     |
-|    35. | Satyam Sharma            | ee1190521@iitd.ac.in | Member                                     |     1.0     |
+|    35. | Satyam Sharma            | ee1190521@iitd.ac.in | Member                                     |     0.5     |
 |    36. | Shashank Nehra           | ee1190523@iitd.ac.in | Member                                     |     1.0     |
 |    37. | Shivam Garg              | ee1190600@iitd.ac.in | Member                                     |     1.0     |
 |    38. | Shivam Gupta             | ee1190601@iitd.ac.in | Member                                     |     1.0     |
@@ -139,11 +141,11 @@ keywords:
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
 | ---------- | -------------- | ---------------- | ----------- | ------------ | ----------------------- | ----------- |
-| 7530        | 2284            | 5246             | 216          | 71422        | 49169                    | 13615         |
+| 7530       | 2284           | 5246             | 216         | 71422        | 49169                   | 13615       |
 
 | Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
 | ------------------------ | ----------------------------- | ------------------------- | ------------------------ |
-| 35                       | 330.6                           | 9.5                       | 1.80                     |
+| 35                       | 330.6                         | 9.5                       | 1.80                     |
 
 **Table 2:** Text Statistics
 
@@ -890,6 +892,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 ## 12. Project Management
 
+### 12.1. Gantt Chart and CPM
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/gantt.png" alt="Gantt chart" id="gantt" width=500/> 
 	 <figcaption align="center"><b>Figure 27:</b> Gantt Chart</figcaption>
@@ -904,11 +907,15 @@ Fig. 28 shows the start dates and durations of various subteams in the project. 
 	 <figcaption align="center"><b>Figure 28:</b> Work breakdown structure</figcaption>
 </p>
 
+### 12.2. Resources Chart
+
 Fig. 29 shows the resources available (In this the tribe members), a gear symbol against a name indicates that the member was involved in the project actively and participated in the preparation of the final report in some capacity.
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
 	 <figcaption align="center"><b>Figure 29:</b> Resources</figcaption>
 </p>
+
+### 12.3. Work Packages 
 
 Fig. 30 to Fig. 35 shows the work breakdown structure of the various sub-teams and how work was distributed among these teams. The work breakdown charts also provide a visual overview of any sub-sub-teams that were created to streamline the process even further.
 <p align="center">
