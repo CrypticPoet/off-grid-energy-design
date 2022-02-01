@@ -154,7 +154,7 @@ The above results were obtained using https://wordcounter.net/.
 
 | Readability Index            | Score | Can be easily understood by |
 | :--------------------------- | :---- | :-------------------------- |
-| Flesch Reading Ease score    | 58    | 13 to 15 year olds          |
+| Flesch Reading Ease score    | 58    | 10th to 12th grade students |
 | Dale-Chall Readability score | 8.8   | 11th or 12th grade students |
 | Flesch-Kincaid Grade level   | 7     | 7th grade students          |
 | The Coleman-Liau Index       | 14    | Undergraduate students      |
