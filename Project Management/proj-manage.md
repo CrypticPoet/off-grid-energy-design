@@ -1,13 +1,9 @@
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/gantt1.png" alt="Gantt chart part 1"  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
-</p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/gantt2.png" alt="Gantt chart part 2"  width=500/> 
+/gantt.png" alt="Gantt chart"  width=500/> 
 	 <figcaption align="center">Gantt Chart</figcaption>
 </p>
+
 The red path in the above Gantt Chart shows the critical path. It was closely monitored so that there were no delays in the corresponding works.
 
 The following shows the start dates and durations of various sub-teams in the project:
@@ -26,15 +22,9 @@ The following shows the start dates and durations of various sub-teams in the pr
 The following shows the resources available, a gear symbol against a name shows that they were involved in the project
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/resources1.png" alt="Resource management"  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
+/resourcespng" alt="Resource management"  width=500/> 
+	 <figcaption align="center">Resources</figcaption>
 </p>
-<p align="center">
-	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/
-/resources2.png" alt="Resource management"  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
-</p>
-
 
 The following shows the work breakdown structure:
 <p align="center">
