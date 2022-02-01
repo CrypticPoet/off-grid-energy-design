@@ -1,3 +1,13 @@
+---
+title: "Sunergy Final Report"
+author: "Tribe E (EE > MT)"
+keywords:
+   - renewable
+   - solar
+   - off-grid
+   - sustainable
+---
+
 # ELP305 Design and Systems Laboratory
 ## Semester 2, 2021-2022 
 ### Tribe E
@@ -24,12 +34,12 @@
 	- [Table of Contents](#table-of-contents)
 	- [Authors](#authors)
 	- [Documentation Statistics](#documentation-statistics)
-			- [Text Statistics](#text-statistics)
-			- [Readability indices](#readability-indices)
+		- [Text Statistics](#text-statistics)
+		- [Readability indices](#readability-indices)
 	- [Preamble](#preamble)
-			- [List of Abbreviations](#list-of-abbreviations)
-			- [List of Tables](#list-of-tables)
-			- [List of Figures](#list-of-figures)
+		- [List of Abbreviations](#list-of-abbreviations)
+		- [List of Tables](#list-of-tables)
+		- [List of Figures](#list-of-figures)
 	- [Abstract](#abstract)
 	- [Aim](#aim)
 	- [Scope](#scope)
