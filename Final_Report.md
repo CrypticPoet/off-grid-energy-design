@@ -895,22 +895,22 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 	 <figcaption align="center"><b>Figure 27:</b> Gantt Chart</figcaption>
 </p>
 
-The red path in Fig. 27 indicates the critical path. These critical paths are closely monitored 
+The red path in Fig. 27 indicates the **critical path**. These critical paths are closely monitored and prioritized as any faults with their execution could have lead to delays in the sub-team pipelines. This in turn could have caused further unforeseen delays in the development of the final report.  
 
-The following shows the start dates and durations of various subteams in the project:
+Fig. 28 shows the start dates and durations of various subteams in the project. It also details the name of the people who were involved in the coordination and functioning of the concerned sub-team.
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/sunergy.png" alt="Work breakdown structure" id="work_breakdown" width=500/> 
 	 <figcaption align="center"><b>Figure 28:</b> Work breakdown structure</figcaption>
 </p>
 
-The following shows the resources available, a gear symbol against a name shows that they were involved in the project
+Fig. 29 shows the resources available (In this the tribe members), a gear symbol against a name indicates that the member was involved in the project actively and participated in the preparation of the final report in some capacity.
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
 	 <figcaption align="center"><b>Figure 29:</b> Resources</figcaption>
 </p>
 
-The following shows the work breakdown structure:
+Fig. 30 to Fig. 35 shows the work breakdown structure of the various sub-teams and how work was distributed among these teams. The work breakdown charts also provide a visual overview of any sub-sub-teams that were created to streamline the process even further.
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/assign.png" alt="Work Breakdown Structure" id="assign_work" width=500/> 
 	 <figcaption align="center"><b>Figure 30:</b> Assignment of Work</figcaption>
