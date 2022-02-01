@@ -77,9 +77,90 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 ---
 
 ## Preamble
+
 #### List of Abbreviations
+|  S. No.  | Abbreviation|Stands For|
+ | :---:|:-----:|:--------------------:|
+ |1.| AC | Alternating Current|
+ |2.| BIS | Bureau of Indian Standards|
+|3.| CAD |Computer Aided Design|
+|4.| DC| Direct Current|
+|5.| ETP | Electrolytic Tough Pitch |
+|6.| HRFR|Heat Resistant Flame Retardant|
+|7.| IMP| Current at Maximum Power|
+|8.| IP | Ingress Protection|
+|9.| LED| Light Emitting Diode|
+|10.| MPPT | Maximum Power Point Tracking|
+|11.| misc| Miscellaneous|
+|12.| MCB| Miniature Circuit Breaker|
+|13.| MC4 Connector|Multi-Contact 4 mm diameter contact pin Connector|
+|14.| PERC| Passivated Emitter and Rear Contact|
+|15.| PWM| Pulse Width Modulation|
+|16.| PC | Personal Computer |
+|17.| PA| Polyamide|
+|18.| PPO| Polyphenylene Oxide |
+|19.| UV | UltraViolet|
+|20.| VMP| Voltage at Maximum Power|
+|21.| Voc| Voltage at Open Circuit|
+
 #### List of Tables
+
+|  S. No.  | Table|
+| :---:|:-----:|
+| 1.|  [**Authors**](#authors)|
+|2.| [**Text Statistics**](#text-statistics)|
+|3.|[**Readability indices**](#readability-indices)|
+|4.|[**Power Requirements**](#basic-requirements)|
+|5.|[**Battery**](#battery)|
+|6.|[**Backup Generator**](#backup-generator)|
+|7.|[**Hybrid Solar Inverter**](#hybrid-solar-inverter-built-in-solar-charge-controller)|
+|8.|[**Solar Charge Controller**](#solar-charge-controller)|
+|9.|[**High Efficiency Solar Panels**](#high-efficiency-solar-panels)|
+|10.|[**Solar DC Cable**](#solar-dc-cable)|
+|11.|[**Household connection wires**](#household-connection-wires)|
+|12.|[**AC Circuit Breakers**](#ac-circuit-breaker)|
+|13.|[**DC Circuit Breakers**](#dc-circuit-breaker)|
+|14.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
+|15.|[**Porcelain Fuse**](#porcelain-fuse)|
+|16.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
+|17.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
+|18.|[**Solar Panel Mounts**](#solar-panel-mounts)|
+|19.|[**Cost Analysis**](#cost-analysis)|
+
 #### List of Figures
+
+|  S. No.  | Figures|
+ | :---:|:-----:|
+ |1.| [**Mindmap for Requirements**](#requirements)|
+ |2.|[**Mindmap for Specifications**](#specifications)|
+ |3.|[**Luminous Red Charge RC 18000 150 Ah Battery**](#luminous-red-charge-rc-18000-150-ah-battery)|
+|4.|[**Off Grid Solar Inverter**](#3kva-36-v-off-grid-solar-inverter)|
+|5.|[**Solar Panels**](#high-efficiency-solar-panels)|
+|6.|[**Solar DC Cables**](#solar-dc-cable)|
+|7.|[**Household Connection Wires**](#household-connection-wires)|
+|8.|[**AC Circuit Breaker**](#ac-circuit-breaker)|
+|9.|[**DC Circuit Breaker**](#dc-circuit-breaker)|
+|10.|[**DC Surge Protection Device**](#dc-surge-protection-device)|
+|11.|[**Porcelain Fuse**](#porcelain-fuse)|
+|12.|[**MC4 Solar Panel Connectors**](#mc4-solar-panel-connectors)|
+|13.|[**4 in 1 T4 Connector**](#4-in-1-t4-connector)|
+|14.|[**Solar Panel Mounts**](#solar-panel-mounts)|
+|15.|[**Mindmap for Design**](#design)|
+| 16. |[**Front View of Designed House**](#cadassembly)|
+| 17. |[**Side View of Designed House**](#cadassembly)|
+| 18. |[**Top View of Designed House**](#cadassembly) |
+|19.  |[**Orthographic View of Designed House**](#cadassembly)|
+|20.|[**Side View of Solar Panels**](#cadassembly)|
+|21.|[**Front View of Solar Panels**](#cadassembly)|
+|22.|[**Top View of Solar Panels**](#cadassembly)|
+|23.|[**Side View of Inverter**](#cadassembly)|
+|24.|[**Front View of Inverter**](#cadassembly)|
+|25.|[**Top View of Inverter**](#cadassembly)|
+|26.|[**Side View of Battery**](#cadassembly)|
+|27.|[**Front View of Battery**](#cadassembly)|
+|28.|[**Top View of Battery**](#cadassembly)|
+|29.| [**Wiring Diagram**](#wiring)|
+
 ---
 
 ## Project Management
@@ -215,7 +296,7 @@ In the following section, we give a brief on various specifications of the compo
 
 ### Electrical Specifications
 #### Battery
-##### Luminous Red Charge RC 18000 150 Ah battery
+##### Luminous Red Charge RC 18000 150 Ah Battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
 
@@ -268,7 +349,7 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 
-Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliever uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
+Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter which allows smart management of Solar Power, Grid Supply and Battery to deliver uninterrupted power for all electrical appliances. It comes built in with an mppt technology based Solar Charge Controller that converts solar energy into electricity and stores power. 
 -   3 kva system with 3500 watt solar panel support
 -   super efficient as low conversion loss from battery
 -   LCD Battery Monitoring system with display parameters such as Input Power, Output power load, battery health, battery percentage, Overload, MCB Trip and Over Temperature Protection
