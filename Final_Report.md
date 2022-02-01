@@ -80,7 +80,7 @@
 |     4. | Shailendra Thenua        | ee1190522@iitd.ac.in | Battery and Inverter Sub Tribe Coordinator |     1.0     |
 |     5. | Mihir Okte               | mt1190703@iitd.ac.in | CAD Design Sub Tribe Coordinator           |     1.0     |
 |     6. | Shloka Bhuwalka          | ee1190527@iitd.ac.in | Wiring and LTSpice Sub Tribe Coordinator   |     1.0     |
-|     7. | Uddhav Goel              | ee1190540@iitd.ac.in | Gantt Chart Sub Tribe Coordinator          |     1.0     |
+|     7. | Uddhav Goel              | ee1190540@iitd.ac.in | Project Management Sub Tribe Coordinator   |     1.0     |
 |     8. | Abhishek Kumar           | ee1190456@iitd.ac.in | Member                                     |     1.0     |
 |     9. | Abhishek Kumar           | ee1190457@iitd.ac.in | Member                                     |     1.0     |
 |    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     1.0     |
@@ -123,6 +123,7 @@
 |    47. | Vansh Gupta              | ee1190143@iitd.ac.in | Member                                     |     1.0     |
 |    48. | Yash Pal Singh           | ee1190548@iitd.ac.in | Member                                     |     1.0     |
 |    49. | Yug Garg                 | ee3190607@iitd.ac.in | Member                                     |     1.0     |
+
 **Table 1:** List of Authors
 
 ---
@@ -947,11 +948,44 @@ While designing this solution for off grid living, we used a number of softwares
 - [**Draw.io**](https://app.diagrams.net/): For creating mind maps
 - [**Tinkercad**](https://www.tinkercad.com/): For designing 3D models and plans for the project
 - [**GLC Player**](https://sourceforge.net/projects/glc-player/): For exporting the OBJ models from Tinkercad to images
-- [**LTSpice**](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html): For designing the circuit diagram for the project
-- [**Zotero**](): For collecting and managing references
+- [**Excalidraw**](https://excalidraw.com/): For designing the circuit diagram for the project
+- [**Zotero**](https://www.zotero.org/): For collecting and managing references
 
 ---
 
 ## References
+
+_Are Solar Panels Recyclable? (And 7 Ways to Reuse Them) - Conserve Energy Future_. (2020, December 28). https://www.conserve-energy-future.com/are-solar-panels-recyclable.php
+
+_Don’t Dispose, Reuse: 5 DIY Projects Using Old or Dead Batteries_. (2021, June 22). MUO. https://www.makeuseof.com/dont-dispose-reuse-diy-projects-using-old-or-dead-batteries/
+
+_Dsola-Factory-Customized-High-Efficient-T4-Solar-Connector.jpg (800×906)_. (n.d.). Retrieved February 1, 2022, from https://image.made-in-china.com/44f3j00sfSTKWnPEyrL/Dsola-Factory-Customized-High-Efficient-T4-Solar-Connector.jpg
+
+Dubey, S., Sarvaiya, J. N., & Seshadri, B. (2013). Temperature Dependent Photovoltaic (PV) Efficiency and Its Effect on PV Production in the World – A Review. _Energy Procedia_, _33_, 311–321. https://doi.org/10.1016/j.egypro.2013.05.072
+
+_E4 LCD Pro 1000 S | 3D CAD Model Library | GrabCAD_. (n.d.). Retrieved February 1, 2022, from https://grabcad.com/library/e4-lcd-pro-1000-s-1
+
+_How to Connect a Portable Generator to the Home Supply—4 Methods_. (n.d.). Retrieved February 1, 2022, from https://www.electricaltechnology.org/2013/11/how-to-connect-portable-generator-to-home-supply.html
+
+_HTB1CF0DHFXXXXaiXXXXq6xXFXXXB.jpg_.webp (984×479)_. (n.d.). Retrieved February 1, 2022, from https://sc01.alicdn.com/kf/HTB1CF0DHFXXXXaiXXXXq6xXFXXXB/201135244/HTB1CF0DHFXXXXaiXXXXq6xXFXXXB.jpg_.webp
+
+_LiFePO4 Rechargeable Battery Pack | 3D CAD Model Library | GrabCAD_. (n.d.). Retrieved February 1, 2022, from https://grabcad.com/library/lifepo4-rechargeable-battery-pack-1
+
+Luminous India. (2022, January 18). _Solarverter PRO PCU Installation_. https://www.youtube.com/watch?v=BmDQkVR5orU
+
+_More Information on Circuit Breakers_. (n.d.). Retrieved February 1, 2022, from https://www.interpower.com/ic/designers/in-depth-product-line-information/More-information-on-Circuit-Breakers.html
+
+mowgliadventures. (2020, July 23). 600w Solar Panel Kit for RV & Campervans Including Wiring Diagrams. _Mowgli Adventures_. https://mowgli-adventures.com/600-watt-solar-panel-wiring-diagram/
+
+Palmetto. (n.d.). _Solar Generators: A Guide to Portable Solar Power_. Retrieved February 1, 2022, from https://palmetto.com/learning-center/blog/solar-generators-guide-portable-solar-power
+
+Sizing MPPT Charge Controllers—DIY Renewable Energy Resources. (2020, September 17). _DIY Solar & Renewable Energy Resources_. https://www.altestore.com/diy-solar-resources/sizing-mppt-charge-controllers/
+
+Solar Power. (n.d.). _Down to Earth Homesteaders_. Retrieved February 1, 2022, from https://downtoearthhomesteaders.com/resources/solar-power/
+
+Sundaram, V. (2021, July 23). Battery Monitoring is Critical for EV Safety. _Power Electronics News_. https://www.powerelectronicsnews.com/battery-monitoring-is-critical-for-ev-safety/
+
+_The 7 Components of Your Solar Power System_. (n.d.). Alternative Energy Tutorials. Retrieved February 1, 2022, from https://www.alternative-energy-tutorials.com/solar-power/7-components-of-your-solar-power-system.html
+
 
 ---
