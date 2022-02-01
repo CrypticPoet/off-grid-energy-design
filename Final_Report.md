@@ -217,7 +217,7 @@ In the following section, we give a brief on various traits that our off-grid li
 
 <p align="center" id = "reqs_mm">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/requirements.png" alt="Mindmap for Requirements"  width=450/> 
-	 <figcaption align="center">Mindmap for Requirements</figcaption>
+	 <figcaption align="center">Figure 1: Mindmap for Requirements</figcaption>
 </p>
 
 ---
@@ -311,7 +311,7 @@ In the following section, we give a brief on various specifications of the compo
 
 <p align="center" id="specs_mm">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/specifications.png" alt="Mindmap for Specifications"  width=450/> 
-	 <figcaption align="center">Mindmap for Specifications</figcaption>
+	 <figcaption align="center">Figure 2: Mindmap for Specifications</figcaption>
 </p>
 
 ---
@@ -321,6 +321,7 @@ In the following section, we give a brief on various specifications of the compo
 ##### Luminous Red Charge RC 18000 150 Ah battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
+ <figcaption align="center">Figure 3: Luminous Red Charge RC 18000 150 Ah battery</figcaption>
 
 - For heavy-duty application with excellent overcharge tolerance, superior performance during long frequent power cuts, and minimum maintenance
 -  fast battery charging with adaptive battery charging control technology
@@ -447,6 +448,8 @@ It also paves the way for more power output per panel, which means less number o
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/dimension_fcef7a49-c267-4a58-b571-90de3319af24_1000x.jpg?v=1618825077" height=500>
+<figcaption align="center">Figure 5:  Solar Panels</figcaption>
+
 
 We'll be using 4 such panels in our system.
 
@@ -479,6 +482,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 - UV resistance to ensure longevity
 
 <img src="https://m.media-amazon.com/images/I/417e-1jmi4S.jpg">
+<figcaption align="center">Figure 6: Solar DC Cables</figcaption>
 
 
 
@@ -526,6 +530,7 @@ Table 11 : Specification of Household Connection Wires
 A separate AC Breaker between the AC Input and Inverter is required to ensure tha the inverter can be securely disconnected during maintenance and secured from AC Input over current
 
 <img src = "https://m.media-amazon.com/images/I/71FN9t0iyQL._SL1500_.jpg" width = 300>
+<figcaption align="center">Figure 8: AC Circuit Breaker</figcaption>
 
 
 | Specification  | Value                |
@@ -568,6 +573,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 The DC Surge Protector protects the inverter and panels from any unforeseen voltage surges in instances such as Lightning strikes
 
 <img src = "https://m.media-amazon.com/images/I/61l8Y7CfuAL._SL1500_.jpg" width = 200>
+<figcaption align="center">Figure 10: DC Surge Protection Device</figcaption>
 
 | Specification      | Value                |
 | ------------------ | -------------------- |
@@ -607,6 +613,7 @@ MC4 Connectors are required for a safe and convenient connection between the sol
 The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame boasting an estimated life of upto 25 years and thus require minimum maintenance.
 
 <img src="https://m.media-amazon.com/images/I/81DukcckFRL._SL1500_.jpg" height="300">
+<figcaption align="center">Figure 12: MC4 Solar Panel Connectors</figcaption>
 
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
@@ -625,6 +632,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 T4 Connector is required to connect the 2x4 parallel solar panel array to the solar charge controller. The T4 connector also comes with UV Resistance, anti flame and water resistance
 
 <img src="https://m.media-amazon.com/images/I/81v6jkEqD4L._SL1500_.jpg" height="300">
+<figcaption align="center">Figure 13: 4 in 1 T4 Connector</figcaption>
 
 | Specification | Value                                            |
 | ------------- | ------------------------------------------------ |
@@ -647,6 +655,7 @@ Panel mounts are used to fix solar panels on surfaces like roofs, building facad
 
 <img src = 
 "https://cdn.shopify.com/s/files/1/2980/5140/products/LoomSolar2rowDesign4PanelStand375watt_2_700x.jpg?v=1624973202" height=500>
+<figcaption align="center">Figure 14: Solar Panel Mounts</figcaption>
 
 We'll be using 1 such mount for our system, which consists of 4 panels.
 
@@ -672,29 +681,29 @@ Here, we give a brief on how the off-grid energy solution is expected to look li
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Mindmaps/design.png" alt="Mindmap for Design"  width=450/> 
-	 <figcaption align="center">Mindmap for Design</figcaption>
+	 <figcaption align="center">Figure 15: Mindmap for Design</figcaption>
 </p>
 
 ### CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center" id = "front">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
-	<figcaption align="center">Front View</figcaption>
+	<figcaption align="center">Figure 16: Front View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "side">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe.jpg" alt="Side view" width=500/> 
-	 <figcaption align="center">Side View</figcaption>
+	 <figcaption align="center">Figure 17: Side View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "top">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_top.jpg" alt="Top View" width=500/>
-	 <figcaption align="center">Top View</figcaption>
+	 <figcaption align="center">Figure18: Top View of Designed House</figcaption>
 </p>
 
 <p align="center" id = "orthographic">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_orthographic.jpg" alt="Isometric view"  width=500/> 
-	 <figcaption align="center">Orthographic View</figcaption>
+	 <figcaption align="center">Figure 19: Orthographic View of Designed House</figcaption>
 </p>
 
 
@@ -705,9 +714,11 @@ Solar panels to take the solar energy and give a DC current.
 
 <p align="center" id = "panel_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 20: Side View of Solar Panel</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_front.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 21: Front View of Solar Panel</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/solar_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 22: Top View of Solar Panel </figcaption>
 </p>
 
 ***Label 2*** - Inverter  
@@ -715,9 +726,11 @@ Takes the solar DC current, and supply it power supply as well as store it in ba
 
 <p align="center" id = "inverter_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 23: Side View of Inverter</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_front.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 24: Front View of Inverter</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/inverter_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 25: Top View of Inverter</figcaption>
 </p>
 
 ***Label 3*** - Battery  
@@ -725,9 +738,11 @@ Stores the solar converted electrical energy for further use when solar power ca
 
 <p align="center" id="battery_view">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Side view" width=300/> 
+	<figcaption align="center">Figure 26: Top View Battery</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_side.jpg" alt="Front View" width=300/>
+	<figcaption align="center">Figure 27: Front View Battery</figcaption>
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/battery_top.jpg" alt="Top View" width=300/>
-	<figcaption align="center">Side View, Front View and Top View (L to R)</figcaption>
+	<figcaption align="center">Figure 28: Top View Battery</figcaption>
 </p>
 
 ---
@@ -737,6 +752,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 The next step is to realize the design using all the components mentioned in the specifications by appropriately connecting them. The diagram below shows the connections for the same. 
 
 <p align="center" id="wiring"><img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Images/wiring_diagram.jpg" width=512></p>
+<figcaption align="center">Figure 29: Wiring Diagram</figcaption>
 
 The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. These are then connected to a DC Circuit Breaker using T4 connectors. The wires then go via a DC Surge Protector to the invertor which is connected to a series combination of 3 batteries of 12V each. The output of the invertor then goes to an AC circuit breaker which has also been connected to the generator for backup. This is finally connected to the MCB inside the house.
 
