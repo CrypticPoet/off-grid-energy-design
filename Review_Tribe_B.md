@@ -1,5 +1,6 @@
 # Feedback Tribe A
 ##### Q1. Did this tribe get evaluated correctly ? Qualify your Yes/No with reasons.
+This tribe should be given 10 marks out of 15. Majorly other marks are cut because of the extensively poor readablity and data overflow of the report. Otherwise other aspects are fine. 
 
 ##### Q2. What are the best things (point wise) you observed in this Tribe's report ? These are points you will incorporate in your next Report.
 - Great explaining each readablity index.
