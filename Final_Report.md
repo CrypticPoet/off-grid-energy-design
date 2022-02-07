@@ -19,69 +19,66 @@ keywords:
 | :------------------ | :---------------------------------------------------------------------------- |
 | Tribe               | Tribe E                                                                       |
 | Approved By         | Vishal Asthana (TC) / 01-02-2022 / 2200 Hrs                                   |
-| Contact for Queries | Mihir Okte                                                                    |
+| Contact for Queries | Mihir Okte (mt1190703@iitd.ac.in)                                             |
 | Submitted to        | Prof. Subrat Kar, Course Coordinator \| ELP305: Design and Systems Laboratory |
 | Date of Submission  | 02-02-2022                                                                    |
 
 **NOTE:** The GitHub repository that our tribe is using is linked [here](https://github.com/CrypticPoet/off-grid-energy-design)
 
 ## Table of Contents
-
-- [ELP305 Design and Systems Laboratory](#elp305-design-and-systems-laboratory)
-  - [Semester 2, 2021-2022](#semester-2-2021-2022)
-    - [Tribe E](#tribe-e)
-- [SUNERGY: Final Report](#sunergy-final-report)
-  - [Table of Contents](#table-of-contents)
-  - [Authors](#authors)
-  - [Documentation Statistics](#documentation-statistics)
-      - [Text Statistics](#text-statistics)
-      - [Readability indices](#readability-indices)
-  - [Preamble](#preamble)
-      - [List of Abbreviations](#list-of-abbreviations)
-      - [List of Tables](#list-of-tables)
-      - [List of Figures](#list-of-figures)
-  - [Abstract](#abstract)
-  - [Aim](#aim)
-  - [Scope](#scope)
-  - [Requirements](#requirements)
-    - [Base Setup](#base-setup)
-    - [Basic Requirements](#basic-requirements)
-    - [Technical Requirements](#technical-requirements)
-  - [Specifications](#specifications)
-    - [Electrical Specifications](#electrical-specifications)
-      - [Battery](#battery)
-        - [Luminous Red Charge RC 18000 150 Ah Battery](#luminous-red-charge-rc-18000-150-ah-battery)
-      - [Backup Generator](#backup-generator)
-      - [Hybrid Solar Inverter (Built in Solar Charge Controller)](#hybrid-solar-inverter-built-in-solar-charge-controller)
-        - [3KVA/ 36 V Off Grid Solar Inverter](#3kva-36-v-off-grid-solar-inverter)
-      - [Solar Charge Controller](#solar-charge-controller)
-        - [Sizing](#sizing)
-      - [High Efficiency Solar Panels](#high-efficiency-solar-panels)
-      - [Wires](#wires)
-        - [Solar DC Cable](#solar-dc-cable)
-        - [Household connection wires](#household-connection-wires)
-      - [Safety Measures](#safety-measures)
-        - [AC Circuit Breaker](#ac-circuit-breaker)
-        - [DC Circuit Breaker](#dc-circuit-breaker)
-        - [DC Surge Protection Device](#dc-surge-protection-device)
-        - [Porcelain Fuse](#porcelain-fuse)
-      - [MC4 Connectors](#mc4-connectors)
-        - [MC4 Solar Panel Connectors](#mc4-solar-panel-connectors)
-        - [4 in 1 T4 Connector](#4-in-1-t4-connector)
-    - [Mechanical Specifications](#mechanical-specifications)
-      - [Solar Panel Mounts](#solar-panel-mounts)
-  - [Design](#design)
-    - [CAD/Assembly](#cadassembly)
-    - [Wiring Diagram](#wiring-diagram)
-  - [Cost Analysis](#cost-analysis)
-  - [Reuse of Materials](#reuse-of-materials)
-  - [Project Management](#project-management)
-  - [Attributions](#attributions)
-  - [References](#references)
+- [1. Authors](#1-authors)
+- [2. Documentation Statistics](#2-documentation-statistics)
+	- [2.0.1. Text Statistics](#201-text-statistics)
+	- [2.0.2. Readability indices](#202-readability-indices)
+- [3. Preamble](#3-preamble)
+	- [3.0.1. List of Abbreviations](#301-list-of-abbreviations)
+	- [3.0.2. List of Tables](#302-list-of-tables)
+	- [3.0.3. List of Figures](#303-list-of-figures)
+- [4. Abstract](#4-abstract)
+- [5. Aim](#5-aim)
+- [6. Scope](#6-scope)
+- [7. Requirements](#7-requirements)
+	- [7.1. Base Setup](#71-base-setup)
+	- [7.2. Basic Requirements](#72-basic-requirements)
+	- [7.3. Technical Requirements](#73-technical-requirements)
+- [8. Specifications](#8-specifications)
+	- [8.1. Electrical Specifications](#81-electrical-specifications)
+		- [8.1.1. Battery](#811-battery)
+			- [8.1.1.1. Luminous Red Charge RC 18000 150 Ah Battery](#8111-luminous-red-charge-rc-18000-150-ah-battery)
+		- [8.1.2. Backup Generator](#812-backup-generator)
+		- [8.1.3. Hybrid Solar Inverter (Built in Solar Charge Controller)](#813-hybrid-solar-inverter-built-in-solar-charge-controller)
+			- [8.1.3.1. 3KVA/ 36 V Off Grid Solar Inverter](#8131-3kva-36-v-off-grid-solar-inverter)
+		- [8.1.4. Solar Charge Controller](#814-solar-charge-controller)
+			- [8.1.4.1. Sizing](#8141-sizing)
+		- [8.1.5. High Efficiency Solar Panels](#815-high-efficiency-solar-panels)
+		- [8.1.6. Wires](#816-wires)
+			- [8.1.6.1. Solar DC Cable](#8161-solar-dc-cable)
+			- [8.1.6.2. Household connection wires](#8162-household-connection-wires)
+		- [8.1.7. Safety Measures](#817-safety-measures)
+			- [8.1.7.1. AC Circuit Breaker](#8171-ac-circuit-breaker)
+			- [8.1.7.2. DC Circuit Breaker](#8172-dc-circuit-breaker)
+			- [8.1.7.3. DC Surge Protection Device](#8173-dc-surge-protection-device)
+			- [8.1.7.4. Porcelain Fuse](#8174-porcelain-fuse)
+		- [8.1.8. MC4 Connectors](#818-mc4-connectors)
+			- [8.1.8.1. MC4 Solar Panel Connectors](#8181-mc4-solar-panel-connectors)
+			- [8.1.8.2. 4 in 1 T4 Connector](#8182-4-in-1-t4-connector)
+	- [8.2. Mechanical Specifications](#82-mechanical-specifications)
+		- [8.2.1. Solar Panel Mounts](#821-solar-panel-mounts)
+- [9. Design](#9-design)
+	- [9.1. CAD/Assembly](#91-cadassembly)
+	- [9.2. Wiring Diagram](#92-wiring-diagram)
+- [10. Cost Analysis](#10-cost-analysis)
+- [11. Reuse of Materials](#11-reuse-of-materials)
+- [12. Project Management](#12-project-management)
+	- [12.1. Gantt Chart and CPM](#121-gantt-chart-and-cpm)
+	- [12.2. Resources Chart](#122-resources-chart)
+	- [12.3. Work Packages](#123-work-packages)
+- [13. Attributions](#13-attributions)
+- [14. References](#14-references)
 
 ---
 
-## Authors
+## 1. Authors
 | S. No. | Name                     |       Email id       | Role                                       | Performance |
 | -----: | :----------------------- | :------------------: | :----------------------------------------- | :---------: |
 |     1. | Vishal Asthana           | ee1191083@iitd.ac.in | Tribe Coordinator                          |     1.0     |
@@ -93,24 +90,24 @@ keywords:
 |     7. | Uddhav Goel              | ee1190540@iitd.ac.in | Project Management Sub Tribe Coordinator   |     1.0     |
 |     8. | Abhishek Kumar           | ee1190456@iitd.ac.in | Member                                     |     1.0     |
 |     9. | Abhishek Kumar           | ee1190457@iitd.ac.in | Member                                     |     1.0     |
-|    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     1.0     |
+|    10. | Aditya Verma             | mt1190672@iitd.ac.in | Member                                     |     0.8     |
 |    11. | Ahsan Kamal              | mt6190740@iitd.ac.in | Member                                     |     1.0     |
 |    12. | Akash Agrawal            | ee3190006@iitd.ac.in | Member                                     |     1.0     |
-|    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     1.0     |
+|    13. | Aman Yadav               | mt1200786@iitd.ac.in | Member                                     |     0.6     |
 |    14. | Amit Kumar               | mt6190744@iitd.ac.in | Member                                     |     1.0     |
 |    15. | Anirudh Singh Chauhan    | ee1191072@iitd.ac.in | Member                                     |     1.0     |
-|    16. | Ankit kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
+|    16. | Ankit Kumar Meena        | ee3190555@iitd.ac.in | Member                                     |     1.0     |
 |    17. | Anshuman Panda           | mt1190463@iitd.ac.in | Member                                     |     1.0     |
 |    18. | Anurag Sharma            | mt6190745@iitd.ac.in | Member                                     |     1.0     |
 |    19. | Ayush Joshi              | ee1190486@iitd.ac.in | Member                                     |     1.0     |
-|    20. | Ayush Meena              | ee1190468@iitd.ac.in | Member                                     |     1.0     |
+|    20. | Ayush Meena              | ee1190468@iitd.ac.in | Member                                     |     0.6     |
 |    21. | Bhargav Halipeth         | ee3190562@iitd.ac.in | Member                                     |     1.0     |
-|    22. | Govind Patidar           | ee1190478@iitd.ac.in | Member                                     |     1.0     |
+|    22. | Govind Patidar           | ee1190478@iitd.ac.in | Member                                     |     0.0     |
 |    23. | Guruvu Surya Sai Prakash | ee1190481@iitd.ac.in | Member                                     |     1.0     |
 |    24. | Harshit Nekela           | mt1190693@iitd.ac.in | Member                                     |     1.0     |
 |    25. | Het Patel                | ee1190484@iitd.ac.in | Member                                     |     1.0     |
 |    26. | Manisha Chaudhary        | ee1190494@iitd.ac.in | Member                                     |     1.0     |
-|    27. | Mohit Yadav              | ee3190582@iitd.ac.in | Member                                     |     1.0     |
+|    27. | Mohit Yadav              | ee3190582@iitd.ac.in | Member                                     |     0.5     |
 |    28. | Ohm V                    | ee1190499@iitd.ac.in | Member                                     |     1.0     |
 |    29. | Pragya Dhakar            | mt6190756@iitd.ac.in | Member                                     |     1.0     |
 |    30. | Prasoon Bajpai           | mt6190824@iitd.ac.in | Member                                     |     1.0     |
@@ -118,7 +115,7 @@ keywords:
 |    32. | Rajdeep Das              | mt1190718@iitd.ac.in | Member                                     |     1.0     |
 |    33. | Ronak Choudhary          | ee3190597@iitd.ac.in | Member                                     |     1.0     |
 |    34. | Sahil Raj                | mt1190723@iitd.ac.in | Member                                     |     1.0     |
-|    35. | Satyam Sharma            | ee1190521@iitd.ac.in | Member                                     |     1.0     |
+|    35. | Satyam Sharma            | ee1190521@iitd.ac.in | Member                                     |     0.5     |
 |    36. | Shashank Nehra           | ee1190523@iitd.ac.in | Member                                     |     1.0     |
 |    37. | Shivam Garg              | ee1190600@iitd.ac.in | Member                                     |     1.0     |
 |    38. | Shivam Gupta             | ee1190601@iitd.ac.in | Member                                     |     1.0     |
@@ -138,28 +135,28 @@ keywords:
 
 ---
 
-## Documentation Statistics
-#### Text Statistics
+## 2. Documentation Statistics
+#### 2.0.1. Text Statistics
 <!-- To be changed -->
 
 | Word Count | # unique words | # repeated words | # sentences | # characters | # characters w/o spaces | # syllables |
 | ---------- | -------------- | ---------------- | ----------- | ------------ | ----------------------- | ----------- |
-| 434        | 922            | 1715             | 11          | 3592         | 3204                    | 941         |
+| 7530       | 2284           | 5246             | 216         | 71422        | 49169                   | 13615       |
 
 | Avg # words per sentence | Avg # characters per sentence | Avg # characters per word | Avg # syllables per word |
 | ------------------------ | ----------------------------- | ------------------------- | ------------------------ |
-| 40                       | 327                           | 7.4                       | 2.16                     |
+| 35                       | 330.6                         | 9.5                       | 1.80                     |
 
 **Table 2:** Text Statistics
 
 The above results were obtained using https://wordcounter.net/.
 
-#### Readability indices
+#### 2.0.2. Readability indices
 <!-- To be changed -->
 
 | Readability Index            | Score | Can be easily understood by |
 | :--------------------------- | :---- | :-------------------------- |
-| Flesch Reading Ease score    | 61    | 13 to 15 year olds          |
+| Flesch Reading Ease score    | 58    | 10th to 12th grade students |
 | Dale-Chall Readability score | 8.8   | 11th or 12th grade students |
 | Flesch-Kincaid Grade level   | 7     | 7th grade students          |
 | The Coleman-Liau Index       | 14    | Undergraduate students      |
@@ -174,9 +171,9 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 
 ---
 
-## Preamble
+## 3. Preamble
 
-#### List of Abbreviations
+#### 3.0.1. List of Abbreviations
 
 | S. No. | Abbreviation  | Stands For                                        |
 | :----: | :-----------: | :------------------------------------------------ |
@@ -202,7 +199,7 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |  20.   |      VMP      | Voltage at Maximum Power                          |
 |  21.   |      Voc      | Voltage at Open Circuit                           |
 
-#### List of Tables
+#### 3.0.2. List of Tables
 
 | S. No. | Table                                                                                |
 | :----: | :----------------------------------------------------------------------------------- |
@@ -226,7 +223,7 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 |  18.   | [**Solar Panel Mounts**](#solar-panel-mounts)                                        |
 |  19.   | [**Cost Analysis**](#cost-analysis)                                                  |
 
-#### List of Figures
+#### 3.0.3. List of Figures
 
 | S. No. | Figures                                                                                         |
 | :----: | :---------------------------------------------------------------------------------------------- |
@@ -269,18 +266,18 @@ The above scores were obtained using Visual Studio Code extension called Readabi
 
 ---
 
-## Abstract
+## 4. Abstract
 The necessity for increased power generation is unavoidable since the world's electricity consumption rises on a regular basis. As a result, we need renewable energy resources which can meet electrical power demand up to a large fraction of total demand. In this report we are designing a cost-effective self-sustainable electrical system using the available solution in the market to meet the general electrical requirements of an Indian Household. Solar energy is used as major renewable energy source as it is versatile compared to other renewable sources, easy and feasible to convert in electrical form.
 
 ---
 
-## Aim
+## 5. Aim
 
 In this project we aim to design a cost-effective off-grid self sustainable electrical system using the available products in market. In our final report we revisit our previously submitted requirements and specifications and adjust them accordingly to match the final design cycle of the project.  Here we try to compile all the previous product cycles in order to deliver the final design of the electrical system alongside it's cost analysis and vendor information to ensure smooth installation.
 
 ---
 
-## Scope
+## 6. Scope
 
 In this hustling daily routine, many people tend to resort to a house in the forest for peace of mind. Also, there is a large part of India where electricity has not reached yet. This is an off-grid solution for daily energy needs such as electricity and heat energy. 
 
@@ -292,7 +289,7 @@ The solution has been made keeping in mind a specific geographical location (A f
 
 ---
 
-## Requirements
+## 7. Requirements
 
 In the following section, we give a brief on various traits that our off-grid living solution must possess. We also jot down the various requirements that will be needed to ensure our proposed solution is as efficient and trustworthy as possible.
 
@@ -303,7 +300,7 @@ In the following section, we give a brief on various traits that our off-grid li
 
 ---
 
-### Base Setup
+### 7.1. Base Setup
 
 One of the main requirements for the system is that it is reasonably easy to set up so that minimum technical assistance is required for the same, and the house owner can perhaps even set it up himself.
 These requirements require the system to be:
@@ -317,7 +314,7 @@ These requirements require the system to be:
 
 ---
 
-### Basic Requirements
+### 7.2. Basic Requirements
 
 Some of the basic user requirements are:
 
@@ -358,7 +355,7 @@ Some of the basic user requirements are:
 
 ---
 
-### Technical Requirements
+### 7.3. Technical Requirements
 
 Various technical apparatus and tools required to achieve our goal are:
 
@@ -386,7 +383,7 @@ Various technical apparatus and tools required to achieve our goal are:
 
 ---
 
-## Specifications
+## 8. Specifications
 
 In the following section, we give a brief on various specifications of the components that we will be using in our off-grid living solution. We also mention their properties and why we have chosen them along with the best quotation available for each component.
 
@@ -397,9 +394,9 @@ In the following section, we give a brief on various specifications of the compo
 
 ---
 
-### Electrical Specifications
-#### Battery
-##### Luminous Red Charge RC 18000 150 Ah Battery
+### 8.1. Electrical Specifications
+#### 8.1.1. Battery
+##### 8.1.1.1. Luminous Red Charge RC 18000 150 Ah Battery
 
 <img src="https://m.media-amazon.com/images/I/61gCRXU1iMS._SL1500_.jpg" alt="battery" width="250" height="250"/>
 <figcaption><b>Figure 3:</b> Luminous Red Charge RC 18000 150 Ah battery</figcaption>
@@ -425,7 +422,7 @@ In the following section, we give a brief on various specifications of the compo
 
 ---
 
-#### Backup Generator
+#### 8.1.2. Backup Generator
 
 The generator size should be of 1kW. In our system, generator will mostly be needed during winter when there is a lack of solar energy production. Since this is a backup system the below power consumed is assumed to be calculated under minimal load when running backup generator.
 
@@ -452,8 +449,8 @@ Total Instantaneous Power Consumed = 0.020*2(light)+0.5(misc) = 0.58kW
 
 ---
 
-#### Hybrid Solar Inverter (Built in Solar Charge Controller)
-##### 3KVA/ 36 V Off Grid Solar Inverter
+#### 8.1.3. Hybrid Solar Inverter (Built in Solar Charge Controller)
+##### 8.1.3.1. 3KVA/ 36 V Off Grid Solar Inverter
 
 <img src="https://cdn.shopify.com/s/files/1/0270/1757/6533/products/1_4_1280x.jpg" alt="battery" width="400" height="500"/>
 <figcaption><b>Figure 4:</b> 3KVA/ 36 V Off Grid Solar Inverter</figcaption>
@@ -490,11 +487,11 @@ Luminous Solar Hybrid Inverter 3kVA/36 is an off grid hybrid solar inverter whic
 **Table 7:** Specifications of Hybrid Solar Inverter
 
 
-#### Solar Charge Controller
+#### 8.1.4. Solar Charge Controller
 
 Charge controllers are used to control the amount of current fed into the battery by the solar panels. This ensures the batteries are not overcharged during the day and don't leak current back to the panels during the night. So, Solar Charge Controller must be compatible with solar panel and the battery bank. Our Hybrid inverter comes built in with an MPPT Charge controller which is more efficient at DC Conversion compared to older PWM technology.
 
-##### Sizing
+##### 8.1.4.1. Sizing
 Sizing of a controller depends on three factors
 - Solar panel array’s maximum open-circuit voltage (Voc)
 - Total Power rating of Solar panel array
@@ -520,7 +517,7 @@ Specifications of the in-built charge controller
 
 ---
 
-#### High Efficiency Solar Panels
+#### 8.1.5. High Efficiency Solar Panels
 
 Solar panels collect clean renewable energy in the form of sunlight and convert that light into electricity which can then be used to provide power for electrical loads. 
 
@@ -552,8 +549,8 @@ We'll be using 4 such panels in our system.
 
 ---
 
-#### Wires
-##### Solar DC Cable
+#### 8.1.6. Wires
+##### 8.1.6.1. Solar DC Cable
 DC Solar Panel cables are required to connect the array of solar panels in series with each other and then carry the output DC Current to the Solar Charge Controller.
 
 When choosing DC Solar Panel wires, some things should be kept in mind
@@ -578,7 +575,7 @@ When choosing DC Solar Panel wires, some things should be kept in mind
 
 [Product Link](https://www.amazon.in/Microtek-Solar-Cable-Protected-15Meter/dp/B08BBYX28X/)
 
-#####  Household connection wires
+#####  8.1.6.2. Household connection wires
 Connecting wires would be used to connect different appliances in the energy grid.  Hence they should be able to carry high current and be well insulated.
 
 <img src="https://rukminim1.flixcart.com/image/416/416/k5zn9u80/electrical-wire/h/e/b/whffdnka1x50-fr-sc-5-mm-wire-black-90mtr-havells-original-imafa8rhtuurspyd.jpeg?q=70" alt="connecting wires" height="300"/>
@@ -604,9 +601,9 @@ Table 11 : Specification of Household Connection Wires
 
 ---
 
-#### Safety Measures
+#### 8.1.7. Safety Measures
 
-##### AC Circuit Breaker
+##### 8.1.7.1. AC Circuit Breaker
  
 A separate AC Breaker between the AC Input and Inverter is required to ensure tha the inverter can be securely disconnected during maintenance and secured from AC Input over current
 
@@ -629,7 +626,7 @@ A separate AC Breaker between the AC Input and Inverter is required to ensure th
 
  [Product Link](https://www.amazon.in/Siemens-Pole-White-1-Piece-5SL64637RC/dp/B01D4QL6RC)
 
-##### DC Circuit Breaker
+##### 8.1.7.2. DC Circuit Breaker
 
 A DC Circuit breaker between the Solar Panels and Inverter is required for disconnecting the solar panels safely for maintenance or replacement. The Circuit breaker also protects the inverter from over current damage
 
@@ -650,7 +647,7 @@ A DC Circuit breaker between the Solar Panels and Inverter is required for disco
 
 [Product Link](https://www.amazon.in/FEEO-63A-Double-Pole-MCB/dp/B01LF8E0T2/ref=sr_1_3?crid=2B9MK4LCK4WR2&keywords=feeo&qid=1642516418&sprefix=dc+circuit+breaker%2Caps%2C864&sr=8-3)
 
-##### DC Surge Protection Device
+##### 8.1.7.3. DC Surge Protection Device
 
 The DC Surge Protector protects the inverter and panels from any unforeseen voltage surges in instances such as Lightning strikes
 
@@ -670,7 +667,7 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Elmak-Protection-Device/dp/B09NTQDJGP/ref=sr_1_2?crid=108RSYE3E2S5V&keywords=solar%2Bsurge%2Bprotection&qid=1642516582&sprefix=solar%2Bsurge%2Bprotectio%2Caps%2C767&sr=8-2&th=1)
 
-#####  Porcelain Fuse
+#####  8.1.7.4. Porcelain Fuse
 
 <img src = "https://m.media-amazon.com/images/I/71b9tS1f2bL._SL1500_.jpg" width = 300>
 <figcaption><b>Figure 11:</b> Porcelain Fuse</figcaption>
@@ -690,8 +687,8 @@ The DC Surge Protector protects the inverter and panels from any unforeseen volt
 
 ---
 
-#### MC4 Connectors
-##### MC4 Solar Panel Connectors
+#### 8.1.8. MC4 Connectors
+##### 8.1.8.1. MC4 Solar Panel Connectors
 
 MC4 Connectors are required for a safe and convenient connection between the solar panel arrays.   
 The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame boasting an estimated life of upto 25 years and thus require minimum maintenance.
@@ -711,7 +708,7 @@ The Kenbrook Solar MC4 Connectors are UV resistant, waterproof and anti-flame bo
 
 [Product Link](https://www.amazon.in/Kenbrook-Solar-Connector-Panel-Connection/dp/B08VNW7DLP/)
 
-##### 4 in 1 T4 Connector
+##### 8.1.8.2. 4 in 1 T4 Connector
 
 T4 Connector is required to connect the 2x4 parallel solar panel array to the solar charge controller. The T4 connector also comes with UV Resistance, anti flame and water resistance
 
@@ -732,8 +729,8 @@ Table 17: Specification of T4 connector
 
 ---
 
-### Mechanical Specifications
-#### Solar Panel Mounts
+### 8.2. Mechanical Specifications
+#### 8.2.1. Solar Panel Mounts
 
 Panel mounts are used to fix solar panels on surfaces like roofs, building facades, or ground. The panel array is mounted with each panel aligned at an angle. This angle is variable and mounts should be bought according to the type of rooftop. We'll be using ones with 25° inclination.
 
@@ -759,7 +756,7 @@ We'll be using 1 such mount for our system, which consists of 4 panels.
 
 ---
 
-## Design
+## 9. Design
 
 Here, we give a brief on how the off-grid energy solution is expected to look like after assembling the various components. We also give design blueprints and wiring diagrams wherever required, making necessary but plausible assumptions about the geography and architecture of the house.
 
@@ -768,7 +765,7 @@ Here, we give a brief on how the off-grid energy solution is expected to look li
 	 <figcaption align="center"><b>Figure 15:</b> Mindmap for Design</figcaption>
 </p>
 
-### CAD/Assembly
+### 9.1. CAD/Assembly
 The following image is the 3-D diagram of the designed house.
 <p align="center" id = "front">
 	<img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/CAD%20Design/home_wireframe_front.jpg" alt="Front View" width=500>
@@ -822,7 +819,7 @@ Stores the solar converted electrical energy for further use when solar power ca
 
 ---
 
-### Wiring Diagram
+### 9.2. Wiring Diagram
 
 The next step is to realize the design using all the components mentioned in the specifications by appropriately connecting them. The diagram below shows the connections for the same. 
 
@@ -833,7 +830,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 ---
 
-## Cost Analysis
+## 10. Cost Analysis
 
 | Component                        | Price         | Quantity | Total Price     | Vendor                                                                                                                                                                                                                                                                                                                           |
 | -------------------------------- | ------------- | -------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -858,7 +855,7 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 
 ---
 
-## Reuse of Materials
+## 11. Reuse of Materials
 
 - **Solar Panels** 
 
@@ -893,29 +890,34 @@ The solar panels are connected in a 2x2 fashion using the MC4 Panel Connectors. 
 ---
 
 
-## Project Management
+## 12. Project Management
 
+### 12.1. Gantt Chart and CPM
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/gantt.png" alt="Gantt chart" id="gantt" width=500/> 
 	 <figcaption align="center"><b>Figure 27:</b> Gantt Chart</figcaption>
 </p>
 
-The red path in the above Gantt Chart indicates the critical path. It was closely monitored, so that there were no delays in the corresponding works.
+The red path in Fig. 27 indicates the **critical path**. These critical paths are closely monitored and prioritized as any faults with their execution could have lead to delays in the sub-team pipelines. This in turn could have caused further unforeseen delays in the development of the final report.  
 
-The following shows the start dates and durations of various subteams in the project:
+Fig. 28 shows the start dates and durations of various subteams in the project. It also details the name of the people who were involved in the coordination and functioning of the concerned sub-team.
 
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/sunergy.png" alt="Work breakdown structure" id="work_breakdown" width=500/> 
 	 <figcaption align="center"><b>Figure 28:</b> Work breakdown structure</figcaption>
 </p>
 
-The following shows the resources available, a gear symbol against a name shows that they were involved in the project
+### 12.2. Resources Chart
+
+Fig. 29 shows the resources available (In this the tribe members), a gear symbol against a name indicates that the member was involved in the project actively and participated in the preparation of the final report in some capacity.
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/resources.png" alt="Resource management" id="resources" width=500/> 
 	 <figcaption align="center"><b>Figure 29:</b> Resources</figcaption>
 </p>
 
-The following shows the work breakdown structure:
+### 12.3. Work Packages 
+
+Fig. 30 to Fig. 35 shows the work breakdown structure of the various sub-teams and how work was distributed among these teams. The work breakdown charts also provide a visual overview of any sub-sub-teams that were created to streamline the process even further.
 <p align="center">
 	 <img src="https://raw.githubusercontent.com/CrypticPoet/off-grid-energy-design/master/Project%20Management/assign.png" alt="Work Breakdown Structure" id="assign_work" width=500/> 
 	 <figcaption align="center"><b>Figure 30:</b> Assignment of Work</figcaption>
@@ -943,12 +945,13 @@ The following shows the work breakdown structure:
 
 ---
 
-## Attributions
+## 13. Attributions
 
 While designing this solution for off grid living, we used a number of softwares/extensions for various aspects of the project. These include -
 
 - [**WordCounter**](https://wordcounter.net/): For obtaining the document text statistics
 - [**Readability Check (VS Code Extension)**](https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck): For obtaining readability indices scores for the document
+- [**Markdown All in One (VS Code Extension)**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): For Markdown utilities such as TOC generation, automatic formatting and auto-completion
 - [**ProjectLibre**](https://www.projectlibre.com/): For project management tools
 - [**Draw.io**](https://app.diagrams.net/): For creating mind maps
 - [**Tinkercad**](https://www.tinkercad.com/): For designing 3D models and plans for the project
@@ -958,7 +961,7 @@ While designing this solution for off grid living, we used a number of softwares
 
 ---
 
-## References
+## 14. References
 
 _Are Solar Panels Recyclable? (And 7 Ways to Reuse Them) - Conserve Energy Future_. (2020, December 28). https://www.conserve-energy-future.com/are-solar-panels-recyclable.php
 
